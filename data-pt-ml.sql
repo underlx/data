@@ -844,7 +844,7 @@ INSERT INTO station_has_wifiap VALUES
 ('pt-ml-ra', '2a:a4:3c:03:1b:0a', 'pt-ml-amarela'),
 ('pt-ml-ra', '2a:a4:3c:03:1b:61', 'pt-ml-amarela');
 
-INSERT INTO station_feature VALUES
+INSERT INTO station_feature (station_id, lift, bus, boat, train, airport) VALUES
 ('pt-ml-ap', true, false, false, false, true),
 ('pt-ml-am', true, false, false, false, false),
 ('pt-ml-af', true, false, false, false, false),
