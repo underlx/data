@@ -856,7 +856,7 @@ INSERT INTO station_feature (station_id, lift, bus, boat, train, airport) VALUES
 ('pt-ml-ae', false, false, false, true, false),
 ('pt-ml-ar', false, false, false, false, false),
 ('pt-ml-av', false, false, false, false, false),
-('pt-ml-bc', false, false, false, false, false),
+('pt-ml-bc', true, false, false, false, false),
 ('pt-ml-bv', false, false, false, false, false),
 ('pt-ml-cr', true, false, false, false, false),
 ('pt-ml-cs', true, false, true, true, false),
