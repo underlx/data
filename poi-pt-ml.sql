@@ -416,7 +416,6 @@ INSERT INTO poi (id, type, world_coord, web_url) VALUES
 ('63f6a081-4e4c-4613-b83b-ae2c84302f39', 'park', '(38.762977, -9.111809)', 'http://quintapedagogica.cm-lisboa.pt/'),
 ('e2de78f2-71ba-46d7-a1f9-c7e734a285ec', 'business', '(38.759649, -9.117873)', 'http://www.rtp.pt/'),
 ('ec494207-f545-4874-8a8d-c5ce06028767', 'shopping-center', '(38.762333, -9.114353)', 'http://www.spacioshopping.pt/'),
-('ceaec544-101d-433a-bbae-bbb75ff5e2cd', 'sports', '(38.762448, -9.108557)', 'https://www.facebook.com/Sport-Lisboa-E-Olivais-119971181438441/'),
 ('e0f525f7-62a7-48ef-ab51-d28ae33a225f', 'embassy', '(38.732742, -9.150303)', 'https://www.embaixada-africadosul.pt/index.php/en/'),
 ('1230a84a-2767-4d47-9088-7c60e276e67e', 'embassy', '(38.731141, -9.150060)', 'http://www.embest.pt/por'),
 ('8b6337d1-93b6-4e0c-94a7-63abacab5982', 'university', '(38.730066, -9.149456)', 'http://www.epci.online.pt/'),
