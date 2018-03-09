@@ -1726,7 +1726,7 @@ INSERT INTO poi_name (id, main, lang, name) VALUES
 ('916bf0d4-6bd1-4dff-9523-38415e1192a7', false, 'es', 'Terminal de Autobuses de Sete Rios'),
 ('8a1a095c-98c6-4951-9365-cc01027605b9', true,  'pt', 'CASA - Centro de Apoio ao Sem-Abrigo'),
 ('8a1a095c-98c6-4951-9365-cc01027605b9', false, 'en', 'Center for the Aid of Homeless People'),
-('8a1a095c-98c6-4951-9365-cc01027605b9', false, 'fr', 'Centre d'Aide aux Sans-Abri'),
+('8a1a095c-98c6-4951-9365-cc01027605b9', false, 'fr', 'Centre d''Aide aux Sans-Abri'),
 ('8a1a095c-98c6-4951-9365-cc01027605b9', false, 'es', 'Centro de Apoyo a la Persona Sin Hogar'),
 ('aa129ade-f739-4d5c-9838-6199ad8b351c', true,  'pt', 'UZ - União Zoófila'),
 ('aa129ade-f739-4d5c-9838-6199ad8b351c', false, 'en', 'Zoophile Union'),
