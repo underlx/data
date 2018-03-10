@@ -102,7 +102,7 @@ INSERT INTO station VALUES
 ('pt-ml-ss', 'São Sebastião', 'pt-ml', '{}'),
 ('pt-ml-sr', 'Senhor Roubado', 'pt-ml', '{"Malaposta"}'),
 ('pt-ml-te', 'Telheiras', 'pt-ml', '{}'),
-('pt-ml-tp', 'Terreiro do Paço', 'pt-ml', '{"Campo das Cebolas", "Ministérios"}');
+('pt-ml-tp', 'Terreiro do Paço', 'pt-ml', '{"Campo das Cebolas"}');
 
 INSERT INTO line_has_station VALUES
 ('pt-ml-amarela', 'pt-ml-od', 100),
