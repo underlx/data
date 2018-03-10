@@ -4,7 +4,7 @@ INSERT INTO poi (id, type, world_coord, web_url) VALUES
 ('826afa93-76d0-421b-8fdb-33d3c8593662', 'public-service', '(38.7416111, -9.1334878)', 'http://www.irn.mj.pt/sections/irn/a_registral/servicos-externos-docs/contactos/contactos-de-servicos-de/'),
 ('6933f382-d4f7-441b-9da5-31b8f014499c', 'public-service', '(38.7450257, -9.1360332)', 'http://inag.pt/'),
 ('eed8193e-030f-462d-a65e-17494828f876', 'public-service', '(38.740608, -9.1348639)', 'http://www.jf-areeiro.pt/'),
-('7970628e-8a70-41c8-aaba-317f3543024f', 'public-service', '(38.7415357, -9.1379847)', 'https://www.portugal.gov.pt'),
+('7970628e-8a70-41c8-aaba-317f3543024f', 'government', '(38.7415357, -9.1379847)', 'https://www.portugal.gov.pt'),
 ('cc499665-54bf-4976-9125-cb12904ac9e8', 'sports', '(38.7428649, -9.1287852)', 'http://www.cm-lisboa.pt/en/equipments/equipment/info/pavilhao-desportivo-do-complexo-desportivo-municipal-casal-vistoso'),
 ('7f83f97a-e4ee-4740-a088-6c2307400619', 'public-service', '(38.7413253, -9.133978)', 'http://www.seg-social.pt/inicio'),
 ('cb073caf-87fd-409f-97b5-22092416aaf8', 'school', '(38.760148, -9.208901)', 'http://aealfornelos.ccems.pt/agrup_esc_alfornelos/agrup_esc_alfornelos.html'),
