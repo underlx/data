@@ -186,7 +186,7 @@ INSERT INTO poi (id, type, world_coord, web_url) VALUES
 ('9e77b08c-f360-487c-b8a2-3b7590e919cc', 'public-services', '(38.741174, -9.147168)', 'http://www.jf-avenidasnovas.pt/'),
 ('a0791f1a-066d-4620-be46-8180095cdccc', 'show-room', '(38.7424924, -9.1464816)', 'http://www.campopequeno.com/'),
 ('2fba3aee-fa6f-458a-8609-529338e02bed', 'government', '(38.739778, -9.146759)', 'http://spms.min-saude.pt/'),
-('65715c8b-ab6f-41ca-81b5-fcf283498acc', 'government', '(38.740014, -9.146751)', 'http://www.tcontas.pt/index.shtm'),
+('65715c8b-ab6f-41ca-81b5-fcf283498acc', 'court', '(38.740014, -9.146751)', 'http://www.tcontas.pt/index.shtm'),
 ('875825da-cf4c-4f5c-926e-fc5262ddc981', 'university', '(38.740545, -9.15085)', 'http://www.fcsh.unl.pt/'),
 ('6370340b-0510-40fe-9b5f-7bc7b39d51e8', 'cemetery', '(38.7648614, -9.1070642)', 'http://www.cm-lisboa.pt/equipamentos/equipamento/info/cemiterio-dos-olivais'),
 ('8455a118-660b-4eea-9305-f0935254e623', 'school', '(38.7640545, -9.1115494)', 'http://www.queiroz.pt/'),
@@ -361,7 +361,7 @@ INSERT INTO poi (id, type, world_coord, web_url) VALUES
 ('c4348edc-c3da-47a7-9336-9c0330e3db5e', 'business', '(38.725930, -9.148449)', 'http://www.edp.pt/'),
 ('5949acca-f89c-44c6-819d-11da173add77', 'park', '(38.7283001, -9.1526829)', 'https://www.guiadacidade.pt/pt/poi-parque-eduardo-vii-16409'),
 ('ac9005c8-03fb-4c17-8e47-312d22ef7e3a', 'organization', '(38.7210381, -9.1494637)', 'http://www.snba.pt/'),
-('bb936604-a194-4876-8818-85fb9cdb7456', 'government', '(38.723819, -9.151131)', 'https://www.tribunalarbitraldesporto.pt/'),
+('bb936604-a194-4876-8818-85fb9cdb7456', 'court', '(38.723819, -9.151131)', 'https://www.tribunalarbitraldesporto.pt/'),
 ('1b81ba26-1d5a-4470-8256-b803cb77574c', 'university', '(38.724479, -9.145712)', 'https://autonoma.pt/'),
 ('fecc19e2-0dc9-4cdb-8f33-ad22ac3af615', 'public-services', '(38.790243, -9.179720)', 'http://www.cm-odivelas.pt/'),
 ('79e161e0-156d-4cd1-a0b8-4988861ed9a6', 'school', '(38.793992, -9.179474)', 'https://agr-odivelas.pt/'),
@@ -524,7 +524,7 @@ INSERT INTO poi (id, type, world_coord, web_url) VALUES
 ('f30f8c44-e77a-4b1e-b0b7-21032522ec2e', 'monument', '(38.715735, -9.142312)', 'http://www.gmcs.pt/palaciofoz/'),
 ('ba9a6011-6988-474a-b8d1-113a6d83f462', 'organization', '(38.713426, -9.142919)', 'http://www.scml.pt/'),
 ('3101c832-aec2-4f45-a489-ac82d08616f2', 'organization', '(38.716679, -9.140751)', 'http://www.socgeografialisboa.pt/'),
-('80396f99-71b3-4d2a-8cd8-6de37de1c5a4', 'government', '(38.714593, -9.144602)', 'http://www.stadministrativo.pt/'),
+('80396f99-71b3-4d2a-8cd8-6de37de1c5a4', 'court', '(38.714593, -9.144602)', 'http://www.stadministrativo.pt/'),
 ('a8d4964a-2e95-458a-b2b8-345e238a7608', 'theater', '(38.716604, -9.140912)', 'http://www.filipelaferia.pt/main.html'),
 ('ecdadb37-1744-43d4-81ee-66a89f724997', 'government', '(38.748914, -9.139577)', 'http://www.arslvt.min-saude.pt/'),
 ('f7b4cb24-5c60-4aba-a5cb-361d21d88b1f', 'shopping-center', '(38.747642, -9.140721)', 'http://ccroma.pt/'),
@@ -625,8 +625,8 @@ INSERT INTO poi (id, type, world_coord, web_url) VALUES
 ('b2993b04-cc7f-478c-bc32-b58a2cb47ebc', 'public-services', '(38.708210, -9.138554)', 'http://www.cm-lisboa.pt/'),
 ('e195278b-5d2d-4311-9f9c-64383eeb52e9', 'public-space', '(38.707595, -9.136476 )', 'https://www.guiadacidade.pt/pt/poi-praca-do-comercio-terreiro-do-paco-16393'),
 ('62c8bc79-b261-4e9b-8818-559ecc130e65', 'church', '(38.709891, -9.132607)', 'http://www.patriarcado-lisboa.pt/site/'),
-('24104d8f-2643-4b6b-9865-75711dc9a7e9', 'government', '(38.708593, -9.136480)', 'http://www.stj.pt/'),
-('10065138-8983-409f-a48e-81cd62acbd86', 'government', '(38.707829, -9.138784)', 'http://www.trl.mj.pt/inicio/home.php');
+('24104d8f-2643-4b6b-9865-75711dc9a7e9', 'court', '(38.708593, -9.136480)', 'http://www.stj.pt/'),
+('10065138-8983-409f-a48e-81cd62acbd86', 'court', '(38.707829, -9.138784)', 'http://www.trl.mj.pt/inicio/home.php');
 
 INSERT INTO poi_name (id, main, lang, name) VALUES
 ('c994ae3b-b5c0-4838-b19c-af3fbfdf0564', true,  'pt', 'Assembleia Municipal de Lisboa - Fórum Lisboa'),
