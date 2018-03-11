@@ -1196,7 +1196,7 @@ INSERT INTO poi_name (id, main, lang, name) VALUES
 ('7e937244-6b2c-416e-8bd3-149955823453', true,  'pt', 'Hospital Pulido Valente'),
 ('7e937244-6b2c-416e-8bd3-149955823453', false, 'en', 'Pulido Valente Hospital'),
 ('7e937244-6b2c-416e-8bd3-149955823453', false, 'fr', 'Hôpital Pulido Valente'),
-('c996251d-c7d5-4908-a346-c0d93041108f', true,  'pt', 'Igreja Paroquial dos Santos Reis Magos do Campo Grand'),
+('c996251d-c7d5-4908-a346-c0d93041108f', true,  'pt', 'Igreja Paroquial dos Santos Reis Magos do Campo Grande'),
 ('c996251d-c7d5-4908-a346-c0d93041108f', false, 'en', 'Santos Reis Magos do Campo Grande Parish Church'),
 ('c996251d-c7d5-4908-a346-c0d93041108f', false, 'fr', 'Église Paroisialle des Santos Reis Magos do Campo Grande'),
 ('c996251d-c7d5-4908-a346-c0d93041108f', false, 'es', 'Iglesia Parroquial de los  Santos Reis Magos do Campo Grande'),
