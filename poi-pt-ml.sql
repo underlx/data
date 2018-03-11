@@ -3120,6 +3120,7 @@ INSERT INTO station_has_poi (station_id, poi_id) VALUES
 ('pt-ml-av', '208cbe66-8498-4280-a8b7-03925f255542'),
 ('pt-ml-av', 'f69aeb2d-fe2f-4433-802a-e4e27b005f3b'),
 ('pt-ml-av', '8f2a93ea-d53e-431b-90b6-ca8875b93072'),
+('pt-ml-av', 'd759e819-d273-4494-ad5d-bf7d6acb0d53'),
 ('pt-ml-ax', 'f43cac1b-2691-41c4-9052-3e1b10f155c4'),
 ('pt-ml-ax', 'a8ea5c39-24a6-4cf1-be2f-a53fc548143d'),
 ('pt-ml-ax', '9b859964-ed0f-47cd-926a-710470fc28bb'),
