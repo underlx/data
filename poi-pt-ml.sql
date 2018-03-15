@@ -2498,7 +2498,7 @@ INSERT INTO poi_name (id, main, lang, name) VALUES
 ('a7029060-f352-49bb-925c-c546d47166cf', false, 'en', 'National Press Library'),
 ('a7029060-f352-49bb-925c-c546d47166cf', false, 'fr', 'Bibliothèque de la Presse Nationale'),
 ('a7029060-f352-49bb-925c-c546d47166cf', false, 'es', 'Biblioteca de la Prensa Nacional'),
-('aebc903e-1f98-49ba-8431-fea14907ddb5', true,  'pt', 'Capela de Nossa Senhora de Monserrate<'),
+('aebc903e-1f98-49ba-8431-fea14907ddb5', true,  'pt', 'Capela de Nossa Senhora de Monserrate'),
 ('aebc903e-1f98-49ba-8431-fea14907ddb5', false, 'en', 'Nossa Senhora de Monserrate Chapel'),
 ('aebc903e-1f98-49ba-8431-fea14907ddb5', false, 'fr', 'Chapelle de Nossa Senhora de Monserrate'),
 ('aebc903e-1f98-49ba-8431-fea14907ddb5', false, 'es', 'Capilla de Nossa Senhora de Monserrate'),
