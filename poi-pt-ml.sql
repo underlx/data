@@ -712,7 +712,7 @@ INSERT INTO poi_name (id, main, lang, name) VALUES
 ('2f48aacf-a69c-47d6-a85e-357353b1ae13', true,  'pt', 'Escola Básica Maria Irene Lopes de Azevedo'),
 ('2f48aacf-a69c-47d6-a85e-357353b1ae13', false, 'en', 'Maria Irene Lopes de Azevedo Elementary School'),
 ('2f48aacf-a69c-47d6-a85e-357353b1ae13', false, 'fr', 'École Élementaire Maria Irene Lopes de Azevedo'),
-('2f48aacf-a69c-47d6-a85e-357353b1ae135', false, 'es', 'Escuela Básica Maria Irene Lopes de Azevedo'),
+('2f48aacf-a69c-47d6-a85e-357353b1ae13', false, 'es', 'Escuela Básica Maria Irene Lopes de Azevedo'),
 ('61061cf2-76cc-4e19-a8ab-7ac87a03dde5', true,  'pt', 'Escola Básica Orlando Gonçalves'),
 ('61061cf2-76cc-4e19-a8ab-7ac87a03dde5', false, 'en', 'Orlando Gonçalves Elementary School'),
 ('61061cf2-76cc-4e19-a8ab-7ac87a03dde5', false, 'fr', 'École Élementaire Orlando Gonçalves'),
@@ -2304,7 +2304,7 @@ INSERT INTO poi_name (id, main, lang, name) VALUES
 ('a3c76f26-e2a1-48a0-aef3-e682d0d52189', true,  'pt', 'Telecabine Lisboa - Teleférico da Expo (Estação Norte)'),
 ('a3c76f26-e2a1-48a0-aef3-e682d0d52189', false, 'en', 'Expo Cable Car (North Station)'),
 ('a3c76f26-e2a1-48a0-aef3-e682d0d52189', false, 'fr', 'Téléphérique d''Expo (Station Nord)'),
-('a3c76f26-e2a1-48a0-aef3-e682d0d52189', false, 'es', 'Teleférico de la Expo (Estación Norte)')
+('a3c76f26-e2a1-48a0-aef3-e682d0d52189', false, 'es', 'Teleférico de la Expo (Estación Norte)'),
 ('b820a164-1dae-4788-b0b1-22f39aac5aeb', true,  'pt', 'Torre Vasco da Gama'),
 ('b820a164-1dae-4788-b0b1-22f39aac5aeb', false, 'en', 'Vasco da Gama Tower'),
 ('b820a164-1dae-4788-b0b1-22f39aac5aeb', false, 'fr', 'Tour Vasco da Gama'),
