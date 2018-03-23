@@ -810,7 +810,11 @@ INSERT INTO wifiap VALUES
 ('24:a4:3c:04:1f:f6', 'Go Wi-Fi Free & Fast'),
 ('24:a4:3c:04:1e:42', 'Go Wi-Fi Free & Fast'),
 ('2a:a4:3c:03:1e:42', 'Go Wi-Fi Free & Fast'),
-('2a:a4:3c:03:1f:f6', 'Go Wi-Fi Free & Fast');
+('2a:a4:3c:03:1f:f6', 'Go Wi-Fi Free & Fast'),
+('2a:a4:3c:04:1f:f6', 'Chiado Eyeglass Factory GoWi-Fi'),
+('2a:a4:3c:04:1e:42', 'Chiado Eyeglass Factory GoWi-Fi'),
+('2e:a4:3c:03:1e:42', 'Chiado Eyeglass Factory GoWi-Fi'),
+('2e:a4:3c:03:1f:f6', 'Chiado Eyeglass Factory GoWi-Fi');
 
 INSERT INTO station_has_wifiap VALUES
 ('pt-ml-ss', '24:a4:3c:04:1a:a1', 'pt-ml-vermelha'),
@@ -870,7 +874,11 @@ INSERT INTO station_has_wifiap VALUES
 ('pt-ml-ap', '24:a4:3c:04:1f:f6', 'pt-ml-vermelha'),
 ('pt-ml-ap', '24:a4:3c:04:1e:42', 'pt-ml-vermelha'),
 ('pt-ml-ap', '2a:a4:3c:03:1e:42', 'pt-ml-vermelha'),
-('pt-ml-ap', '2a:a4:3c:03:1f:f6', 'pt-ml-vermelha');
+('pt-ml-ap', '2a:a4:3c:03:1f:f6', 'pt-ml-vermelha'),
+('pt-ml-ap', '2a:a4:3c:04:1f:f6', 'pt-ml-vermelha'),
+('pt-ml-ap', '2a:a4:3c:04:1e:42', 'pt-ml-vermelha'),
+('pt-ml-ap', '2e:a4:3c:03:1e:42', 'pt-ml-vermelha'),
+('pt-ml-ap', '2e:a4:3c:03:1f:f6', 'pt-ml-vermelha');
 
 -- Wi-Fi APs linha azul
 
@@ -964,10 +972,9 @@ INSERT INTO wifiap VALUES
 ('24:a4:3c:16:a8:a1', 'Go Wi-Fi Free & Fast'),
 ('24:a4:3c:16:a8:b0', 'Go Wi-Fi by Transavia'),
 ('24:a4:3c:16:a8:b1', 'Go Wi-Fi Free & Fast'),
+('24:a4:3c:16:b5:81', 'Go Wi-Fi Free & Fast'),
+('24:a4:3c:16:b5:91', 'Go Wi-Fi Free & Fast'),
 
-('82:2a:a8:c1:53:c6', 'Go Wi-Fi Free & Fast'),
-('80:2a:a8:c1:53:c6', 'Go Wi-Fi by Transavia'),
-('24:a4:3c:04:1b:60', 'Go Wi-Fi by Transavia'),
 ('2e:a4:3c:03:1b:60', 'Go Wi-Fi Free & Fast'),
 ('2a:a4:3c:03:1b:60', 'Go Wi-Fi by Transavia'),
 ('82:2a:a8:c2:53:c6', 'Go Wi-Fi by Transavia'),
@@ -980,6 +987,9 @@ INSERT INTO wifiap VALUES
 ('2e:a4:3c:03:1a:3f', 'Go Wi-Fi Free & Fast'),
 ('2e:a4:3c:03:20:a2', 'Go Wi-Fi Free & Fast'),
 ('24:a4:3c:04:20:a2', 'Go Wi-Fi by Transavia'),
+('2a:a4:3c:04:1a:7c', 'Go Wi-Fi Free & Fast'),
+('2a:a4:3c:04:20:a2', 'Go Wi-Fi Free & Fast'),
+('2e:a4:3c:03:1a:7c', 'Go Wi-Fi Free & Fast'),
 
 ('80:2a:a8:c1:52:fa', 'Go Wi-Fi by Transavia'),
 ('82:2a:a8:c2:52:fa', 'Go Wi-Fi by Transavia'),
@@ -1083,6 +1093,8 @@ INSERT INTO station_has_wifiap VALUES
 ('pt-ml-mp', '24:a4:3c:16:a8:a1', 'pt-ml-azul'),
 ('pt-ml-mp', '24:a4:3c:16:a8:b0', 'pt-ml-azul'),
 ('pt-ml-mp', '24:a4:3c:16:a8:b1', 'pt-ml-azul'),
+('pt-ml-mp', '24:a4:3c:16:b5:81', 'pt-ml-azul'),
+('pt-ml-mp', '24:a4:3c:16:b5:91', 'pt-ml-azul'),
 ('pt-ml-av', '82:2a:a8:c1:53:c6', 'pt-ml-azul'),
 ('pt-ml-av', '80:2a:a8:c1:53:c6', 'pt-ml-azul'),
 ('pt-ml-av', '24:a4:3c:04:1b:60', 'pt-ml-azul'),
@@ -1097,6 +1109,9 @@ INSERT INTO station_has_wifiap VALUES
 ('pt-ml-re', '2e:a4:3c:03:1a:3f', 'pt-ml-azul'),
 ('pt-ml-re', '2e:a4:3c:03:20:a2', 'pt-ml-azul'),
 ('pt-ml-re', '24:a4:3c:04:20:a2', 'pt-ml-azul'),
+('pt-ml-re', '2a:a4:3c:04:1a:7c', 'pt-ml-azul'),
+('pt-ml-re', '2a:a4:3c:04:20:a2', 'pt-ml-azul'),
+('pt-ml-re', '2e:a4:3c:03:1a:7c', 'pt-ml-azul'),
 ('pt-ml-bc', '80:2a:a8:c1:52:fa', 'pt-ml-azul'),
 ('pt-ml-bc', '82:2a:a8:c2:52:fa', 'pt-ml-azul'),
 ('pt-ml-bc', '80:2a:a8:c1:55:31', 'pt-ml-azul'),
@@ -1264,6 +1279,7 @@ INSERT INTO wifiap VALUES
 ('9c:97:26:43:12:a7', 'Vodafone-4312A7'),
 
 ('24:a4:3c:16:b2:d0', 'Go Wi-Fi Free & Fast'),
+('24:a4:3c:04:20:e4', 'Go Wi-Fi Free & Fast'),
 ('24:a4:3c:16:f6:00', 'Go Wi-Fi Free & Fast'),
 ('24:a4:3c:16:b2:c0', 'Go Wi-Fi Free & Fast'),
 ('24:a4:3c:16:f6:10', 'Go Wi-Fi Free & Fast'),
@@ -1284,6 +1300,9 @@ INSERT INTO wifiap VALUES
 ('24:a4:3c:16:94:90', 'Go Wi-Fi Free & Fast'),
 ('24:a4:3c:16:94:80', 'Go Wi-Fi Free & Fast'),
 ('24:a4:3c:16:b7:90', 'Go Wi-Fi Free & Fast'),
+('24:a4:3c:16:b7:80', 'Go Wi-Fi Free & Fast'),
+('2a:a4:3c:03:1f:12', 'Go Wi-Fi Free & Fast'),
+('24:a4:3c:04:1f:12', 'Go Wi-Fi Free & Fast'),
 
 ('24:a4:3c:16:95:90', 'Go Wi-Fi Free & Fast'),
 ('24:a4:3c:17:03:e0', 'Go Wi-Fi Free & Fast'),
@@ -1306,6 +1325,9 @@ INSERT INTO wifiap VALUES
 ('24:a4:3c:17:08:70', 'Go Wi-Fi Free & Fast'),
 ('24:a4:3c:16:94:40', 'Go Wi-Fi Free & Fast'),
 ('24:a4:3c:16:94:50', 'Go Wi-Fi Free & Fast'),
+('24:a4:3c:17:08:60', 'Go Wi-Fi Free & Fast'),
+('2a:a4:3c:03:1b:10', 'Go Wi-Fi Free & Fast'),
+('24:a4:3c:04:1b:10', 'Go Wi-Fi Free & Fast'),
 
 ('24:a4:3c:04:1b:0a', 'Go Wi-Fi Free & Fast'),
 ('24:a4:3c:04:1b:61', 'Go Wi-Fi Free & Fast'),
@@ -1326,6 +1348,7 @@ INSERT INTO station_has_wifiap VALUES
 ('pt-ml-od', '9c:97:26:43:12:a7', 'pt-ml-amarela'),
 ('pt-ml-sr', '24:a4:3c:16:b2:d0', 'pt-ml-amarela'),
 ('pt-ml-sr', '24:a4:3c:16:f6:00', 'pt-ml-amarela'),
+('pt-ml-sr', '24:a4:3c:04:20:e4', 'pt-ml-amarela'),
 ('pt-ml-sr', '24:a4:3c:16:b2:c0', 'pt-ml-amarela'),
 ('pt-ml-sr', '24:a4:3c:16:f6:10', 'pt-ml-amarela'),
 ('pt-ml-ax', '24:a4:3c:16:e3:30', 'pt-ml-amarela'),
@@ -1345,6 +1368,9 @@ INSERT INTO station_has_wifiap VALUES
 ('pt-ml-cu', '24:a4:3c:16:94:90', 'pt-ml-amarela'),
 ('pt-ml-cu', '24:a4:3c:16:94:80', 'pt-ml-amarela'),
 ('pt-ml-cu', '24:a4:3c:16:b7:90', 'pt-ml-amarela'),
+('pt-ml-cu', '24:a4:3c:16:b7:80', 'pt-ml-amarela'),
+('pt-ml-cu', '2a:a4:3c:03:1f:12', 'pt-ml-amarela'),
+('pt-ml-cu', '24:a4:3c:04:1f:12', 'pt-ml-amarela'),
 ('pt-ml-ec', '24:a4:3c:16:95:90', 'pt-ml-amarela'),
 ('pt-ml-ec', '24:a4:3c:17:03:e0', 'pt-ml-amarela'),
 ('pt-ml-ec', '24:a4:3c:17:03:f0', 'pt-ml-amarela'),
@@ -1362,6 +1388,9 @@ INSERT INTO station_has_wifiap VALUES
 ('pt-ml-mp', '24:a4:3c:17:08:70', 'pt-ml-amarela'),
 ('pt-ml-mp', '24:a4:3c:16:94:40', 'pt-ml-amarela'),
 ('pt-ml-mp', '24:a4:3c:16:94:50', 'pt-ml-amarela'),
+('pt-ml-mp', '24:a4:3c:17:08:60', 'pt-ml-amarela'),
+('pt-ml-mp', '2a:a4:3c:03:1b:10', 'pt-ml-amarela'),
+('pt-ml-mp', '24:a4:3c:04:1b:10', 'pt-ml-amarela'),
 ('pt-ml-ra', '24:a4:3c:04:1b:0a', 'pt-ml-amarela'),
 ('pt-ml-ra', '24:a4:3c:04:1b:61', 'pt-ml-amarela'),
 ('pt-ml-ra', '2a:a4:3c:03:1b:0a', 'pt-ml-amarela'),
