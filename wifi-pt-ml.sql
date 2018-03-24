@@ -44,7 +44,6 @@ INSERT INTO wifiap VALUES
 ('2a:a4:3c:03:1b:0d', 'Go Wi-Fi Free & Fast'),
 ('2a:a4:3c:03:1a:6b', 'Go Wi-Fi Free & Fast'),
 ('2a:a4:3c:04:1a:6d', 'Go Wi-Fi Free & Fast'),
-('24:a4:3c:04:1a:6b', 'Go Wi-Fi Free & Fast'),
 ('24:a4:3c:04:1b:0d', 'Go Wi-Fi Free & Fast'),
 ('2e:a4:3c:03:1b:0d', 'Chiado Eyeglass Factory GoWi-Fi'),
 
@@ -111,8 +110,6 @@ INSERT INTO station_has_wifiap VALUES
 ('pt-ml-or', '2a:a4:3c:03:1b:0d', 'pt-ml-vermelha'),
 ('pt-ml-or', '2a:a4:3c:03:1a:6b', 'pt-ml-vermelha'),
 ('pt-ml-or', '2a:a4:3c:04:1a:6d', 'pt-ml-vermelha'),
-('pt-ml-or', '24:a4:3c:04:1a:6b', 'pt-ml-vermelha'),
-('pt-ml-or', '24:a4:3c:04:1b:0d', 'pt-ml-vermelha'),
 ('pt-ml-or', '2e:a4:3c:03:1b:0d', 'pt-ml-vermelha'),
 ('pt-ml-mo', '24:a4:3c:04:1a:3b', 'pt-ml-vermelha'),
 ('pt-ml-mo', '24:a4:3c:04:1a:9e', 'pt-ml-vermelha'),
