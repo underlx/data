@@ -5,6 +5,8 @@ INSERT INTO wifiap VALUES
 ('2a:a4:3c:03:1a:a1', 'Go Wi-Fi Free & Fast'),
 ('24:a4:3c:04:1a:60', 'Go Wi-Fi Free & Fast'),
 ('2a:a4:3c:03:1a:60', 'Go Wi-Fi Free & Fast'),
+('32:a4:3c:03:1a:94', ''),
+('d4:ca:6d:d7:8d:9d', ''),
 
 ('24:a4:3c:04:1b:06', 'Go Wi-Fi Free & Fast'),
 ('24:a4:3c:04:1b:0e', 'Go Wi-Fi Free & Fast'),
@@ -78,6 +80,8 @@ INSERT INTO station_has_wifiap VALUES
 ('pt-ml-ss', '2a:a4:3c:03:1a:a1', 'pt-ml-vermelha'),
 ('pt-ml-ss', '24:a4:3c:04:1a:60', 'pt-ml-vermelha'),
 ('pt-ml-ss', '2a:a4:3c:03:1a:60', 'pt-ml-vermelha'),
+('pt-ml-ss', '32:a4:3c:03:1a:94', 'pt-ml-vermelha'),
+('pt-ml-ss', 'd4:ca:6d:d7:8d:9d', 'pt-ml-vermelha'),
 ('pt-ml-sa', '24:a4:3c:04:1b:06', 'pt-ml-vermelha'),
 ('pt-ml-sa', '24:a4:3c:04:1b:0e', 'pt-ml-vermelha'),
 ('pt-ml-sa', '2a:a4:3c:03:1b:06', 'pt-ml-vermelha'),
