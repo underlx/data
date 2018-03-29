@@ -1,3 +1,8 @@
+INSERT INTO network_name (id, main, lang, name) VALUES
+('pt-ml', true, 'pt',  'Metro de Lisboa'),
+('pt-ml', false, 'en', 'Lisbon Metro'),
+('pt-ml', false, 'fr', 'Métro de Lisbonne');
+
 INSERT INTO network_schedule VALUES
 ('pt-ml',  false, 0, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml',  false, 2, true, '06:30:00', '18 hour 30 minute'),
@@ -8,6 +13,22 @@ INSERT INTO network_schedule VALUES
 ('pt-ml',  false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml',  true,  0, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml',  true,  365, true, '06:30:00', '24 hour');
+
+INSERT INTO line_name (id, main, lang, name) VALUES
+('pt-ml-azul', true, 'pt',  'Azul'),
+('pt-ml-azul', false, 'en', 'Blue'),
+('pt-ml-azul', false, 'fr', 'Bleue'),
+('pt-ml-amarela', true, 'pt',  'Amarela'),
+('pt-ml-amarela', false, 'en', 'Yellow'),
+('pt-ml-amarela', false, 'fr', 'Jaune'),
+('pt-ml-amarela', false, 'es', 'Amarilla'),
+('pt-ml-verde', true, 'pt',  'Verde'),
+('pt-ml-verde', false, 'en', 'Green'),
+('pt-ml-verde', false, 'fr', 'Verte'),
+('pt-ml-vermelha', true, 'pt',  'Vermelha'),
+('pt-ml-vermelha', false, 'en', 'Red'),
+('pt-ml-vermelha', false, 'fr', 'Rouge'),
+('pt-ml-vermelha', false, 'es', 'Roja');
 
 INSERT INTO line_schedule VALUES
 ('pt-ml-amarela',  false, 0, true, '06:30:00', '18 hour 30 minute'),
