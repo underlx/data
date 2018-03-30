@@ -74,7 +74,7 @@ INSERT INTO station_lobby VALUES
 ('pt-ml-te-central',  'pt-ml-te', 'central'),
 ('pt-ml-tp-central',  'pt-ml-tp', 'central');
 
-INSERT INTO station_lobby_exit (lobby_id, world_coord, streets) VALUES 
+INSERT INTO station_lobby_exit (lobby_id, world_coord, streets, type) VALUES 
 ('pt-ml-ap-central', '(38.769054, -9.128443)', '{"Aeroporto de Lisboa (Terminal 1 - chegadas)"}', 'lift'),
 ('pt-ml-ap-central', '(38.768615, -9.128537)', '{"Aeroporto de Lisboa (Terminal 1 - chegadas)"}', 'stairs'),
 ('pt-ml-ap-central', '(38.768450, -9.128480)', '{"Aeroporto de Lisboa (Terminal 1 - chegadas)", "Aeroporto de Lisboa (Terminal 1 - partidas)"}', 'lift'),
@@ -297,8 +297,8 @@ INSERT INTO station_lobby_exit (lobby_id, world_coord, streets) VALUES
 ('pt-ml-sa-norte',   '(38.734844, -9.144796)', '{"Avenida da República (sul)"}', 'stairs'),
 ('pt-ml-sa-sul',     '(38.733826, -9.145574)', '{"Praça Duque de Saldanha", "Avenida Praia da Vitória"}', 'stairs'),
 ('pt-ml-sa-sul',     '(38.734031, -9.144167)', '{"Praça Duque de Saldanha", "Avenida Praia da Vitória"}', 'stairs'),
-('pt-ml-sa-este',    '(38.735344, -9.142896)', '{"Avenida Duque de Ávila (poente)"}'),
-('pt-ml-sa-este',    '(38.735356, -9.142441)', '{"Avenida Duque de Ávila (nascente)"}'),
+('pt-ml-sa-este',    '(38.735344, -9.142896)', '{"Avenida Duque de Ávila (poente)"}', 'stairs'),
+('pt-ml-sa-este',    '(38.735356, -9.142441)', '{"Avenida Duque de Ávila (nascente)"}', 'stairs'),
 ('pt-ml-sp-central', '(38.713905, -9.122531)', '{"Avenida Infante Dom Henrique", "Estação Ferroviária de Santa Apolónia"}', 'lift'),
 ('pt-ml-sp-central', '(38.713706, -9.122149)', '{"Avenida Infante Dom Henrique"}', 'stairs'),
 ('pt-ml-sp-central', '(38.713466, -9.122410)', '{"Avenida Infante Dom Henrique"}', 'stairs'),
