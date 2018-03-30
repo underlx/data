@@ -280,7 +280,7 @@ INSERT INTO station_lobby_exit (lobby_id, world_coord, streets, type) VALUES
 ('pt-ml-rm-norte',   '(38.748839, -9.141872)', '{"Avenida de Roma (norte)", "Avenida dos Estados Unidos da América"}', 'stairs'),
 ('pt-ml-rm-norte',   '(38.748425, -9.141298)', '{"Avenida de Roma (sul)"}', 'stairs'),
 ('pt-ml-rm-norte',   '(38.748354, -9.141567)', '{"Avenida de Roma (sul)"}', 'stairs'),
-('pt-ml-rm-norte',   '(38.747280, -9.141007)', '{"Avenida de Roma"}', 'lift'),
+('pt-ml-rm-sul',   '(38.747280, -9.141007)', '{"Avenida de Roma"}', 'lift'),
 ('pt-ml-rm-sul',     '(38.747198, -9.140628)', '{"Avenida de Roma (sul)", "Rua Frei Amador Arrais", "Rua Conde Sabugosa"}', 'stairs'),
 ('pt-ml-rm-sul',     '(38.747106, -9.140926)', '{"Avenida de Roma (sul)", "Rua Frei Amador Arrais", "Rua Conde Sabugosa"}', 'stairs'),
 ('pt-ml-ro-poente',  '(38.714011, -9.138971)', '{"Praça Dom Pedro IV (Rossio)"}', 'stairs'),
