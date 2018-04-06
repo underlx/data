@@ -861,6 +861,7 @@ INSERT INTO station_tag (station_id, tag) VALUES
 ('pt-ml-av', 'park'),
 ('pt-ml-av', 'store'),
 ('pt-ml-av', 'wifi'),
+('pt-ml-ar', 'wifi'),
 ('pt-ml-bc', 'lift-platform'),
 ('pt-ml-bc', 'park'),
 ('pt-ml-bc', 'store'),
