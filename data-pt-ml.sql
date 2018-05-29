@@ -923,7 +923,7 @@ INSERT INTO station_tag (station_id, tag, priority) VALUES
 ('pt-ml-mp', 's_urgent_pass', 90),
 ('pt-ml-mp', 's_lostfound', 1040),
 ('pt-ml-mp', 'a_wifi', 1010),
-('pt-ml-cs', 'c_bike', 70),
+('pt-ml-mm', 'c_bike', 70),
 ('pt-ml-mm', 'c_parking', 1050),
 ('pt-ml-mm', 'a_store', 1000),
 ('pt-ml-mm', 'a_wifi', 1010),
