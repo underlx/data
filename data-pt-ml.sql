@@ -587,7 +587,7 @@ INSERT INTO station VALUES
 ('pt-ml-ar', 'Arroios', 'pt-ml', '{}'),
 ('pt-ml-av', 'Avenida', 'pt-ml', '{"Liberdade"}'),
 ('pt-ml-bc', 'Baixa-Chiado', 'pt-ml', '{"Augusta", "Camões", "Bluestation"}'),
-('pt-ml-bv', 'Bela Vista', 'pt-ml', '{}'),
+('pt-ml-bv', 'Bela Vista', 'pt-ml', '{"Rock", "RIR", "RockinRio", "Rock in Rio"}'),
 ('pt-ml-cr', 'Cabo Ruivo', 'pt-ml', '{"Olivais Velho"}'),
 ('pt-ml-cs', 'Cais do Sodré', 'pt-ml', '{}'),
 ('pt-ml-cg', 'Campo Grande', 'pt-ml', '{"Sporting", "FCUL"}'),
