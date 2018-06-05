@@ -613,7 +613,7 @@ INSERT INTO station VALUES
 ('pt-ml-od', 'Odivelas', 'pt-ml', '{}'),
 ('pt-ml-ol', 'Olaias', 'pt-ml', '{}'),
 ('pt-ml-os', 'Olivais', 'pt-ml', '{}'),
-('pt-ml-or', 'Oriente', 'pt-ml', '{"Eurovisão","Eurovision"}'),
+('pt-ml-or', 'Oriente', 'pt-ml', '{}'),
 ('pt-ml-pa', 'Parque', 'pt-ml', '{"Eduardo"}'),
 ('pt-ml-pi', 'Picoas', 'pt-ml', '{}'),
 ('pt-ml-po', 'Pontinha', 'pt-ml', '{"Feira Popular"}'),
@@ -629,7 +629,7 @@ INSERT INTO station VALUES
 ('pt-ml-ss', 'São Sebastião', 'pt-ml', '{}'),
 ('pt-ml-sr', 'Senhor Roubado', 'pt-ml', '{"Malaposta"}'),
 ('pt-ml-te', 'Telheiras', 'pt-ml', '{}'),
-('pt-ml-tp', 'Terreiro do Paço', 'pt-ml', '{"Campo das Cebolas","Eurovision Village","Eurovillage"}');
+('pt-ml-tp', 'Terreiro do Paço', 'pt-ml', '{"Campo das Cebolas"}');
 
 INSERT INTO line_has_station VALUES
 ('pt-ml-amarela', 'pt-ml-od', 100),
