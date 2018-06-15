@@ -1053,7 +1053,7 @@ INSERT INTO station_lobby_schedule VALUES
 ('pt-ml-sa-este',     true,  175, true, '06:30:00', '20 hour 30 minute'),
 ('pt-ml-sa-este',     true,  180, true, '06:30:00', '20 hour 30 minute'),
 ('pt-ml-sa-este',     true,  181, true, '06:30:00', '20 hour 30 minute'),
-('pt-ml-sa-este',     false, 0, true, '06:30:00', '18 hour 30 minute'),
+('pt-ml-sp-central',  false, 0, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-sp-central',  false, 1, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-sp-central',  false, 2, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-sp-central',  false, 3, true, '06:30:00', '18 hour 30 minute'),
