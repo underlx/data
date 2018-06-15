@@ -16,8 +16,7 @@ INSERT INTO network_schedule VALUES
 ('pt-ml',  true,  174, true, '06:30:00', '20 hour 30 minute'),
 ('pt-ml',  true,  175, true, '06:30:00', '20 hour 30 minute'),
 ('pt-ml',  true,  180, true, '06:30:00', '20 hour 30 minute'),
-('pt-ml',  true,  181, true, '06:30:00', '20 hour 30 minute'),
-('pt-ml',  true,  365, true, '06:30:00', '24 hour');
+('pt-ml',  true,  181, true, '06:30:00', '20 hour 30 minute');
 
 INSERT INTO line_name (id, main, lang, name) VALUES
 ('pt-ml-azul', true, 'pt',  'Azul'),
@@ -63,8 +62,7 @@ INSERT INTO line_schedule VALUES
 ('pt-ml-azul',  true,  174, true, '06:30:00', '20 hour 30 minute'),
 ('pt-ml-azul',  true,  175, true, '06:30:00', '20 hour 30 minute'),
 ('pt-ml-azul',  true,  180, true, '06:30:00', '20 hour 30 minute'),
-('pt-ml-azul',  true,  181, true, '06:30:00', '20 hour 30 minute'),
-('pt-ml-azul',  true,  365, true, '06:30:00', '24 hour');
+('pt-ml-azul',  true,  181, true, '06:30:00', '20 hour 30 minute');
 
 INSERT INTO line_schedule VALUES
 ('pt-ml-verde',  false, 0, true, '06:30:00', '18 hour 30 minute'),
@@ -79,8 +77,7 @@ INSERT INTO line_schedule VALUES
 ('pt-ml-verde',  true,  174, true, '06:30:00', '20 hour 30 minute'),
 ('pt-ml-verde',  true,  175, true, '06:30:00', '20 hour 30 minute'),
 ('pt-ml-verde',  true,  180, true, '06:30:00', '20 hour 30 minute'),
-('pt-ml-verde',  true,  181, true, '06:30:00', '20 hour 30 minute'),
-('pt-ml-verde',  true,  365, true, '06:30:00', '24 hour');
+('pt-ml-verde',  true,  181, true, '06:30:00', '20 hour 30 minute');
 
 INSERT INTO line_schedule VALUES
 ('pt-ml-vermelha',  false, 0, true, '06:30:00', '18 hour 30 minute'),
@@ -95,8 +92,7 @@ INSERT INTO line_schedule VALUES
 ('pt-ml-vermelha',  true,  174, true, '06:30:00', '20 hour 30 minute'),
 ('pt-ml-vermelha',  true,  175, true, '06:30:00', '20 hour 30 minute'),
 ('pt-ml-vermelha',  true,  180, true, '06:30:00', '20 hour 30 minute'),
-('pt-ml-vermelha',  true,  181, true, '06:30:00', '20 hour 30 minute'),
-('pt-ml-vermelha',  true,  365, true, '06:30:00', '24 hour');
+('pt-ml-vermelha',  true,  181, true, '06:30:00', '20 hour 30 minute');
 
 insert into line_path values ('pt-ml-amarela', 'pt-ml-amarela-main', '[
 (38.719805, -9.155609),
