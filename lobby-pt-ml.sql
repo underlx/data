@@ -309,6 +309,7 @@ INSERT INTO station_lobby_exit (lobby_id, world_coord, streets, type) VALUES
 ('pt-ml-ss-norte',   '(38.733851, -9.153930)', '{"El Corte Inglês"}', 'escalator'),
 ('pt-ml-ss-este',    '(38.735094, -9.150894)', '{"Avenida Duque de Ávila (nascente)"}', 'stairs'),
 ('pt-ml-ss-este',    '(38.735062, -9.151854)', '{"Avenida Duque de Ávila (poente)", "Rua Marquês Sá da Bandeira"}', 'stairs'),
+('pt-ml-ss-sul',     '(38.733145, -9.153232)', '{"El Corte Ingês"}', 'escalator'),
 ('pt-ml-ss-sul',     '(38.733419, -9.152612)', '{"Rua Carlos Testa"}', 'stairs'),
 ('pt-ml-sr-norte',   '(38.785807, -9.171886)', '{"Rua do Senhor Roubado", "Terminal Rodoviário"}', 'escalator'),
 ('pt-ml-sr-sul',     '(38.785456, -9.171740)', '{"Terminal Rodoviário"}', 'escalator'),
