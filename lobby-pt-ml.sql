@@ -296,7 +296,7 @@ INSERT INTO station_lobby_exit (lobby_id, world_coord, streets, type) VALUES
 ('pt-ml-sa-norte',   '(38.735413, -9.144934)', '{"Avenida da República (sul)", "Avenida Duque de Ávila (nascente)"}', 'stairs'),
 ('pt-ml-sa-norte',   '(38.734974, -9.144827)', '{"Avenida da República", "Avenida Duque de Ávila"}', 'lift'),
 ('pt-ml-sa-norte',   '(38.734844, -9.144796)', '{"Avenida da República (sul)", "Avenida Duque de Ávila"}', 'stairs'),
-('pt-ml-sa-sul',     '(38.733826, -9.145574)', '{"Praça Duque de Saldanha", "Avenida Praia da Vitória", "Avenida Fonte Pereira de Melo", "Rua das Picoas", "Avenida 5 de Outubro"}', 'stairs'),
+('pt-ml-sa-sul',     '(38.733826, -9.145574)', '{"Praça Duque de Saldanha", "Avenida Praia da Vitória", "Avenida Fontes Pereira de Melo", "Rua das Picoas", "Avenida 5 de Outubro"}', 'stairs'),
 ('pt-ml-sa-sul',     '(38.734031, -9.144167)', '{"Praça Duque de Saldanha", "Avenida Praia da Vitória", "Avenida Defensores de Chaves", "Avenida Casal Ribeiro"}', 'stairs'),
 ('pt-ml-sa-este',    '(38.735344, -9.142896)', '{"Avenida Duque de Ávila (poente)"}', 'stairs'),
 ('pt-ml-sa-este',    '(38.735356, -9.142441)', '{"Avenida Duque de Ávila (nascente)"}', 'stairs'),
