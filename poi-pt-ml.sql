@@ -666,7 +666,8 @@ INSERT INTO poi (id, type, world_coord, web_url) VALUES
 ('a3bff0d0-f8eb-426b-a089-d9286958aea9', 'university', '(38.753820, -9.157756)', 'http://www.letras.ulisboa.pt/pt/'),
 ('822950ac-d465-42a0-ba73-a591db5ad6ea', 'university', '(38.752268, -9.156963)', 'http://www.fd.ulisboa.pt/'),
 ('f95f2df9-fbcd-44fa-97c0-cd413392277e', 'university', '(38.752716, -9.155416)', 'http://www.psicologia.ulisboa.pt/'),
-('56ae7cfd-fb25-407c-9238-fc228b6a7e57', 'university', '(38.752716, -9.155416)', 'http://www.ie.ulisboa.pt');
+('56ae7cfd-fb25-407c-9238-fc228b6a7e57', 'university', '(38.752716, -9.155416)', 'http://www.ie.ulisboa.pt'),
+('c9bbe8f2-c2ac-4ad4-a801-60117f8fefa2', 'police', '(38.715808, -9.142347)', 'http://www.psp.pt/Pages/pesquisa_detalhe.aspx?menu=2&submenu=1&unidade=697');
 
 INSERT INTO poi_name (id, main, lang, name) VALUES
 ('c994ae3b-b5c0-4838-b19c-af3fbfdf0564', true,  'pt', 'Assembleia Municipal de Lisboa - Fórum Lisboa'),
@@ -3214,7 +3215,11 @@ INSERT INTO poi_name (id, main, lang, name) VALUES
 ('56ae7cfd-fb25-407c-9238-fc228b6a7e57', true,  'pt', 'IEUL - Instituto de Educação da Universidade de Lisboa'),
 ('56ae7cfd-fb25-407c-9238-fc228b6a7e57', false, 'en', 'Institute of Education of the University of Lisbon'),
 ('56ae7cfd-fb25-407c-9238-fc228b6a7e57', false, 'fr', 'Institut d''Éducation de l''Université de Lisbonne'),
-('56ae7cfd-fb25-407c-9238-fc228b6a7e57', false, 'es', 'Instituto de Educación de la Universidad de Lisboa');
+('56ae7cfd-fb25-407c-9238-fc228b6a7e57', false, 'es', 'Instituto de Educación de la Universidad de Lisboa'),
+('c9bbe8f2-c2ac-4ad4-a801-60117f8fefa2', true,  'pt', 'Esquadra de Turismo da PSP'),
+('c9bbe8f2-c2ac-4ad4-a801-60117f8fefa2', false, 'en', 'Turism Police Station'),
+('c9bbe8f2-c2ac-4ad4-a801-60117f8fefa2', false, 'fr', 'Commissariat de Police du Tourisme'),
+('c9bbe8f2-c2ac-4ad4-a801-60117f8fefa2', false, 'es', 'Estación de Policía de Turismo');
 
 INSERT INTO station_has_poi (station_id, poi_id) VALUES
 ('pt-ml-ae', 'c994ae3b-b5c0-4838-b19c-af3fbfdf0564'),
@@ -3820,6 +3825,7 @@ INSERT INTO station_has_poi (station_id, poi_id) VALUES
 ('pt-ml-re', '80396f99-71b3-4d2a-8cd8-6de37de1c5a4'),
 ('pt-ml-re', 'a8d4964a-2e95-458a-b2b8-345e238a7608'),
 ('pt-ml-re', 'd759e819-d273-4494-ad5d-bf7d6acb0d53'),
+('pt-ml-re', 'c9bbe8f2-c2ac-4ad4-a801-60117f8fefa2'),
 ('pt-ml-rm', 'ecdadb37-1744-43d4-81ee-66a89f724997'),
 ('pt-ml-rm', '2dc86905-f37f-4eaa-845e-4f27beb393dd'),
 ('pt-ml-rm', 'c994ae3b-b5c0-4838-b19c-af3fbfdf0564'),
