@@ -53,6 +53,26 @@ INSERT INTO pp_achievement VALUES
 ('b12ce2b4-fd85-48e0-80bb-4243656c0c75', 'visit_stations', '{"stations": ["pt-ml-al", "pt-ml-am", "pt-ml-av", "pt-ml-bc", "pt-ml-bv", "pt-ml-ca", "pt-ml-cg", "pt-ml-ch", "pt-ml-cp", "pt-ml-cs", "pt-ml-cu", "pt-ml-ec", "pt-ml-en", "pt-ml-in", "pt-ml-la", "pt-ml-lu", "pt-ml-mm", "pt-ml-mo", "pt-ml-mp", "pt-ml-ol", "pt-ml-pa", "pt-ml-pe", "pt-ml-pi", "pt-ml-po", "pt-ml-qc", "pt-ml-ra", "pt-ml-sa", "pt-ml-sp", "pt-ml-ss", "pt-ml-te"]}', '', 200),
 ('73cbebf6-0d71-4ff2-a0d5-43a879366b2c', 'visit_stations', '{"stations": ["pt-ml-af", "pt-ml-ah", "pt-ml-al", "pt-ml-am", "pt-ml-an", "pt-ml-as", "pt-ml-av", "pt-ml-bc", "pt-ml-ca", "pt-ml-cg", "pt-ml-cm", "pt-ml-cp", "pt-ml-cu", "pt-ml-ec", "pt-ml-en", "pt-ml-in", "pt-ml-jz", "pt-ml-lu", "pt-ml-mm", "pt-ml-mp", "pt-ml-od", "pt-ml-or", "pt-ml-os", "pt-ml-pi", "pt-ml-po", "pt-ml-qc", "pt-ml-ra", "pt-ml-re", "pt-ml-ro", "pt-ml-sr"]}', '', 200),
 ('3c7ced1c-d952-4b6c-9846-aece1c16e6b2', 'visit_stations', '{"stations": ["pt-ml-av", "pt-ml-mp", "pt-ml-os", "pt-ml-sa"]}', '', 200),
+('1c61d5bd-5169-46ed-b542-1aeb7eec8585', 'visit_stations', '{"stations": ["pt-ml-an", "pt-ml-av", "pt-ml-in", "pt-ml-mm", "pt-ml-re"]}', '', 200),
+('ca5cbd73-d957-4f83-a21a-25160871bf22', 'visit_stations', '{"stations": ["pt-ml-am", "pt-ml-ar", "pt-ml-bc", "pt-ml-re"]}', '', 200),
+('89e7ab92-daaa-402b-9476-16c059ac8c98', 'visit_stations', '{"stations": ["pt-ml-or"]}', '', 200),
+('8471982e-37bc-4a4e-aa1a-ecddfb17659a', 'visit_stations', '{"stations": ["pt-ml-af", "pt-ml-av", "pt-ml-bc", "pt-ml-ca", "pt-ml-en", "pt-ml-in", "pt-ml-jz", "pt-ml-la", "pt-ml-or", "pt-ml-pe", "pt-ml-po", "pt-ml-re", "pt-ml-ro", "pt-ml-sa"]}', '', 200),
+('1a4461d2-edb5-42cb-826a-1edee6519995', 'visit_stations', '{"stations": ["pt-ml-
+", "pt-ml-
+", "pt-ml-
+", "pt-ml-
+", "pt-ml-
+", "pt-ml-
+", "pt-ml-
+", "pt-ml-
+", "pt-ml-
+", "pt-ml-
+", "pt-ml-
+", "pt-ml-
+", "pt-ml-
+", "pt-ml-
+", "pt-ml-
+"]}', '', 200),
 
 
 
@@ -101,9 +121,16 @@ INSERT INTO pp_achievement_name VALUES
 ('73cbebf6-0d71-4ff2-a0d5-43a879366b2c', false, 'en', 'Doctor Who?', 'Visit every station close to an hospital or health center'),
 ('3c7ced1c-d952-4b6c-9846-aece1c16e6b2', true,  'pt', 'Fura Vermelhos', 'Visitar todas as estações próximas de um quartel de bombeiros'),
 ('3c7ced1c-d952-4b6c-9846-aece1c16e6b2', false, 'en', 'No Red Lights', 'Visit every station close to a fire station'),
-
-
-
+('1c61d5bd-5169-46ed-b542-1aeb7eec8585', true,  'pt', 'Vejo a Milhas', 'Visitar todas as estações próximas de um miradouro'),
+('1c61d5bd-5169-46ed-b542-1aeb7eec8585', false, 'en', 'I Can See for Miles', 'Visit every station close to a viewpoint'),
+('ca5cbd73-d957-4f83-a21a-25160871bf22', true,  'pt', 'Tenho Fome!', 'Visitar todas as estações próximas de um restaurante icónico'),
+('ca5cbd73-d957-4f83-a21a-25160871bf22', false, 'en', 'I''m Hungry!', 'Visit every station close to an iconic restaurant'),
+('89e7ab92-daaa-402b-9476-16c059ac8c98', true,  'pt', 'Monte Carlo', 'Visitar todas as estações próximas de um casino'),
+('89e7ab92-daaa-402b-9476-16c059ac8c98', false, 'en', 'Monte Carlo', 'Visit every station close to a casino'),
+('8471982e-37bc-4a4e-aa1a-ecddfb17659a', true,  'pt', 'Algo para Ver', 'Visitar todas as estações próximas de um teatro ou salão de espetáculos'),
+('8471982e-37bc-4a4e-aa1a-ecddfb17659a', false, 'en', 'Something to See', 'Visit every station close to a theater or showroom'),
+('1a4461d2-edb5-42cb-826a-1edee6519995', true,  'pt', 'Fartote de Compras', 'Visitar todas as estações próximas de um centro comercial ou mercado'),
+('1a4461d2-edb5-42cb-826a-1edee6519995', false, 'en', 'Shopping Spree', 'Visit every station close to a shopping center or market'),
 
 
 
