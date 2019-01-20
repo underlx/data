@@ -57,7 +57,23 @@ INSERT INTO pp_achievement VALUES
 ('ca5cbd73-d957-4f83-a21a-25160871bf22', 'visit_stations', '{"stations": ["pt-ml-am", "pt-ml-ar", "pt-ml-bc", "pt-ml-re"]}', '', 200),
 ('89e7ab92-daaa-402b-9476-16c059ac8c98', 'visit_stations', '{"stations": ["pt-ml-or"]}', '', 200),
 ('8471982e-37bc-4a4e-aa1a-ecddfb17659a', 'visit_stations', '{"stations": ["pt-ml-af", "pt-ml-av", "pt-ml-bc", "pt-ml-ca", "pt-ml-en", "pt-ml-in", "pt-ml-jz", "pt-ml-la", "pt-ml-or", "pt-ml-pe", "pt-ml-po", "pt-ml-re", "pt-ml-ro", "pt-ml-sa"]}', '', 200),
-('1a4461d2-edb5-42cb-826a-1edee6519995', 'visit_stations', '{"stations": ["pt-ml-
+('1a4461d2-edb5-42cb-826a-1edee6519995', 'visit_stations', '{"stations": ["pt-ml-al", "pt-ml-ar", "pt-ml-av", "pt-ml-bc", "pt-ml-bv", "pt-ml-cm", "pt-ml-cp", "pt-ml-en", "pt-ml-in", "pt-ml-lu", "pt-ml-mm", "pt-ml-ol", "pt-ml-or", "pt-ml-os", "pt-ml-pi", "pt-ml-po", "pt-ml-qc", "pt-ml-rm", "pt-ml-sa", "pt-ml-sp", "pt-ml-ss"]}', '', 200),
+('745a83e1-5c05-41fe-a041-401bf2a3b2b1', 'visit_stations', '{"stations": ["pt-ml-ae", "pt-ml-af", "pt-ml-ah", "pt-ml-al", "pt-ml-am", "pt-ml-an", "pt-ml-ar", "pt-ml-av", "pt-ml-ax", "pt-ml-bc", "pt-ml-ca", "pt-ml-ch", "pt-ml-cp", "pt-ml-cs", "pt-ml-en", "pt-ml-in", "pt-ml-jz", "pt-ml-la", "pt-ml-lu", "pt-ml-mm", "pt-ml-mp", "pt-ml-od", "pt-ml-ol", "pt-ml-os", "pt-ml-pe", "pt-ml-qc", "pt-ml-ra", "pt-ml-re", "pt-ml-rm", "pt-ml-ro", "pt-ml-sa", "pt-ml-sp", "pt-ml-ss", "pt-ml-te", "pt-ml-tp"]}', '', 200),
+('6469fcfe-6ab7-4b6c-94ae-875910aa3b6d', 'visit_stations', '{"stations": ["pt-ml-ar", "pt-ml-av", "pt-ml-ec", "pt-ml-te"]}', '', 200),
+('aa0b8916-5c62-4cf2-8513-d7f4bb58cae6', 'visit_stations', '{"stations": ["pt-ml-mp", "pt-ml-re", "pt-ml-tp"]}', '', 200),
+('1f0820bf-85cb-4523-ba2d-36a2668b0b82', 'visit_stations', '{"stations": ["pt-ml-ae", "pt-ml-al", "pt-ml-am", "pt-ml-an", "pt-ml-ap", "pt-ml-ar", "pt-ml-av", "pt-ml-bc", "pt-ml-ch", "pt-ml-cp", "pt-ml-ec", "pt-ml-en", "pt-ml-in", "pt-ml-jz", "pt-ml-la", "pt-ml-lu", "pt-ml-mp", "pt-ml-ol", "pt-ml-or", "pt-ml-pe", "pt-ml-pi", "pt-ml-mp", "pt-ml-qc", "pt-ml-ra", "pt-ml-rm", "pt-ml-sa", "pt-ml-sp", "pt-ml-ss", "pt-ml-tp"]}', '', 200),
+('950d7da4-d2a0-4379-9ce6-14f11b0557a0', 'visit_stations', '{"stations": ["pt-ml-
+", "pt-ml-
+", "pt-ml-
+", "pt-ml-
+", "pt-ml-
+", "pt-ml-
+", "pt-ml-
+", "pt-ml-
+", "pt-ml-
+", "pt-ml-
+", "pt-ml-
+", "pt-ml-
 ", "pt-ml-
 ", "pt-ml-
 ", "pt-ml-
@@ -73,9 +89,6 @@ INSERT INTO pp_achievement VALUES
 ", "pt-ml-
 ", "pt-ml-
 "]}', '', 200),
-
-
-
 
 
 
@@ -131,6 +144,22 @@ INSERT INTO pp_achievement_name VALUES
 ('8471982e-37bc-4a4e-aa1a-ecddfb17659a', false, 'en', 'Something to See', 'Visit every station close to a theater or showroom'),
 ('1a4461d2-edb5-42cb-826a-1edee6519995', true,  'pt', 'Fartote de Compras', 'Visitar todas as estações próximas de um centro comercial ou mercado'),
 ('1a4461d2-edb5-42cb-826a-1edee6519995', false, 'en', 'Shopping Spree', 'Visit every station close to a shopping center or market'),
+('745a83e1-5c05-41fe-a041-401bf2a3b2b1', true,  'pt', 'Viagem Santa', 'Visitar todas as estações próximas de uma igreja'),
+('745a83e1-5c05-41fe-a041-401bf2a3b2b1', false, 'en', 'Traveling on a Prayer', 'Visit every station close to a church'),
+('6469fcfe-6ab7-4b6c-94ae-875910aa3b6d', true,  'pt', 'Tem Correio', 'Visitar todas as estações próximas de um posto de correios'),
+('6469fcfe-6ab7-4b6c-94ae-875910aa3b6d', false, 'en', 'You Got Mail', 'Visit every station close to a post office'),
+('aa0b8916-5c62-4cf2-8513-d7f4bb58cae6', true,  'pt', 'Eu Sou a Lei', 'Visitar todas as estações próximas de um tribunal'),
+('aa0b8916-5c62-4cf2-8513-d7f4bb58cae6', false, 'en', 'I Am the Law', 'Visit every station close to a courthouse'),
+('1f0820bf-85cb-4523-ba2d-36a2668b0b82', true,  'pt', 'Pela República', 'Visitar todas as estações próximas de um edifício governamental ou embaixada'),
+('1f0820bf-85cb-4523-ba2d-36a2668b0b82', false, 'en', 'For the Republic', 'Visit every station close to a government building or embassy'),
+('950d7da4-d2a0-4379-9ce6-14f11b0557a0', true,  'pt', 'Pela República', 'Visitar todas as estações próximas de um serviço ou espaço público'),
+('950d7da4-d2a0-4379-9ce6-14f11b0557a0', false, 'en', 'For the Republic', 'Visit every station close to a public service or public space'),
+
+
+
+
+
+
 
 
 
