@@ -45,6 +45,17 @@ INSERT INTO pp_achievement VALUES
 ('ccf3bb40-c5ad-489c-91c4-784ea596184c', 'visit_stations', '{"stations": ["pt-ml-ap"]}', '', 200),
 ('b8d36eb1-fc04-43e7-a95f-f4092dc45cda', 'visit_stations', '{"stations": ["pt-ml-am", "pt-ml-av", "pt-ml-cg", "pt-ml-cp", "pt-ml-cs", "pt-ml-ec", "pt-ml-mm", "pt-ml-mp", "pt-ml-or", "pt-ml-pi", "pt-ml-rm", "pt-ml-sa", "pt-ml-ss", "pt-ml-te"]}', '', 200),
 ('4082c303-b4c0-4094-bfe8-c1bfa89d44cd', 'visit_stations', '{"stations": ["pt-ml-ap", "pt-ml-af", "pt-ml-ca", "pt-ml-ch", "pt-ml-mm", "pt-ml-od", "pt-ml-ol", "pt-ml-or", "pt-ml-os", "pt-ml-po", "pt-ml-qc", "pt-ml-ra", "pt-ml-re", "pt-ml-te"]}', '', 200),
+('8a8fe192-7588-48e3-bcd6-3f36a660746a', 'visit_stations', '{"stations": ["pt-ml-av", "pt-ml-cp", "pt-ml-cu", "pt-ml-ec", "pt-ml-in", "pt-ml-la", "pt-ml-mo", "pt-ml-os", "pt-ml-po", "pt-ml-ra", "pt-ml-sp", "pt-ml-te",]}', '', 200),
+('b062afb2-1f8e-483c-8f0d-58498249ad95', 'visit_stations', '{"stations": ["pt-ml-cr", "pt-ml-en", "pt-ml-la", "pt-ml-mo", "pt-ml-os", "pt-ml-ra", "pt-ml-rm"]}', '', 200),
+('a3f68f5a-b02b-4608-82e8-0bfe82984505', 'visit_stations', '{"stations": ["pt-ml-ah", "pt-ml-am", "pt-ml-as", "pt-ml-av", "pt-ml-bc", "pt-ml-cg", "pt-ml-cm", "pt-ml-cp", "pt-ml-cs", "pt-ml-jz", "pt-ml-la", "pt-ml-lu", "pt-ml-mm", "pt-ml-mp", "pt-ml-or", "pt-ml-pe", "pt-ml-pi", "pt-ml-ra", "pt-ml-re", "pt-ml-ro", "pt-ml-sa", "pt-ml-sp", "pt-ml-sr", "pt-ml-ss", "pt-ml-tp"]}', '', 200),
+('501c82b6-9512-4d8e-8e54-98ca307bb78d', 'visit_stations', '{"stations": ["pt-ml-ah", "pt-ml-al", "pt-ml-ar", "pt-ml-av", "pt-ml-ax", "pt-ml-bv", "pt-ml-cg", "pt-ml-cs", "pt-ml-in", "pt-ml-jz", "pt-ml-la", "pt-ml-lu", "pt-ml-mm", "pt-ml-mp", "pt-ml-ol", "pt-ml-os", "pt-ml-pa", "pt-ml-qc", "pt-ml-ra", "pt-ml-re", "pt-ml-sa", "pt-ml-sp", "pt-ml-ss", "pt-ml-te"]}', '', 200),
+('6018f2b1-61d1-41fe-a87b-c64eb60cf30a', 'visit_stations', '{"stations": ["pt-ml-af", "pt-ml-ah", "pt-ml-al", "pt-ml-am", "pt-ml-an", "pt-ml-ar", "pt-ml-as", "pt-ml-ax", "pt-ml-bv", "pt-ml-cg", "pt-ml-ch", "pt-ml-cm", "pt-ml-cu", "pt-ml-ec", "pt-ml-en", "pt-ml-jz", "pt-ml-lu", "pt-ml-od", "pt-ml-ol", "pt-ml-os", "pt-ml-pi", "pt-ml-po", "pt-ml-qc", "pt-ml-ra", "pt-ml-rb", "pt-ml-rm", "pt-ml-sp", "pt-ml-te"]}', '', 200),
+('b12ce2b4-fd85-48e0-80bb-4243656c0c75', 'visit_stations', '{"stations": ["pt-ml-al", "pt-ml-am", "pt-ml-av", "pt-ml-bc", "pt-ml-bv", "pt-ml-ca", "pt-ml-cg", "pt-ml-ch", "pt-ml-cp", "pt-ml-cs", "pt-ml-cu", "pt-ml-ec", "pt-ml-en", "pt-ml-in", "pt-ml-la", "pt-ml-lu", "pt-ml-mm", "pt-ml-mo", "pt-ml-mp", "pt-ml-ol", "pt-ml-pa", "pt-ml-pe", "pt-ml-pi", "pt-ml-po", "pt-ml-qc", "pt-ml-ra", "pt-ml-sa", "pt-ml-sp", "pt-ml-ss", "pt-ml-te"]}', '', 200),
+('73cbebf6-0d71-4ff2-a0d5-43a879366b2c', 'visit_stations', '{"stations": ["pt-ml-af", "pt-ml-ah", "pt-ml-al", "pt-ml-am", "pt-ml-an", "pt-ml-as", "pt-ml-av", "pt-ml-bc", "pt-ml-ca", "pt-ml-cg", "pt-ml-cm", "pt-ml-cp", "pt-ml-cu", "pt-ml-ec", "pt-ml-en", "pt-ml-in", "pt-ml-jz", "pt-ml-lu", "pt-ml-mm", "pt-ml-mp", "pt-ml-od", "pt-ml-or", "pt-ml-os", "pt-ml-pi", "pt-ml-po", "pt-ml-qc", "pt-ml-ra", "pt-ml-re", "pt-ml-ro", "pt-ml-sr"]}', '', 200),
+('3c7ced1c-d952-4b6c-9846-aece1c16e6b2', 'visit_stations', '{"stations": ["pt-ml-av", "pt-ml-mp", "pt-ml-os", "pt-ml-sa"]}', '', 200),
+
+
+
 
 
 
@@ -74,6 +85,29 @@ INSERT INTO pp_achievement_name VALUES
 ('b8d36eb1-fc04-43e7-a95f-f4092dc45cda', false, 'en', 'Bike Lane', 'Visit every station connected with a GIRA bike station'),
 ('4082c303-b4c0-4094-bfe8-c1bfa89d44cd', true,  'pt', 'LCPD', 'Visitar todas as estações próximas de uma esquadra de polícia'),
 ('4082c303-b4c0-4094-bfe8-c1bfa89d44cd', false, 'en', 'LCPD', 'Visit every station close to a police station'),
+('8a8fe192-7588-48e3-bcd6-3f36a660746a', true,  'pt', 'Totó dos Livros', 'Visitar todas as estações próximas de uma biblioteca'),
+('8a8fe192-7588-48e3-bcd6-3f36a660746a', false, 'en', 'Book Nerd', 'Visit every station close to a library'),
+('b062afb2-1f8e-483c-8f0d-58498249ad95', true,  'pt', 'GOOOOOOOLO', 'Visitar todas as estações próximas de um estádio de futebol ou arena desportiva'),
+('b062afb2-1f8e-483c-8f0d-58498249ad95', false, 'en', 'GOOOOOOOAL', 'Visit every station close to a football stadium or sports arena'),
+('a3f68f5a-b02b-4608-82e8-0bfe82984505', true,  'pt', 'Cultura às Colheres', 'Visitar todas as estações próximas de um monumento ou museu'),
+('a3f68f5a-b02b-4608-82e8-0bfe82984505', false, 'en', 'Cultural Standard', 'Visit every station close to a monument or museum'),
+('501c82b6-9512-4d8e-8e54-98ca307bb78d', true,  'pt', 'Natureza', 'Visitar todas as estações próximas de um parque ou jardim zoológico'),
+('501c82b6-9512-4d8e-8e54-98ca307bb78d', false, 'en', 'Nature', 'Visit every station close to a park or zoo'),
+('6018f2b1-61d1-41fe-a87b-c64eb60cf30a', true,  'pt', 'Sem Julgamentos', 'Visitar todas as estações próximas de uma escola'),
+('6018f2b1-61d1-41fe-a87b-c64eb60cf30a', false, 'en', 'No Judging', 'Visit every station close to a school'),
+('b12ce2b4-fd85-48e0-80bb-4243656c0c75', true,  'pt', 'Alto Nível', 'Visitar todas as estações próximas de uma universidade'),
+('b12ce2b4-fd85-48e0-80bb-4243656c0c75', false, 'en', 'High Degree', 'Visit every station close to an university'),
+('73cbebf6-0d71-4ff2-a0d5-43a879366b2c', true,  'pt', 'Doutor Quem?', 'Visitar todas as estações próximas de um hospital ou centro de saúde'),
+('73cbebf6-0d71-4ff2-a0d5-43a879366b2c', false, 'en', 'Doctor Who?', 'Visit every station close to an hospital or health center'),
+('3c7ced1c-d952-4b6c-9846-aece1c16e6b2', true,  'pt', 'Fura Vermelhos', 'Visitar todas as estações próximas de um quartel de bombeiros'),
+('3c7ced1c-d952-4b6c-9846-aece1c16e6b2', false, 'en', 'No Red Lights', 'Visit every station close to a fire station'),
+
+
+
+
+
+
+
 
 
 
