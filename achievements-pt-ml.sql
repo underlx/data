@@ -44,7 +44,11 @@ INSERT INTO pp_achievement VALUES
 ('7627e75d-e18d-4c6b-82ae-f84046e5e77f', 'visit_stations', '{"stations": ["pt-ml-as", "pt-ml-cg", "pt-ml-cm", "pt-ml-cs", "pt-ml-jz", "pt-ml-mp", "pt-ml-od", "pt-ml-or", "pt-ml-po", "pt-ml-pe", "pt-ml-rb", "pt-ml-sr"]}', '', 200),
 ('ccf3bb40-c5ad-489c-91c4-784ea596184c', 'visit_stations', '{"stations": ["pt-ml-ap"]}', '', 200),
 ('b8d36eb1-fc04-43e7-a95f-f4092dc45cda', 'visit_stations', '{"stations": ["pt-ml-am", "pt-ml-av", "pt-ml-cg", "pt-ml-cp", "pt-ml-cs", "pt-ml-ec", "pt-ml-mm", "pt-ml-mp", "pt-ml-or", "pt-ml-pi", "pt-ml-rm", "pt-ml-sa", "pt-ml-ss", "pt-ml-te"]}', '', 200),
-('4082c303-b4c0-4094-bfe8-c1bfa89d44cd', 'visit_stations', '{"stations": ["pt-ml-ap", "pt-ml-af", "pt-ml-ca", "pt-ml-ch", "pt-ml-mm", "pt-ml-od", "pt-ml-ol", "pt-ml-or", "pt-ml-os", "pt-ml-po", "pt-ml-qc", "pt-ml-ra", "pt-ml-re", "pt-ml-te"]}', '', 200),
+
+
+('4082c303-b4c0-4094-bfe8-c1bfa89d44cd', 'visit_stations', '{"stations": ["pt-ml-ap", "pt-ml-af", "pt-ml-ar", "pt-ml-bc", "pt-ml-bv", "pt-ml-ca", "pt-ml-ch", "pt-ml-ec", "pt-ml-mm", "pt-ml-mp", "pt-ml-od", "pt-ml-ol", "pt-ml-or", "pt-ml-os", "pt-ml-po", "pt-ml-qc", "pt-ml-ra", "pt-ml-rb", "pt-ml-re", "pt-ml-sp", "pt-ml-ss", "pt-ml-te", "pt-ml-tp"]}', '', 200),
+
+
 ('8a8fe192-7588-48e3-bcd6-3f36a660746a', 'visit_stations', '{"stations": ["pt-ml-av", "pt-ml-cp", "pt-ml-cu", "pt-ml-ec", "pt-ml-in", "pt-ml-la", "pt-ml-mo", "pt-ml-os", "pt-ml-po", "pt-ml-ra", "pt-ml-sp", "pt-ml-te",]}', '', 200),
 ('b062afb2-1f8e-483c-8f0d-58498249ad95', 'visit_stations', '{"stations": ["pt-ml-cr", "pt-ml-en", "pt-ml-la", "pt-ml-mo", "pt-ml-os", "pt-ml-ra", "pt-ml-rm"]}', '', 200),
 ('a3f68f5a-b02b-4608-82e8-0bfe82984505', 'visit_stations', '{"stations": ["pt-ml-ah", "pt-ml-am", "pt-ml-as", "pt-ml-av", "pt-ml-bc", "pt-ml-cg", "pt-ml-cm", "pt-ml-cp", "pt-ml-cs", "pt-ml-jz", "pt-ml-la", "pt-ml-lu", "pt-ml-mm", "pt-ml-mp", "pt-ml-or", "pt-ml-pe", "pt-ml-pi", "pt-ml-ra", "pt-ml-re", "pt-ml-ro", "pt-ml-sa", "pt-ml-sp", "pt-ml-sr", "pt-ml-ss", "pt-ml-tp"]}', '', 200),
