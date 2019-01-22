@@ -329,7 +329,6 @@ INSERT INTO poi (id, type, world_coord, web_url) VALUES
 ('e0ed6165-0e08-4e85-bc1c-bdd948a8faff', 'business', '(38.723076, -9.149385)', 'http://www.leya.com/pt/gca/areas-de-actividade/livrarias/'),
 ('c4348edc-c3da-47a7-9336-9c0330e3db5e', 'business', '(38.725930, -9.148449)', 'http://www.edp.pt/'),
 ('ac9005c8-03fb-4c17-8e47-312d22ef7e3a', 'organization', '(38.7210381, -9.1494637)', 'http://www.snba.pt/'),
-('bb936604-a194-4876-8818-85fb9cdb7456', 'court', '(38.723819, -9.151131)', 'https://www.tribunalarbitraldesporto.pt/'),
 ('fecc19e2-0dc9-4cdb-8f33-ad22ac3af615', 'public-service', '(38.790243, -9.179720)', 'http://www.cm-odivelas.pt/'),
 ('79e161e0-156d-4cd1-a0b8-4988861ed9a6', 'school', '(38.793992, -9.179474)', 'https://agr-odivelas.pt/'),
 ('2c92481f-bf4f-413e-ad1f-2a15c8dc5e08', 'school', '(38.795327, -9.176874)', 'https://agr-odivelas.pt/'),
@@ -352,7 +351,6 @@ INSERT INTO poi (id, type, world_coord, web_url) VALUES
 ('301933b6-9465-428e-b799-c64a69f47d24', 'public-service', '(38.740244, -9.126662)', 'https://www.sscml.pt/'),
 ('eb3e4443-ba58-45fe-8ac5-feab77aed436', 'sports', '(38.736876, -9.123245)', 'http://www.vcl.pt/'),
 ('4fa27edb-36b4-476b-8d20-811d15afeba2', 'show-room', '(38.768548, -9.094035)', 'http://arena.altice.pt/'),
-('d03341d6-138d-4e50-865e-618b2d69c7e0', 'court', '(38.773832, -9.096356)', 'http://www.portaldasnacoes.pt/Campus-de-Justica-de-Lisboa-Contactos/'),
 ('28eacd2e-ea8c-4e6d-a00d-d34bd6da2809', 'casino', '(38.764473, -9.096314)', 'http://www.casino-lisboa.pt/'),
 ('0b892ccd-07c9-467a-a563-527aec525655', 'shopping-center', '(38.767740, -9.097478)', 'https://www.centrovascodagama.pt/'),
 ('5033cbde-f918-448f-a690-7498271820a6', 'theater', '(38.760917, -9.093358)', 'http://www.cnb.pt/'),
@@ -481,7 +479,6 @@ INSERT INTO poi (id, type, world_coord, web_url) VALUES
 ('f30f8c44-e77a-4b1e-b0b7-21032522ec2e', 'monument', '(38.715735, -9.142312)', 'http://www.gmcs.pt/palaciofoz/'),
 ('ba9a6011-6988-474a-b8d1-113a6d83f462', 'organization', '(38.713426, -9.142919)', 'http://www.scml.pt/'),
 ('3101c832-aec2-4f45-a489-ac82d08616f2', 'organization', '(38.716679, -9.140751)', 'http://www.socgeografialisboa.pt/'),
-('80396f99-71b3-4d2a-8cd8-6de37de1c5a4', 'court', '(38.714593, -9.144602)', 'http://www.stadministrativo.pt/'),
 ('a8d4964a-2e95-458a-b2b8-345e238a7608', 'theater', '(38.716604, -9.140912)', 'http://www.filipelaferia.pt/main.html'),
 ('ecdadb37-1744-43d4-81ee-66a89f724997', 'government', '(38.748914, -9.139577)', 'http://www.arslvt.min-saude.pt/'),
 ('2dc86905-f37f-4eaa-845e-4f27beb393dd', 'school', '(38.746632, -9.144782)', 'http://www.aerdl.eu'),
@@ -548,7 +545,6 @@ INSERT INTO poi (id, type, world_coord, web_url) VALUES
 ('acb1db26-7f69-493e-be40-0b7191d1b6a3', 'prison', '(38.730177, -9.158120)', 'http://www.portaaberta.dgsp.mj.pt/institucional/contactos'),
 ('03b69979-30da-42d3-941c-0bd0adb4c99c', 'church', '(38.732357, -9.162128)', 'http://www.patriarcado-lisboa.pt/site/index.php?cont_=180&tem=84&id=38'),
 ('0af7212c-5bb0-4bbd-a322-ce3b041bf65b', 'church', '(38.732454, -9.151391)', 'http://www.cm-lisboa.pt/equipamentos/equipamento/info/igreja-de-sao-sebastiao-da-pedreira'),
-('0f06dd6e-86dd-461a-921f-c42f78ef1b79', 'court', '(38.732219, -9.157538)', 'http://www.cm-lisboa.pt/equipamentos/equipamento/info/palacio-da-justica-tribunal-civel-de-lisboa'),
 ('bf5a27e3-79cd-4f48-b2e7-41cd9228dbd4', 'monument', '(38.733931, -9.152257)', 'http://maislisboa.fcsh.unl.pt/um-palacio-as-portas-lisboa/'),
 ('ba133481-6a6e-4d0f-b41e-ec90f68dd8d2', 'library', '(38.759836, -9.169052)', 'http://blx.cm-lisboa.pt/gca/index.php?id=460'),
 ('71ff3faa-3609-4ee9-be1c-54ad8ddb2dd9', 'school', '(38.759434, -9.164505)', 'https://www.colegiomirario.pt/'),
@@ -576,9 +572,7 @@ INSERT INTO poi (id, type, world_coord, web_url) VALUES
 ('7a8cf0fd-f3ee-4441-a6af-a69622af74c1', 'museum', '(38.708622, -9.138871)', 'http://www.museudodinheiro.pt/destaques'),
 ('b2993b04-cc7f-478c-bc32-b58a2cb47ebc', 'public-service', '(38.708210, -9.138554)', 'http://www.cm-lisboa.pt/'),
 ('e195278b-5d2d-4311-9f9c-64383eeb52e9', 'public-space', '(38.707595, -9.136476 )', 'https://www.guiadacidade.pt/pt/poi-praca-do-comercio-terreiro-do-paco-16393'),
-('62c8bc79-b261-4e9b-8818-559ecc130e65', 'church', '(38.709891, -9.132607)', 'http://www.patriarcado-lisboa.pt/site/'),
-('24104d8f-2643-4b6b-9865-75711dc9a7e9', 'court', '(38.708593, -9.136480)', 'http://www.stj.pt/'),
-('10065138-8983-409f-a48e-81cd62acbd86', 'court', '(38.707829, -9.138784)', 'http://www.trl.mj.pt/inicio/home.php');
+('62c8bc79-b261-4e9b-8818-559ecc130e65', 'church', '(38.709891, -9.132607)', 'http://www.patriarcado-lisboa.pt/site/');
 
 INSERT INTO poi_name (id, main, lang, name) VALUES
 ('c994ae3b-b5c0-4838-b19c-af3fbfdf0564', true,  'pt', 'Assembleia Municipal de Lisboa - Fórum Lisboa'),
@@ -1834,10 +1828,6 @@ INSERT INTO poi_name (id, main, lang, name) VALUES
 ('ac9005c8-03fb-4c17-8e47-312d22ef7e3a', false, 'en', 'National Society of Fine Arts'),
 ('ac9005c8-03fb-4c17-8e47-312d22ef7e3a', false, 'fr', 'Société Nationale des Beaux-Arts'),
 ('ac9005c8-03fb-4c17-8e47-312d22ef7e3a', false, 'es', 'Sociedad Nacional de Bellas Artes'),
-('bb936604-a194-4876-8818-85fb9cdb7456', true,  'pt', 'TAD - Tribunal Arbitral do Desporto'),
-('bb936604-a194-4876-8818-85fb9cdb7456', false, 'en', 'Sports Arbitration Court'),
-('bb936604-a194-4876-8818-85fb9cdb7456', false, 'fr', 'Cour d''Arbitrage pour le Sport'),
-('bb936604-a194-4876-8818-85fb9cdb7456', false, 'es', 'Tribunal Arbitral del Deporte'),
 ('fecc19e2-0dc9-4cdb-8f33-ad22ac3af615', true,  'pt', 'Câmara Municipal de Odivelas'),
 ('fecc19e2-0dc9-4cdb-8f33-ad22ac3af615', false, 'en', 'Odivelas City Council'),
 ('fecc19e2-0dc9-4cdb-8f33-ad22ac3af615', false, 'fr', 'Mairie d''Odivelas'),
@@ -1917,10 +1907,6 @@ INSERT INTO poi_name (id, main, lang, name) VALUES
 ('eb3e4443-ba58-45fe-8ac5-feab77aed436', false, 'fr', 'Vitória Club de Lisbonne'),
 ('eb3e4443-ba58-45fe-8ac5-feab77aed436', false, 'es', 'Vitória Club de Lisboa'),
 ('4fa27edb-36b4-476b-8d20-811d15afeba2', true,  'pt', 'Altice Arena'),
-('d03341d6-138d-4e50-865e-618b2d69c7e0', true,  'pt', 'Campus de Justiça de Lisboa'),
-('d03341d6-138d-4e50-865e-618b2d69c7e0', false, 'en', 'Lisbon Justice Campus'),
-('d03341d6-138d-4e50-865e-618b2d69c7e0', false, 'fr', 'Campus de la Justice à Lisbonne'),
-('d03341d6-138d-4e50-865e-618b2d69c7e0', false, 'es', 'Campus de Justicia de Lisboa'),
 ('28eacd2e-ea8c-4e6d-a00d-d34bd6da2809', true,  'pt', 'Casino Lisboa'),
 ('28eacd2e-ea8c-4e6d-a00d-d34bd6da2809', false, 'en', 'Lisbon Casino'),
 ('28eacd2e-ea8c-4e6d-a00d-d34bd6da2809', false, 'fr', 'Casino Lisbonne'),
@@ -2407,9 +2393,6 @@ INSERT INTO poi_name (id, main, lang, name) VALUES
 ('3101c832-aec2-4f45-a489-ac82d08616f2', false, 'en', 'Society of Geography of Lisbon'),
 ('3101c832-aec2-4f45-a489-ac82d08616f2', false, 'fr', 'Société de Géographie de Lisbonne'),
 ('3101c832-aec2-4f45-a489-ac82d08616f2', false, 'es', 'Sociedad de Geografía de Lisboa'),
-('80396f99-71b3-4d2a-8cd8-6de37de1c5a4', true,  'pt', 'Supremo Tribunal Administrativo'),
-('80396f99-71b3-4d2a-8cd8-6de37de1c5a4', false, 'en', 'Administrative Supreme Court'),
-('80396f99-71b3-4d2a-8cd8-6de37de1c5a4', false, 'fr', 'Cour Administrative Suprême'),
 ('a8d4964a-2e95-458a-b2b8-345e238a7608', true,  'pt', 'Teatro Politeama'),
 ('a8d4964a-2e95-458a-b2b8-345e238a7608', false, 'en', 'Politeama Theater'),
 ('a8d4964a-2e95-458a-b2b8-345e238a7608', false, 'fr', 'Théâtre Politeama'),
@@ -2664,10 +2647,6 @@ INSERT INTO poi_name (id, main, lang, name) VALUES
 ('0af7212c-5bb0-4bbd-a322-ce3b041bf65b', false, 'en', 'São Sebastião da Pedreira Parish Churc'),
 ('0af7212c-5bb0-4bbd-a322-ce3b041bf65b', false, 'fr', 'Église Paroissiale de São Sebastião da Pedreira'),
 ('0af7212c-5bb0-4bbd-a322-ce3b041bf65b', false, 'es', 'Iglesia Parroquial de São Sebastião da Pedreira'),
-('0f06dd6e-86dd-461a-921f-c42f78ef1b79', true,  'pt', 'Palácio da Justiça'),
-('0f06dd6e-86dd-461a-921f-c42f78ef1b79', false, 'en', 'Justice Palace'),
-('0f06dd6e-86dd-461a-921f-c42f78ef1b79', false, 'fr', 'Palais de Justice'),
-('0f06dd6e-86dd-461a-921f-c42f78ef1b79', false, 'es', 'Palacio de la Justicia'),
 ('bf5a27e3-79cd-4f48-b2e7-41cd9228dbd4', true,  'pt', 'Palácio Vilalva'),
 ('bf5a27e3-79cd-4f48-b2e7-41cd9228dbd4', false, 'en', 'Vilalva Palace'),
 ('bf5a27e3-79cd-4f48-b2e7-41cd9228dbd4', false, 'fr', 'Palais Vilalva'),
@@ -2771,15 +2750,11 @@ INSERT INTO poi_name (id, main, lang, name) VALUES
 ('62c8bc79-b261-4e9b-8818-559ecc130e65', true,  'pt', 'Sé Patriarcal de Lisboa'),
 ('62c8bc79-b261-4e9b-8818-559ecc130e65', false, 'en', 'Lisbon''s Cathedral'),
 ('62c8bc79-b261-4e9b-8818-559ecc130e65', false, 'fr', 'Cathédrale Patriarcale de Lisbonne'),
-('62c8bc79-b261-4e9b-8818-559ecc130e65', false, 'es', 'Catedral de Lisboa'),
-('24104d8f-2643-4b6b-9865-75711dc9a7e9', true,  'pt', 'Supremo Tribunal de Justiça'),
-('24104d8f-2643-4b6b-9865-75711dc9a7e9', false, 'en', 'Supreme Court of Justice'),
-('24104d8f-2643-4b6b-9865-75711dc9a7e9', false, 'fr', 'Cour Suprême de Justice'),
-('24104d8f-2643-4b6b-9865-75711dc9a7e9', false, 'es', 'Supremo Tribunal de Justicia'),
-('10065138-8983-409f-a48e-81cd62acbd86', true,  'pt', 'Tribunal da Relação de Lisboa'),
-('10065138-8983-409f-a48e-81cd62acbd86', false, 'en', 'Lisbon Court of Appeal'),
-('10065138-8983-409f-a48e-81cd62acbd86', false, 'fr', 'Cour d''Appel de Lisbonne'),
-('10065138-8983-409f-a48e-81cd62acbd86', false, 'es', 'Tribunal de Apelación de Lisboa');
+('62c8bc79-b261-4e9b-8818-559ecc130e65', false, 'es', 'Catedral de Lisboa');
+
+--TERMINA AQUI
+
+--POLICE
 
 INSERT INTO poi (id, type, world_coord, web_url) VALUES 
 ('c9bbe8f2-c2ac-4ad4-a801-60117f8fefa2', 'police', '(38.715808, -9.142347)', 'http://www.psp.pt/Pages/pesquisa_detalhe.aspx?menu=2&submenu=1&unidade=697'),
@@ -2890,8 +2865,9 @@ INSERT INTO poi_name (id, main, lang, name) VALUES
 ('39cd6854-56c1-4b27-81f3-34fb061fcfd9', false, 'fr', 'Commissariat de Police de Pontinha - 73ème Commissariat de Police de Lisbonne'),
 ('39cd6854-56c1-4b27-81f3-34fb061fcfd9', false, 'es', 'Estación de Policía de la Pontinha - 73ª Estación de Policía de Lisboa');
 
-INSERT INTO poi (id, type, world_coord, web_url) VALUES 
+--UNIVERSITY
 
+INSERT INTO poi (id, type, world_coord, web_url) VALUES 
 ('499fb89a-3adb-4bf7-95d6-21bee75c71d9', 'university', '(38.747232, -9.167257)', 'http://www.aese.pt/'),
 ('b9ef87ac-737e-496c-bfe9-71fa6ad6bacb', 'university', '(38.739412, -9.124532)', 'http://www.cefosap.pt/'),
 ('621d8aad-5dab-4356-bc85-aad388bfa41a', 'university', '(38.763757, -9.200275)', 'http://www.cfpsa.pt/'),
@@ -3148,6 +3124,8 @@ INSERT INTO poi_name (id, main, lang, name) VALUES
 ('4c745dcc-f138-4974-b101-c140ea2f84a8', false, 'fr', 'Nouvelle Université de Lisbonne - Campus de Campolide'),
 ('4c745dcc-f138-4974-b101-c140ea2f84a8', false, 'es', 'Universidad Nueva de Lisboa - Campus de Campolide');
 
+--PARK
+
 INSERT INTO poi (id, type, world_coord, web_url) VALUES 
 ('4af611cc-448f-41a8-b29c-8be39877eb1f', 'park', '(38.729407, -9.155840)', 'http://estufafria.cm-lisboa.pt/a-estufa/a-estufa.html'),
 ('fe80c8e9-bb51-4e16-b04f-664e5ac9fb81', 'park', '(38.717871, -9.145201)', 'http://www.cm-lisboa.pt/equipamentos/equipamento/info/jardim-alfredo-keil-jardim-da-praca-da-alegria'),
@@ -3278,6 +3256,76 @@ INSERT INTO poi_name (id, main, lang, name) VALUES
 ('63f6a081-4e4c-4613-b83b-ae2c84302f39', false, 'en', 'Olivais Pedagogical Farm'),
 ('63f6a081-4e4c-4613-b83b-ae2c84302f39', false, 'fr', 'Ferme Pédagogique d''Olivais'),
 ('63f6a081-4e4c-4613-b83b-ae2c84302f39', false, 'es', 'Granja Pedagógica de Olivais');
+
+--COURT
+
+INSERT INTO poi (id, type, world_coord, web_url) VALUES 
+('d03341d6-138d-4e50-865e-618b2d69c7e0', 'court', '(38.773832, -9.096356)', 'http://www.portaldasnacoes.pt/Campus-de-Justica-de-Lisboa-Contactos/'),
+('0f06dd6e-86dd-461a-921f-c42f78ef1b79', 'court', '(38.732219, -9.157538)', 'http://www.cm-lisboa.pt/equipamentos/equipamento/info/palacio-da-justica-tribunal-civel-de-lisboa'),
+('80396f99-71b3-4d2a-8cd8-6de37de1c5a4', 'court', '(38.714593, -9.144602)', 'http://www.stadministrativo.pt/'),
+('24104d8f-2643-4b6b-9865-75711dc9a7e9', 'court', '(38.708593, -9.136480)', 'http://www.stj.pt/'),
+('bb936604-a194-4876-8818-85fb9cdb7456', 'court', '(38.723819, -9.151131)', 'https://www.tribunalarbitraldesporto.pt/'),
+('10065138-8983-409f-a48e-81cd62acbd86', 'court', '(38.707829, -9.138784)', 'http://www.trl.mj.pt/inicio/home.php');
+
+INSERT INTO poi_name (id, main, lang, name) VALUES
+('d03341d6-138d-4e50-865e-618b2d69c7e0', true,  'pt', 'Campus de Justiça de Lisboa'),
+('d03341d6-138d-4e50-865e-618b2d69c7e0', false, 'en', 'Lisbon Justice Campus'),
+('d03341d6-138d-4e50-865e-618b2d69c7e0', false, 'fr', 'Campus de la Justice à Lisbonne'),
+('d03341d6-138d-4e50-865e-618b2d69c7e0', false, 'es', 'Campus de Justicia de Lisboa'),
+('0f06dd6e-86dd-461a-921f-c42f78ef1b79', true,  'pt', 'Palácio da Justiça'),
+('0f06dd6e-86dd-461a-921f-c42f78ef1b79', false, 'en', 'Justice Palace'),
+('0f06dd6e-86dd-461a-921f-c42f78ef1b79', false, 'fr', 'Palais de Justice'),
+('0f06dd6e-86dd-461a-921f-c42f78ef1b79', false, 'es', 'Palacio de la Justicia'),
+('80396f99-71b3-4d2a-8cd8-6de37de1c5a4', true,  'pt', 'Supremo Tribunal Administrativo'),
+('80396f99-71b3-4d2a-8cd8-6de37de1c5a4', false, 'en', 'Administrative Supreme Court'),
+('80396f99-71b3-4d2a-8cd8-6de37de1c5a4', false, 'fr', 'Cour Administrative Suprême'),
+('24104d8f-2643-4b6b-9865-75711dc9a7e9', true,  'pt', 'Supremo Tribunal de Justiça'),
+('24104d8f-2643-4b6b-9865-75711dc9a7e9', false, 'en', 'Supreme Court of Justice'),
+('24104d8f-2643-4b6b-9865-75711dc9a7e9', false, 'fr', 'Cour Suprême de Justice'),
+('24104d8f-2643-4b6b-9865-75711dc9a7e9', false, 'es', 'Supremo Tribunal de Justicia'),
+('bb936604-a194-4876-8818-85fb9cdb7456', true,  'pt', 'TAD - Tribunal Arbitral do Desporto'),
+('bb936604-a194-4876-8818-85fb9cdb7456', false, 'en', 'Sports Arbitration Court'),
+('bb936604-a194-4876-8818-85fb9cdb7456', false, 'fr', 'Cour d''Arbitrage pour le Sport'),
+('bb936604-a194-4876-8818-85fb9cdb7456', false, 'es', 'Tribunal Arbitral del Deporte'),
+('10065138-8983-409f-a48e-81cd62acbd86', true,  'pt', 'Tribunal da Relação de Lisboa'),
+('10065138-8983-409f-a48e-81cd62acbd86', false, 'en', 'Lisbon Court of Appeal'),
+('10065138-8983-409f-a48e-81cd62acbd86', false, 'fr', 'Cour d''Appel de Lisbonne'),
+('10065138-8983-409f-a48e-81cd62acbd86', false, 'es', 'Tribunal de Apelación de Lisboa');
+
+--CHURCH
+
+INSERT INTO poi (id, type, world_coord, web_url) VALUES 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INSERT INTO poi_name (id, main, lang, name) VALUES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 INSERT INTO station_has_poi (station_id, poi_id) VALUES
 ('pt-ml-ae', 'c994ae3b-b5c0-4838-b19c-af3fbfdf0564'),
