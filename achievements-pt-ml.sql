@@ -1,16 +1,16 @@
 INSERT INTO pp_achievement VALUES
-('548f5527-4b54-4646-a1a0-570328468d24', 'reach_level', '{"level": 2}', '', 200),
-('91d39484-65f4-44ee-9ea8-1ab45ff8244d', 'reach_level', '{"level": 10}', '', 200),
-('fc764c3f-7d35-486c-b0cc-d04021df5b8c', 'reach_level', '{"level": 20}', '', 200),
-('358db8e7-1abd-4672-a7e0-b90539b73da4', 'reach_level', '{"level": 30}', '', 200),
-('d9424992-ec89-4f95-b80e-a08bff6b9881', 'reach_level', '{"level": 40}', '', 200),
-('83f17b1c-f7e7-48f6-b904-c8adaa66bba0', 'reach_level', '{"level": 50}', '', 200),
-('d6763fd4-5c65-428a-97a2-35e7d99c49ed', 'reach_level', '{"level": 60}', '', 200),
-('6c97bcc1-5cf8-45c2-9599-8a161d5f99eb', 'reach_level', '{"level": 70}', '', 200),
-('30ecf819-d930-4a75-bd7b-bc6dadfa7892', 'reach_level', '{"level": 80}', '', 200),
-('86258e52-86c4-43f3-92bd-1e9b50f1cc72', 'reach_level', '{"level": 90}', '', 200),
-('6672ff56-2175-45dd-9b76-ab7119b6f335', 'reach_level', '{"level": 100}', '', 200),
-('3288ce03-f0dc-43e2-bd67-f21844bcea99', 'reach_level', '{"level": 110}', '', 200);
+('548f5527-4b54-4646-a1a0-570328468d24', 'reach_level', '{"level": 2}', '', 0),
+('91d39484-65f4-44ee-9ea8-1ab45ff8244d', 'reach_level', '{"level": 10}', '', 0),
+('fc764c3f-7d35-486c-b0cc-d04021df5b8c', 'reach_level', '{"level": 20}', '', 0),
+('358db8e7-1abd-4672-a7e0-b90539b73da4', 'reach_level', '{"level": 30}', '', 0),
+('d9424992-ec89-4f95-b80e-a08bff6b9881', 'reach_level', '{"level": 40}', '', 0),
+('83f17b1c-f7e7-48f6-b904-c8adaa66bba0', 'reach_level', '{"level": 50}', '', 0),
+('d6763fd4-5c65-428a-97a2-35e7d99c49ed', 'reach_level', '{"level": 60}', '', 0),
+('6c97bcc1-5cf8-45c2-9599-8a161d5f99eb', 'reach_level', '{"level": 70}', '', 0),
+('30ecf819-d930-4a75-bd7b-bc6dadfa7892', 'reach_level', '{"level": 80}', '', 0),
+('86258e52-86c4-43f3-92bd-1e9b50f1cc72', 'reach_level', '{"level": 90}', '', 0),
+('6672ff56-2175-45dd-9b76-ab7119b6f335', 'reach_level', '{"level": 100}', '', 0),
+('3288ce03-f0dc-43e2-bd67-f21844bcea99', 'reach_level', '{"level": 110}', '', 0);
 
 INSERT INTO pp_achievement_name VALUES
 ('548f5527-4b54-4646-a1a0-570328468d24', true,  'pt', 'Sempre a Subir', 'Subir um nível no PosPlay'),
@@ -63,12 +63,28 @@ INSERT INTO pp_achievement VALUES
 ('aa0b8916-5c62-4cf2-8513-d7f4bb58cae6', 'visit_stations', '{"stations": ["pt-ml-mp", "pt-ml-re", "pt-ml-tp"]}', '', 200),
 ('1f0820bf-85cb-4523-ba2d-36a2668b0b82', 'visit_stations', '{"stations": ["pt-ml-ae", "pt-ml-al", "pt-ml-am", "pt-ml-an", "pt-ml-ap", "pt-ml-ar", "pt-ml-av", "pt-ml-bc", "pt-ml-ch", "pt-ml-cp", "pt-ml-ec", "pt-ml-en", "pt-ml-in", "pt-ml-jz", "pt-ml-la", "pt-ml-lu", "pt-ml-mp", "pt-ml-ol", "pt-ml-or", "pt-ml-pe", "pt-ml-pi", "pt-ml-mp", "pt-ml-qc", "pt-ml-ra", "pt-ml-rm", "pt-ml-sa", "pt-ml-sp", "pt-ml-ss", "pt-ml-tp"]}', '', 200),
 ('950d7da4-d2a0-4379-9ce6-14f11b0557a0', 'visit_stations', '{"stations": ["pt-ml-ae", "pt-ml-af", "pt-ml-ah", "pt-ml-an", "pt-ml-ar", "pt-ml-av", "pt-ml-ax", "pt-ml-bc", "pt-ml-bv", "pt-ml-ca", "pt-ml-cg", "pt-ml-ch", "pt-ml-cm", "pt-ml-cp", "pt-ml-cu", "pt-ml-ec", "pt-ml-en", "pt-ml-in", "pt-ml-jz", "pt-ml-la", "pt-ml-lu", "pt-ml-mm", "pt-ml-mo", "pt-ml-od", "pt-ml-ol", "pt-ml-or", "pt-ml-pa", "pt-ml-pi", "pt-ml-po", "pt-ml-qc", "pt-ml-ra", "pt-ml-rb", "pt-ml-ro", "pt-ml-rm", "pt-ml-sa", "pt-ml-te", "pt-ml-tp"]}', '', 200),
-
-
-
-('0f5f7558-b44e-49ba-ab39-07e281e15f0f', 'visit_stations', '{"stations": ["pt-ml-am", "pt-ml-ae", "pt-ml-al"]}', '', 200),
-('bc9c6850-32a9-4a1b-8389-d2fa898336e5', 'visit_stations', '{"stations": ["pt-ml-am", "pt-ml-ae", "pt-ml-al"], "singleTrip": true}', '', 200),
-('5f61c6d9-8ca1-421d-892c-e7f48d71979d', 'visit_stations', '{"stations": ["pt-ml-sp"]}', '', 50);
+('362fe837-8667-43a4-91c2-c4942788d8ff', 'visit_stations', '{"stations": ["pt-ml-ae", "pt-ml-af", "pt-ml-ah", "pt-ml-al", "pt-ml-am", "pt-ml-an", "pt-ml-ap", "pt-ml-ar", "pt-ml-as", "pt-ml-av", "pt-ml-ax"]}', '', 200),
+('b4f28445-35bd-42cf-ac77-0b636e360d99', 'visit_stations', '{"stations": ["pt-ml-bc", "pt-ml-bv"]}', '', 200),
+('b82b8f7f-d937-4f3f-a901-21f5e2a8a30f', 'visit_stations', '{"stations": ["pt-ml-ca", "pt-ml-cg", "pt-ml-ch", "pt-ml-cm", "pt-ml-cp", "pt-ml-cr", "pt-ml-cs", "pt-ml-cu"]}', '', 200),
+('eb11f289-3811-47db-9901-33c781e3170f', 'visit_stations', '{"stations": ["pt-ml-ec", "pt-ml-en"]}', '', 200),
+('2f8a4ef7-5ade-4e0f-bd6f-7f4d4a00bbc4', 'visit_stations', '{"stations": ["pt-ml-in"]}', '', 200),
+('69d1617f-e4c7-46fb-a987-a43cc4308e18', 'visit_stations', '{"stations": ["pt-ml-jz"]}', '', 200),
+('c6779155-730b-40fd-833e-53f822e716f3', 'visit_stations', '{"stations": ["pt-ml-la", "pt-ml-lu"]}', '', 200),
+('437addae-6eb5-4086-a853-3e4e2ccf5cce', 'visit_stations', '{"stations": ["pt-ml-mm", "pt-ml-mo", "pt-ml-mp"]}', '', 200),
+('80add006-c9d4-45a8-be9a-c3e1e4f9ce80', 'visit_stations', '{"stations": ["pt-ml-od", "pt-ml-ol", "pt-ml-or", "pt-ml-os"]}', '', 200),
+('05dd5bf4-7ee3-4eea-a801-e2e24eeaf3fa', 'visit_stations', '{"stations": ["pt-ml-pa", "pt-ml-pe", "pt-ml-pi", "pt-ml-po"]}', '', 200),
+('fbd6acc3-438d-44b1-b824-88aa0a1899c0', 'visit_stations', '{"stations": ["pt-ml-qc"]}', '', 200),
+('42ee5c09-4e58-41de-a1d5-572c355e40f9', 'visit_stations', '{"stations": ["pt-ml-ra", "pt-ml-rb", "pt-ml-re", "pt-ml-rm", "pt-ml-ro"]}', '', 200),
+('89dcd07e-cf87-42f2-938f-1a73fb226a1e', 'visit_stations', '{"stations": ["pt-ml-sa", "pt-ml-sp", "pt-ml-sr", "pt-ml-ss"]}', '', 200),
+('b528af94-9815-4a3d-a337-b05eed1a55db', 'visit_stations', '{"stations": ["pt-ml-te", "pt-ml-tp"]}', '', 200),
+('4be47544-c427-4b42-9727-73cb76e2ac86', 'visit_stations', '{"stations": ["pt-ml-ap", "pt-ml-cs", "pt-ml-od", "pt-ml-ra", "pt-ml-rb", "pt-ml-sp", "pt-ml-ss", "pt-ml-te"]}', '', 200),
+('19b3ce70-dff3-4849-af91-3b7b0b38fb8c', 'visit_stations', '{"stations": ["pt-ml-af", "pt-ml-ah", "pt-ml-as", "pt-ml-av", "pt-ml-bc", "pt-ml-ca", "pt-ml-cm", "pt-ml-jz", "pt-ml-la", "pt-ml-mp", "pt-ml-pa", "pt-ml-pe", "pt-ml-po", "pt-ml-rb", "pt-ml-re", "pt-ml-sp", "pt-ml-ss", "pt-ml-tp"]}', '', 200),
+('137e328c-782d-475d-b9ad-8675393c3d76', 'visit_stations', '{"stations": ["pt-ml-ax", "pt-ml-cg", "pt-ml-cp", "pt-ml-cu", "pt-ml-ec", "pt-ml-lu", "pt-ml-mp", "pt-ml-od", "pt-ml-pi", "pt-ml-qc", "pt-ml-ra", "pt-ml-sa", "pt-ml-sr"]}', '', 200),
+('544ca1ee-dcdf-49cf-98dc-86feafb6a741', 'visit_stations', '{"stations": ["pt-ml-ae", "pt-ml-al", "pt-ml-am", "pt-ml-an", "pt-ml-ar", "pt-ml-bc", "pt-ml-cg", "pt-ml-cs", "pt-ml-in", "pt-ml-mm", "pt-ml-rm", "pt-ml-ro", "pt-ml-te"]}', '', 200),
+('150235fe-158e-4c65-8d13-658d609decc0', 'visit_stations', '{"stations": ["pt-ml-am", "pt-ml-ap", "pt-ml-bv", "pt-ml-ch", "pt-ml-cr", "pt-ml-en", "pt-ml-mo", "pt-ml-ol", "pt-ml-or", "pt-ml-os", "pt-ml-sa", "pt-ml-ss"]}', '', 200),
+('4113e5e4-a616-426d-b893-514fc4af39d9', 'visit_stations', '{"stations": ["pt-ml-af", "pt-ml-ah", "pt-ml-as", "pt-ml-av", "pt-ml-bc", "pt-ml-ca", "pt-ml-cm", "pt-ml-jz", "pt-ml-la", "pt-ml-mp", "pt-ml-pa", "pt-ml-pe", "pt-ml-po", "pt-ml-rb", "pt-ml-re", "pt-ml-sp", "pt-ml-ss", "pt-ml-tp", "pt-ml-ax", "pt-ml-cg", "pt-ml-cp", "pt-ml-cu", "pt-ml-ec", "pt-ml-lu", "pt-ml-mp", "pt-ml-od", "pt-ml-pi", "pt-ml-qc", "pt-ml-ra", "pt-ml-sa", "pt-ml-sr", "pt-ml-ae", "pt-ml-al", "pt-ml-am", "pt-ml-an", "pt-ml-ar", "pt-ml-bc", "pt-ml-cg", "pt-ml-cs", "pt-ml-in", "pt-ml-mm", "pt-ml-rm", "pt-ml-ro", "pt-ml-te", "pt-ml-am", "pt-ml-ap", "pt-ml-bv", "pt-ml-ch", "pt-ml-cr", "pt-ml-en", "pt-ml-mo", "pt-ml-ol", "pt-ml-or", "pt-ml-os", "pt-ml-sa", "pt-ml-ss"]}', '', 200),
+('5869c79d-cb7b-4cde-bde1-73223317ffbc', 'visit_stations', '{"stations": ["pt-ml-af", "pt-ml-ah", "pt-ml-as", "pt-ml-av", "pt-ml-bc", "pt-ml-ca", "pt-ml-cm", "pt-ml-jz", "pt-ml-la", "pt-ml-mp", "pt-ml-pa", "pt-ml-pe", "pt-ml-po", "pt-ml-rb", "pt-ml-re", "pt-ml-sp", "pt-ml-ss", "pt-ml-tp", "pt-ml-ax", "pt-ml-cg", "pt-ml-cp", "pt-ml-cu", "pt-ml-ec", "pt-ml-lu", "pt-ml-mp", "pt-ml-od", "pt-ml-pi", "pt-ml-qc", "pt-ml-ra", "pt-ml-sa", "pt-ml-sr", "pt-ml-ae", "pt-ml-al", "pt-ml-am", "pt-ml-an", "pt-ml-ar", "pt-ml-bc", "pt-ml-cg", "pt-ml-cs", "pt-ml-in", "pt-ml-mm", "pt-ml-rm", "pt-ml-ro", "pt-ml-te", "pt-ml-am", "pt-ml-ap", "pt-ml-bv", "pt-ml-ch", "pt-ml-cr", "pt-ml-en", "pt-ml-mo", "pt-ml-ol", "pt-ml-or", "pt-ml-os", "pt-ml-sa", "pt-ml-ss"], "singleTrip": true}', '', 200),
+('36ed5f77-cdc3-4e70-86a7-0fb54c79fd35', 'visit_stations', '{"stations": ["pt-ml-am", "pt-ml-bc", "pt-ml-cg", "pt-ml-mp", "pt-ml-sa", "pt-ml-ss"]}', '', 200);
 
 INSERT INTO pp_achievement_name VALUES
 ('2ff66805-c20c-4eb8-868d-01693bdcdfc0', true,  'pt', 'Platforma 9¾', 'Visitar todas as estações com ligação a uma estação ferroviária'),
@@ -119,12 +135,77 @@ INSERT INTO pp_achievement_name VALUES
 ('1f0820bf-85cb-4523-ba2d-36a2668b0b82', false, 'en', 'For the Republic', 'Visit every station close to a government building or embassy'),
 ('950d7da4-d2a0-4379-9ce6-14f11b0557a0', true,  'pt', 'Pela República', 'Visitar todas as estações próximas de um serviço público'),
 ('950d7da4-d2a0-4379-9ce6-14f11b0557a0', false, 'en', 'For the Republic', 'Visit every station close to a public service'),
+('362fe837-8667-43a4-91c2-c4942788d8ff', true,  'pt', 'Nota A', 'Visitar todas as estações cujo nome começa por A'),
+('362fe837-8667-43a4-91c2-c4942788d8ff', false, 'en', 'Getting the A''s', 'Visit every station which name starts with an A'),
+('b4f28445-35bd-42cf-ac77-0b636e360d99', true,  'pt', 'Nota B', 'Visitar todas as estações cujo nome começa por B'),
+('b4f28445-35bd-42cf-ac77-0b636e360d99', false, 'en', 'Getting the B''s', 'Visit every station which name starts with an B'),
+('b82b8f7f-d937-4f3f-a901-21f5e2a8a30f', true,  'pt', 'Nota C', 'Visitar todas as estações cujo nome começa por C'),
+('b82b8f7f-d937-4f3f-a901-21f5e2a8a30f', false, 'en', 'Getting the C''s', 'Visit every station which name starts with an C'),
+('eb11f289-3811-47db-9901-33c781e3170f', true,  'pt', 'Nota E', 'Visitar todas as estações cujo nome começa por E'),
+('eb11f289-3811-47db-9901-33c781e3170f', false, 'en', 'Getting the E''s', 'Visit every station which name starts with an E'),
+('2f8a4ef7-5ade-4e0f-bd6f-7f4d4a00bbc4', true,  'pt', 'Nota I', 'Visitar todas as estações cujo nome começa por I'),
+('2f8a4ef7-5ade-4e0f-bd6f-7f4d4a00bbc4', false, 'en', 'Getting the I''s', 'Visit every station which name starts with an I'),
+('69d1617f-e4c7-46fb-a987-a43cc4308e18', true,  'pt', 'Nota J', 'Visitar todas as estações cujo nome começa por J'),
+('69d1617f-e4c7-46fb-a987-a43cc4308e18', false, 'en', 'Getting the J''s', 'Visit every station which name starts with an J'),
+('c6779155-730b-40fd-833e-53f822e716f3', true,  'pt', 'Nota L', 'Visitar todas as estações cujo nome começa por L'),
+('c6779155-730b-40fd-833e-53f822e716f3', false, 'en', 'Getting the L''s', 'Visit every station which name starts with an L'),
+('437addae-6eb5-4086-a853-3e4e2ccf5cce', true,  'pt', 'Nota M', 'Visitar todas as estações cujo nome começa por M'),
+('437addae-6eb5-4086-a853-3e4e2ccf5cce', false, 'en', 'Getting the M''s', 'Visit every station which name starts with an M'),
+('80add006-c9d4-45a8-be9a-c3e1e4f9ce80', true,  'pt', 'Nota O', 'Visitar todas as estações cujo nome começa por O'),
+('80add006-c9d4-45a8-be9a-c3e1e4f9ce80', false, 'en', 'Getting the O''s', 'Visit every station which name starts with an O'),
+('05dd5bf4-7ee3-4eea-a801-e2e24eeaf3fa', true,  'pt', 'Nota P', 'Visitar todas as estações cujo nome começa por P'),
+('05dd5bf4-7ee3-4eea-a801-e2e24eeaf3fa', false, 'en', 'Getting the P''s', 'Visit every station which name starts with an P'),
+('fbd6acc3-438d-44b1-b824-88aa0a1899c0', true,  'pt', 'Nota Q', 'Visitar todas as estações cujo nome começa por Q'),
+('fbd6acc3-438d-44b1-b824-88aa0a1899c0', false, 'en', 'Getting the Q''s', 'Visit every station which name starts with an Q'),
+('42ee5c09-4e58-41de-a1d5-572c355e40f9', true,  'pt', 'Nota R', 'Visitar todas as estações cujo nome começa por R'),
+('42ee5c09-4e58-41de-a1d5-572c355e40f9', false, 'en', 'Getting the R''s', 'Visit every station which name starts with an R'),
+('89dcd07e-cf87-42f2-938f-1a73fb226a1e', true,  'pt', 'Nota S', 'Visitar todas as estações cujo nome começa por S'),
+('89dcd07e-cf87-42f2-938f-1a73fb226a1e', false, 'en', 'Getting the S''s', 'Visit every station which name starts with an S'),
+('b528af94-9815-4a3d-a337-b05eed1a55db', true,  'pt', 'Nota T', 'Visitar todas as estações cujo nome começa por T'),
+('b528af94-9815-4a3d-a337-b05eed1a55db', false, 'en', 'Getting the T''s', 'Visit every station which name starts with an T'),
+('4be47544-c427-4b42-9727-73cb76e2ac86', true,  'pt', 'Fim da Linha', 'Visitar todas as estações terminais'),
+('4be47544-c427-4b42-9727-73cb76e2ac86', false, 'en', 'End of the Line', 'Visit every terminus station'),
+('19b3ce70-dff3-4849-af91-3b7b0b38fb8c', true,  'pt', 'Tejo', 'Visitar todas as estações da linha Azul'),
+('19b3ce70-dff3-4849-af91-3b7b0b38fb8c', false, 'en', 'Tagus', 'Visit every Blue line station'),
+('137e328c-782d-475d-b9ad-8675393c3d76', true,  'pt', 'Girassol, SA', 'Visitar todas as estações da linha Amarela'),
+('137e328c-782d-475d-b9ad-8675393c3d76', false, 'en', 'Sunflower Inc.', 'Visit every Yellow line station'),
+('544ca1ee-dcdf-49cf-98dc-86feafb6a741', true,  'pt', 'Ser Verde', 'Visitar todas as estações da linha Verde'),
+('544ca1ee-dcdf-49cf-98dc-86feafb6a741', false, 'en', 'Going Green', 'Visit every Green line station'),
+('150235fe-158e-4c65-8d13-658d609decc0', true,  'pt', 'Pele de Porco', 'Visitar todas as estações da linha Vermelha'),
+('150235fe-158e-4c65-8d13-658d609decc0', false, 'en', 'Pig Skin', 'Visit every Red line station'),
+('4113e5e4-a616-426d-b893-514fc4af39d9', true,  'pt', 'Quarteto Fantástico', 'Visitar todas as estações do Metropolitano de Lisboa'),
+('4113e5e4-a616-426d-b893-514fc4af39d9', false, 'en', 'Fantastic Four', 'Visit every Lisbon Metro station'),
+('5869c79d-cb7b-4cde-bde1-73223317ffbc', true,  'pt', 'Bingo', 'Visitar todas as estações do Metropolitano de Lisboa de uma vez'),
+('5869c79d-cb7b-4cde-bde1-73223317ffbc', false, 'en', 'Bingo', 'Visit every Lisbon Metro station in one go'),
+('36ed5f77-cdc3-4e70-86a7-0fb54c79fd35', true,  'pt', 'Correspondência', 'Visitar todas as estações de correspondência'),
+('36ed5f77-cdc3-4e70-86a7-0fb54c79fd35', false, 'en', 'Interchange', 'Visit every interchange station');
+
+INSERT INTO pp_achievement VALUES
+('746d8b39-b4d4-4b14-8aff-82d92111e539', 'visit_throughout_line', '{"line": "pt-ml-azul", "direction": "*"}', '', 200),
+('9224d30a-28c0-497b-bd76-f2e2729c10a1', 'visit_throughout_line', '{"line": "pt-ml-amarela", "direction": "*"}', '', 200),
+('230e2300-657e-420e-88ab-a27cf08ccd8b', 'visit_throughout_line', '{"line": "pt-ml-verde", "direction": "*"}', '', 200),
+('f5e20e83-fc1c-47e9-8b7a-c2dd45721757', 'visit_throughout_line', '{"line": "pt-ml-vermelha", "direction": "*"}', '', 200);
+
+INSERT INTO pp_achievement_name VALUES
+('746d8b39-b4d4-4b14-8aff-82d92111e539', true,  'pt', 'Tejo Sem Parar', 'Percorrer toda a linha Azul de uma vez'),
+('746d8b39-b4d4-4b14-8aff-82d92111e539', false, 'en', 'Nonstop Tagus', 'Travel through the whole Blue line in one go'),
+('9224d30a-28c0-497b-bd76-f2e2729c10a1', true,  'pt', 'Grupo Girassol', 'Percorrer toda a linha Amarela de uma vez'),
+('9224d30a-28c0-497b-bd76-f2e2729c10a1', false, 'en', 'Sunflower Group', 'Travel through the whole Yellow line in one go'),
+('230e2300-657e-420e-88ab-a27cf08ccd8b', true,  'pt', 'Ser Todo Verde', 'Percorrer toda a linha Verde de uma vez'),
+('230e2300-657e-420e-88ab-a27cf08ccd8b', false, 'en', 'Going All Green', 'Travel through the whole Green line in one go'),
+('f5e20e83-fc1c-47e9-8b7a-c2dd45721757', true,  'pt', 'Toda a Pele de Porco', 'Percorrer toda a linha Vermelha de uma vez'),
+('f5e20e83-fc1c-47e9-8b7a-c2dd45721757', false, 'en', 'All the Pig Skin', 'Travel through the whole Red line in one go');
+
+INSERT INTO pp_achievement VALUES
+('67df0024-7c2e-4330-9458-c8e9ade4e916', 'submit', '{"type": "trip"}', '', 0),
+('c2b3905d-187b-4aa5-9d23-a629ba26afa3', 'submit', '{"type": "trip_edit"}', '', 0),
+('d29d554d-3fc3-496c-bc30-55dc56b9ef99', 'submit', '{"type": "disturbance_report"}', '', 0);
 
 
-
-('0f5f7558-b44e-49ba-ab39-07e281e15f0f', true,  'pt', 'Teste AM, AE, AL', 'Visitar Alameda, Areeiro e Alvalade'),
-('0f5f7558-b44e-49ba-ab39-07e281e15f0f', false, 'en', 'AM, AE, AL test', 'Visit Alameda, Areeiro and Alvalade'),
-('bc9c6850-32a9-4a1b-8389-d2fa898336e5', true,  'pt', 'Teste AM, AE, AL numa viagem', 'Visitar Alameda, Areeiro e Alvalade numa só viagem'),
-('bc9c6850-32a9-4a1b-8389-d2fa898336e5', false, 'en', 'AM, AE, AL test in one trip', 'Visit Alameda, Areeiro and Alvalade numa só viagem'),
-('5f61c6d9-8ca1-421d-892c-e7f48d71979d', true,  'pt', 'Teste SP', 'Visitar Santa Apolónia'),
-('5f61c6d9-8ca1-421d-892c-e7f48d71979d', false, 'en', 'SP test', 'Visit Santa Apolónia');
+INSERT INTO pp_achievement_name VALUES
+('67df0024-7c2e-4330-9458-c8e9ade4e916', true,  'pt', 'Primeira Viagem', 'Submeter a primeira viagem no Metropolitano de Lisboa'),
+('67df0024-7c2e-4330-9458-c8e9ade4e916', false, 'en', 'First Trip', 'Submit your first trip in the Lisbon Metro'),
+('c2b3905d-187b-4aa5-9d23-a629ba26afa3', true,  'pt', 'Grammar Nazi', 'Editar ou confirmar uma viagem no Metropolitano de Lisboa'),
+('c2b3905d-187b-4aa5-9d23-a629ba26afa3', false, 'en', 'Grammar Nazi', 'Edit or confirm a trip in the Lisbon Metro service'),
+('d29d554d-3fc3-496c-bc30-55dc56b9ef99', true,  'pt', 'Reportar', 'Reportar um problema com o serviço do Metropolitano de Lisboa'),
+('d29d554d-3fc3-496c-bc30-55dc56b9ef99', false, 'en', 'Reporting', 'Report a problem with the Lisbon Metro service');
