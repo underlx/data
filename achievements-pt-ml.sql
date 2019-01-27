@@ -1,5 +1,6 @@
 INSERT INTO pp_achievement VALUES
 ('548f5527-4b54-4646-a1a0-570328468d24', 'reach_level', '{"level": 2}', '', 0),
+('0e987439-e784-4c14-99d6-9078040ee63b', 'reach_level', '{"level": 5}', '', 0),
 ('91d39484-65f4-44ee-9ea8-1ab45ff8244d', 'reach_level', '{"level": 10}', '', 0),
 ('fc764c3f-7d35-486c-b0cc-d04021df5b8c', 'reach_level', '{"level": 20}', '', 0),
 ('358db8e7-1abd-4672-a7e0-b90539b73da4', 'reach_level', '{"level": 30}', '', 0),
@@ -15,6 +16,8 @@ INSERT INTO pp_achievement VALUES
 INSERT INTO pp_achievement_name VALUES
 ('548f5527-4b54-4646-a1a0-570328468d24', true,  'pt', 'Sempre a Subir', 'Subir um nível no PosPlay'),
 ('548f5527-4b54-4646-a1a0-570328468d24', false, 'en', 'Going Up', 'Go up one level on PosPlay'),
+('0e987439-e784-4c14-99d6-9078040ee63b', true,  'pt', 'ML05', 'Chegar ao nível 5 no PosPlay'),
+('0e987439-e784-4c14-99d6-9078040ee63b', false, 'en', 'ML05', 'Reach level 5 on PosPlay'),
 ('91d39484-65f4-44ee-9ea8-1ab45ff8244d', true,  'pt', 'ML10', 'Chegar ao nível 10 no PosPlay'),
 ('91d39484-65f4-44ee-9ea8-1ab45ff8244d', false, 'en', 'ML10', 'Reach level 10 on PosPlay'),
 ('fc764c3f-7d35-486c-b0cc-d04021df5b8c', true,  'pt', 'ML20', 'Chegar ao nível 20 no PosPlay'),
