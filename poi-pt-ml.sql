@@ -933,7 +933,7 @@ INSERT INTO poi_name (id, main, lang, name) VALUES
 ('7729fa91-f1ae-4b12-9919-c28df6d2ea57', true,  'pt', 'Unidade de Cuidados de Saúde Personalizados do Olaio'),
 ('7729fa91-f1ae-4b12-9919-c28df6d2ea57', false, 'en', 'Olaio Personalized Healthcare Unit'),
 ('7729fa91-f1ae-4b12-9919-c28df6d2ea57', false, 'fr', 'Unité de Soins de Santé Personnalisés de''Olaio'),
-('7729fa91-f1ae-4b12-9919-c28df6d2ea57', false, 'es', 'Unidad de Cuidados de Salud Personalizada del Olaio')
+('7729fa91-f1ae-4b12-9919-c28df6d2ea57', false, 'es', 'Unidad de Cuidados de Salud Personalizada del Olaio'),
 ('0f4bf6b8-73ef-421a-bf1f-16ab85ac0c0a', true,  'pt', 'Unidade de Cuidados de Saúde Personalizados dos Olivais'),
 ('0f4bf6b8-73ef-421a-bf1f-16ab85ac0c0a', false, 'en', 'Olivais Personalized Healthcare Unit'),
 ('0f4bf6b8-73ef-421a-bf1f-16ab85ac0c0a', false, 'fr', 'Unité de Soins de Santé Personnalisés de''Olivais'),
