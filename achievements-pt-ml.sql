@@ -204,8 +204,8 @@ INSERT INTO pp_achievement VALUES
 
 INSERT INTO pp_achievement_name VALUES
 ('67df0024-7c2e-4330-9458-c8e9ade4e916', true,  'pt', 'Primeira Viagem', 'Submeter a primeira viagem no Metropolitano de Lisboa'),
-('67df0024-7c2e-4330-9458-c8e9ade4e916', false, 'en', 'First Trip', 'Submit your first trip in the Lisbon Metro'),
+('67df0024-7c2e-4330-9458-c8e9ade4e916', false, 'en', 'First Trip', 'Submit your first Lisbon Metro trip'),
 ('c2b3905d-187b-4aa5-9d23-a629ba26afa3', true,  'pt', 'Grammar Nazi', 'Editar ou confirmar uma viagem no Metropolitano de Lisboa'),
-('c2b3905d-187b-4aa5-9d23-a629ba26afa3', false, 'en', 'Grammar Nazi', 'Edit or confirm a trip in the Lisbon Metro service'),
+('c2b3905d-187b-4aa5-9d23-a629ba26afa3', false, 'en', 'Grammar Nazi', 'Edit or confirm a Lisbon Metro trip'),
 ('d29d554d-3fc3-496c-bc30-55dc56b9ef99', true,  'pt', 'Reportar', 'Reportar um problema com o serviço do Metropolitano de Lisboa'),
 ('d29d554d-3fc3-496c-bc30-55dc56b9ef99', false, 'en', 'Reporting', 'Report a problem with the Lisbon Metro service');
