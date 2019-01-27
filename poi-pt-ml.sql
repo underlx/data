@@ -1978,7 +1978,7 @@ INSERT INTO poi (id, type, world_coord, web_url) VALUES
 ('bfde7c84-e274-4605-8c86-70d5b58e9a0a', 'police', '(38.789464, -9.178607)', 'http://www.psp.pt/Pages/pesquisa_detalhe.aspx?menu=2&submenu=1&unidade=684'),
 ('39cd6854-56c1-4b27-81f3-34fb061fcfd9', 'police', '(38.767096, -9.198279)', 'http://www.psp.pt/Pages/pesquisa_detalhe.aspx?menu=2&submenu=1&unidade=685'),
 ('1163a617-b2f1-41a2-913b-7afa99c7dd41', 'police', '(38.735956, -9.162839)', 'http://www.cm-lisboa.pt/viver/seguranca/policia-municipal'),
-('0729603f-81f1-4adf-a154-c48d79733225', 'police', '(38.712239, -9.140796)', 'http://www.arquivomuseugnr.pt/entrada.aspx?Pagina=Quartel%20do%20Carmo&IDP=59'):
+('0729603f-81f1-4adf-a154-c48d79733225', 'police', '(38.712239, -9.140796)', 'http://www.arquivomuseugnr.pt/entrada.aspx?Pagina=Quartel%20do%20Carmo&IDP=59');
 
 INSERT INTO poi_name (id, main, lang, name) VALUES
 ('7a829523-efaf-439d-89ea-69a3e03fc644', true,  'pt', 'Direção Nacional da Polícia Judiciária'),
