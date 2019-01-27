@@ -1,0 +1,11 @@
+language: minimal
+install:
+  - yes "" | sudo apt-add-repository ppa:brightbox/ruby-ng
+  - sudo apt-get update
+  - sudo apt-get install ruby2.4 ruby2.4-dev
+  - sudo gem install pg
+  - sudo gem pristine --all
+  - sudo gem install pg_query
+  - sudo gem install sqlint
+script:
+  - sqlint *.sql
