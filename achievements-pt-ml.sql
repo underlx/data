@@ -136,36 +136,36 @@ INSERT INTO pp_achievement_name VALUES
 ('aa0b8916-5c62-4cf2-8513-d7f4bb58cae6', false, 'en', 'I Am the Law', 'Visit every station close to a courthouse'),
 ('1f0820bf-85cb-4523-ba2d-36a2668b0b82', true,  'pt', 'Pela República', 'Visitar todas as estações próximas de um edifício governamental ou embaixada'),
 ('1f0820bf-85cb-4523-ba2d-36a2668b0b82', false, 'en', 'For the Republic', 'Visit every station close to a government building or embassy'),
-('950d7da4-d2a0-4379-9ce6-14f11b0557a0', true,  'pt', 'Pela República', 'Visitar todas as estações próximas de um serviço público'),
-('950d7da4-d2a0-4379-9ce6-14f11b0557a0', false, 'en', 'For the Republic', 'Visit every station close to a public service'),
+('950d7da4-d2a0-4379-9ce6-14f11b0557a0', true,  'pt', 'Como o Posso Ajudar?', 'Visitar todas as estações próximas de um serviço público'),
+('950d7da4-d2a0-4379-9ce6-14f11b0557a0', false, 'en', 'How May I Assist You?', 'Visit every station close to a public service'),
 ('362fe837-8667-43a4-91c2-c4942788d8ff', true,  'pt', 'Nota A', 'Visitar todas as estações cujo nome começa por A'),
 ('362fe837-8667-43a4-91c2-c4942788d8ff', false, 'en', 'Getting the A''s', 'Visit every station which name starts with an A'),
 ('b4f28445-35bd-42cf-ac77-0b636e360d99', true,  'pt', 'Nota B', 'Visitar todas as estações cujo nome começa por B'),
-('b4f28445-35bd-42cf-ac77-0b636e360d99', false, 'en', 'Getting the B''s', 'Visit every station which name starts with an B'),
+('b4f28445-35bd-42cf-ac77-0b636e360d99', false, 'en', 'Getting the B''s', 'Visit every station which name starts with a B'),
 ('b82b8f7f-d937-4f3f-a901-21f5e2a8a30f', true,  'pt', 'Nota C', 'Visitar todas as estações cujo nome começa por C'),
-('b82b8f7f-d937-4f3f-a901-21f5e2a8a30f', false, 'en', 'Getting the C''s', 'Visit every station which name starts with an C'),
+('b82b8f7f-d937-4f3f-a901-21f5e2a8a30f', false, 'en', 'Getting the C''s', 'Visit every station which name starts with a C'),
 ('eb11f289-3811-47db-9901-33c781e3170f', true,  'pt', 'Nota E', 'Visitar todas as estações cujo nome começa por E'),
 ('eb11f289-3811-47db-9901-33c781e3170f', false, 'en', 'Getting the E''s', 'Visit every station which name starts with an E'),
 ('2f8a4ef7-5ade-4e0f-bd6f-7f4d4a00bbc4', true,  'pt', 'Nota I', 'Visitar todas as estações cujo nome começa por I'),
 ('2f8a4ef7-5ade-4e0f-bd6f-7f4d4a00bbc4', false, 'en', 'Getting the I''s', 'Visit every station which name starts with an I'),
 ('69d1617f-e4c7-46fb-a987-a43cc4308e18', true,  'pt', 'Nota J', 'Visitar todas as estações cujo nome começa por J'),
-('69d1617f-e4c7-46fb-a987-a43cc4308e18', false, 'en', 'Getting the J''s', 'Visit every station which name starts with an J'),
+('69d1617f-e4c7-46fb-a987-a43cc4308e18', false, 'en', 'Getting the J''s', 'Visit every station which name starts with a J'),
 ('c6779155-730b-40fd-833e-53f822e716f3', true,  'pt', 'Nota L', 'Visitar todas as estações cujo nome começa por L'),
-('c6779155-730b-40fd-833e-53f822e716f3', false, 'en', 'Getting the L''s', 'Visit every station which name starts with an L'),
+('c6779155-730b-40fd-833e-53f822e716f3', false, 'en', 'Getting the L''s', 'Visit every station which name starts with a L'),
 ('437addae-6eb5-4086-a853-3e4e2ccf5cce', true,  'pt', 'Nota M', 'Visitar todas as estações cujo nome começa por M'),
-('437addae-6eb5-4086-a853-3e4e2ccf5cce', false, 'en', 'Getting the M''s', 'Visit every station which name starts with an M'),
+('437addae-6eb5-4086-a853-3e4e2ccf5cce', false, 'en', 'Getting the M''s', 'Visit every station which name starts with a M'),
 ('80add006-c9d4-45a8-be9a-c3e1e4f9ce80', true,  'pt', 'Nota O', 'Visitar todas as estações cujo nome começa por O'),
 ('80add006-c9d4-45a8-be9a-c3e1e4f9ce80', false, 'en', 'Getting the O''s', 'Visit every station which name starts with an O'),
 ('05dd5bf4-7ee3-4eea-a801-e2e24eeaf3fa', true,  'pt', 'Nota P', 'Visitar todas as estações cujo nome começa por P'),
-('05dd5bf4-7ee3-4eea-a801-e2e24eeaf3fa', false, 'en', 'Getting the P''s', 'Visit every station which name starts with an P'),
+('05dd5bf4-7ee3-4eea-a801-e2e24eeaf3fa', false, 'en', 'Getting the P''s', 'Visit every station which name starts with a P'),
 ('fbd6acc3-438d-44b1-b824-88aa0a1899c0', true,  'pt', 'Nota Q', 'Visitar todas as estações cujo nome começa por Q'),
-('fbd6acc3-438d-44b1-b824-88aa0a1899c0', false, 'en', 'Getting the Q''s', 'Visit every station which name starts with an Q'),
+('fbd6acc3-438d-44b1-b824-88aa0a1899c0', false, 'en', 'Getting the Q''s', 'Visit every station which name starts with a Q'),
 ('42ee5c09-4e58-41de-a1d5-572c355e40f9', true,  'pt', 'Nota R', 'Visitar todas as estações cujo nome começa por R'),
-('42ee5c09-4e58-41de-a1d5-572c355e40f9', false, 'en', 'Getting the R''s', 'Visit every station which name starts with an R'),
+('42ee5c09-4e58-41de-a1d5-572c355e40f9', false, 'en', 'Getting the R''s', 'Visit every station which name starts with a R'),
 ('89dcd07e-cf87-42f2-938f-1a73fb226a1e', true,  'pt', 'Nota S', 'Visitar todas as estações cujo nome começa por S'),
-('89dcd07e-cf87-42f2-938f-1a73fb226a1e', false, 'en', 'Getting the S''s', 'Visit every station which name starts with an S'),
+('89dcd07e-cf87-42f2-938f-1a73fb226a1e', false, 'en', 'Getting the S''s', 'Visit every station which name starts with a S'),
 ('b528af94-9815-4a3d-a337-b05eed1a55db', true,  'pt', 'Nota T', 'Visitar todas as estações cujo nome começa por T'),
-('b528af94-9815-4a3d-a337-b05eed1a55db', false, 'en', 'Getting the T''s', 'Visit every station which name starts with an T'),
+('b528af94-9815-4a3d-a337-b05eed1a55db', false, 'en', 'Getting the T''s', 'Visit every station which name starts with a T'),
 ('4be47544-c427-4b42-9727-73cb76e2ac86', true,  'pt', 'Fim da Linha', 'Visitar todas as estações terminais'),
 ('4be47544-c427-4b42-9727-73cb76e2ac86', false, 'en', 'End of the Line', 'Visit every terminus station'),
 ('19b3ce70-dff3-4849-af91-3b7b0b38fb8c', true,  'pt', 'Tejo', 'Visitar todas as estações da linha Azul'),
@@ -184,12 +184,16 @@ INSERT INTO pp_achievement_name VALUES
 ('36ed5f77-cdc3-4e70-86a7-0fb54c79fd35', false, 'en', 'Interchange', 'Visit every interchange station');
 
 INSERT INTO pp_achievement VALUES
+
+('76565d50-ed73-4535-8f06-f284b5a100f3', 'visit_throughout_line', '{"line": "*", "direction": "*"}', '', 200),
 ('746d8b39-b4d4-4b14-8aff-82d92111e539', 'visit_throughout_line', '{"line": "pt-ml-azul", "direction": "*"}', '', 200),
 ('9224d30a-28c0-497b-bd76-f2e2729c10a1', 'visit_throughout_line', '{"line": "pt-ml-amarela", "direction": "*"}', '', 200),
 ('230e2300-657e-420e-88ab-a27cf08ccd8b', 'visit_throughout_line', '{"line": "pt-ml-verde", "direction": "*"}', '', 200),
 ('f5e20e83-fc1c-47e9-8b7a-c2dd45721757', 'visit_throughout_line', '{"line": "pt-ml-vermelha", "direction": "*"}', '', 200);
 
 INSERT INTO pp_achievement_name VALUES
+('76565d50-ed73-4535-8f06-f284b5a100f3', true,  'pt', 'De Cima a Baixo', 'Percorrer toda a linha Azul de uma vez'),	
+('76565d50-ed73-4535-8f06-f284b5a100f3', false, 'en', 'From Top to Bottom', 'Travel from one end to the other of any line in one go'),
 ('746d8b39-b4d4-4b14-8aff-82d92111e539', true,  'pt', 'Tejo Sem Parar', 'Percorrer toda a linha Azul de uma vez'),
 ('746d8b39-b4d4-4b14-8aff-82d92111e539', false, 'en', 'Nonstop Tagus', 'Travel through the whole Blue line in one go'),
 ('9224d30a-28c0-497b-bd76-f2e2729c10a1', true,  'pt', 'Grupo Girassol', 'Percorrer toda a linha Amarela de uma vez'),
@@ -204,11 +208,10 @@ INSERT INTO pp_achievement VALUES
 ('c2b3905d-187b-4aa5-9d23-a629ba26afa3', 'submit', '{"type": "trip_edit"}', '', 0),
 ('d29d554d-3fc3-496c-bc30-55dc56b9ef99', 'submit', '{"type": "disturbance_report"}', '', 0);
 
-
 INSERT INTO pp_achievement_name VALUES
 ('67df0024-7c2e-4330-9458-c8e9ade4e916', true,  'pt', 'Primeira Viagem', 'Submeter a primeira viagem no Metropolitano de Lisboa'),
 ('67df0024-7c2e-4330-9458-c8e9ade4e916', false, 'en', 'First Trip', 'Submit your first Lisbon Metro trip'),
 ('c2b3905d-187b-4aa5-9d23-a629ba26afa3', true,  'pt', 'Grammar Nazi', 'Editar ou confirmar uma viagem no Metropolitano de Lisboa'),
 ('c2b3905d-187b-4aa5-9d23-a629ba26afa3', false, 'en', 'Grammar Nazi', 'Edit or confirm a Lisbon Metro trip'),
-('d29d554d-3fc3-496c-bc30-55dc56b9ef99', true,  'pt', 'Reportar', 'Reportar um problema com o serviço do Metropolitano de Lisboa'),
-('d29d554d-3fc3-496c-bc30-55dc56b9ef99', false, 'en', 'Reporting', 'Report a problem with the Lisbon Metro service');
+('d29d554d-3fc3-496c-bc30-55dc56b9ef99', true,  'pt', 'Repórter', 'Reportar um problema com o serviço do Metropolitano de Lisboa'),
+('d29d554d-3fc3-496c-bc30-55dc56b9ef99', false, 'en', 'Reporter', 'Report a problem with the Lisbon Metro service');
