@@ -903,7 +903,7 @@ INSERT INTO poi (id, type, world_coord, web_url) VALUES
 ('1b048159-0055-4f08-a05d-14e9050c1489', 'health-center', '(38.763860, -9.209281)', 'https://bicsp.min-saude.pt/pt/biufs/3/30014/3114201/Pages/default.aspx'),
 ('da1e6033-7b05-4afa-a58c-91fe3aafa41c', 'health-center', '(38.760584, -9.193474)', 'https://bicsp.min-saude.pt/pt/biufs/3/30028/3111172/Pages/default.aspx'),
 ('b34d8615-f80a-4e29-b469-f9a80c8c2e98', 'health-center', '(38.793676, -9.177632)', 'https://bicsp.min-saude.pt/pt/biufs/3/30029/3112572/Pages/default.aspx'),
-('c9117ee8-f31c-4f80-9370-d0e1671be6ad', 'health-center', '(38.7365023, -9.1313583)', 'https://bicsp.min-saude.pt/pt/biufs/3/30027/3110291/Pages/default.aspx'),
+('7c77cbfb-bc7d-4040-906a-95a450c4b146', 'health-center', '(38.7365023, -9.1313583)', 'https://bicsp.min-saude.pt/pt/biufs/3/30027/3110291/Pages/default.aspx'),
 ('872b89d3-9bc6-45d4-8ff8-fcd35e7c961b', 'health-center', '(38.760710, -9.193620)', 'https://bicsp.min-saude.pt/pt/biufs/3/30029/3114571/Pages/default.aspx'),
 ('40aa5cdd-69da-48bb-a706-9e09583d23cb', 'health-center', '(38.723570, -9.131911)', 'https://bicsp.min-saude.pt/pt/biufs/3/30027/3112971/Pages/default.aspx');
 
