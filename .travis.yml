@@ -4,11 +4,11 @@ addons:
     sources:
     - sourceline: 'ppa:brightbox/ruby-ng'
     packages:
-    - ruby2.4
-    - ruby2.4-dev
+    - ruby2.5
+    - ruby2.5-dev
     update: true
 install:
   - sudo gem pristine --all
-  - sudo gem install sqlint
+  - sudo gem install sqlint -v 0.1.9
 script:
   - sqlint *.sql
