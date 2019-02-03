@@ -960,6 +960,7 @@ INSERT INTO station_tag (station_id, tag, priority) VALUES
 ('pt-ml-mp', 'c_parking', 1050),
 ('pt-ml-mp', 'a_store', 1000),
 ('pt-ml-mp', 'a_wifi', 1010),
+('pt-ml-mp', 'a_wc', 80),
 ('pt-ml-mp', 's_ticket1', 1021),
 ('pt-ml-mp', 's_urgent_pass', 90),
 ('pt-ml-mp', 's_lostfound', 1040),
