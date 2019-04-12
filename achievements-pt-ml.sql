@@ -217,12 +217,15 @@ INSERT INTO pp_achievement_name VALUES
 ('d29d554d-3fc3-496c-bc30-55dc56b9ef99', false, 'en', 'Reporter', 'Report a problem with the Lisbon Metro service');
 
 INSERT INTO pp_achievement VALUES
+('fb86d00c-6e5d-4b7b-ade9-b1702979b5a7', 'trip_during_disturbance', '{"network": "pt-ml", "officialOnly": true}', '', 25),
 ('ecbf3adb-7e66-41fe-8abf-4274f921c744', 'trip_during_disturbance', '{"line": "pt-ml-azul", "officialOnly": true}', '', 75),
 ('186d5307-c599-4965-aa13-3fcee7eeb415', 'trip_during_disturbance', '{"line": "pt-ml-amarela", "officialOnly": true}', '', 75),
 ('4e47fb54-be8a-477c-b58e-84ec1a1d68b3', 'trip_during_disturbance', '{"line": "pt-ml-verde", "officialOnly": true}', '', 75),
 ('24a05d19-1b39-43c6-b86e-b04ff290be0a', 'trip_during_disturbance', '{"line": "pt-ml-vermelha", "officialOnly": true}', '', 75);
 
 INSERT INTO pp_achievement_name VALUES
+('fb86d00c-6e5d-4b7b-ade9-b1702979b5a7', true,  'pt', 'Sinto-me perturbado', 'Viajar no Metropolitano de Lisboa durante uma perturbação registada por fontes oficiais'),
+('fb86d00c-6e5d-4b7b-ade9-b1702979b5a7', false, 'en', 'I feel disturbed', 'Travel on the Lisbon Metro during service disruptions'),
 ('ecbf3adb-7e66-41fe-8abf-4274f921c744', true,  'pt', 'Gaivotas em terra', 'Viajar na linha Azul durante uma perturbação registada por fontes oficiais'),
 ('ecbf3adb-7e66-41fe-8abf-4274f921c744', false, 'en', 'Seagulls inland', 'Travel on the Blue line during service disruptions'),
 ('186d5307-c599-4965-aa13-3fcee7eeb415', true,  'pt', 'Quem se esqueceu de regar as flores?', 'Viajar na linha Amarela durante uma perturbação registada por fontes oficiais'),
