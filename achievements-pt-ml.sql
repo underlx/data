@@ -215,3 +215,19 @@ INSERT INTO pp_achievement_name VALUES
 ('c2b3905d-187b-4aa5-9d23-a629ba26afa3', false, 'en', 'Grammar Nazi', 'Edit or confirm a Lisbon Metro trip'),
 ('d29d554d-3fc3-496c-bc30-55dc56b9ef99', true,  'pt', 'Repórter', 'Comunicar um problema com o serviço do Metropolitano de Lisboa'),
 ('d29d554d-3fc3-496c-bc30-55dc56b9ef99', false, 'en', 'Reporter', 'Report a problem with the Lisbon Metro service');
+
+INSERT INTO pp_achievement VALUES
+('ecbf3adb-7e66-41fe-8abf-4274f921c744', 'trip_during_disturbance', '{"line": "pt-ml-azul", "officialOnly": true}', '', 75),
+('186d5307-c599-4965-aa13-3fcee7eeb415', 'trip_during_disturbance', '{"line": "pt-ml-amarela", "officialOnly": true}', '', 75),
+('4e47fb54-be8a-477c-b58e-84ec1a1d68b3', 'trip_during_disturbance', '{"line": "pt-ml-verde", "officialOnly": true}', '', 75),
+('24a05d19-1b39-43c6-b86e-b04ff290be0a', 'trip_during_disturbance', '{"line": "pt-ml-vermelha", "officialOnly": true}', '', 75);
+
+INSERT INTO pp_achievement_name VALUES
+('ecbf3adb-7e66-41fe-8abf-4274f921c744', true,  'pt', 'Gaivotas em terra', 'Viajar na linha Azul durante uma perturbação registada por fontes oficiais'),
+('ecbf3adb-7e66-41fe-8abf-4274f921c744', false, 'en', 'Seagulls inland', 'Travel on the Blue line during service disruptions'),
+('186d5307-c599-4965-aa13-3fcee7eeb415', true,  'pt', 'Quem se esqueceu de regar as flores?', 'Viajar na linha Amarela durante uma perturbação registada por fontes oficiais'),
+('186d5307-c599-4965-aa13-3fcee7eeb415', false, 'en', 'Who forgot to water the flowers?', 'Travel on the Yellow line during service disruptions'),
+('4e47fb54-be8a-477c-b58e-84ec1a1d68b3', true,  'pt', 'Barco encalhado', 'Viajar na linha Verde durante uma perturbação registada por fontes oficiais'),
+('4e47fb54-be8a-477c-b58e-84ec1a1d68b3', false, 'en', 'Stranded ship', 'Travel on the Green line during service disruptions'),
+('24a05d19-1b39-43c6-b86e-b04ff290be0a', true,  'pt', 'Cruz vermelha', 'Viajar na linha Vermelha durante uma perturbação registada por fontes oficiais'),
+('24a05d19-1b39-43c6-b86e-b04ff290be0a', false, 'en', 'Red cross', 'Travel on the Red line during service disruptions');
