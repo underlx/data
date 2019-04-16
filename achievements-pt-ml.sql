@@ -48,7 +48,7 @@ INSERT INTO pp_achievement VALUES
 ('ccf3bb40-c5ad-489c-91c4-784ea596184c', 'visit_stations', '{"stations": ["pt-ml-ap"]}', '', 40),
 ('b8d36eb1-fc04-43e7-a95f-f4092dc45cda', 'visit_stations', '{"stations": ["pt-ml-am", "pt-ml-av", "pt-ml-cg", "pt-ml-cp", "pt-ml-cs", "pt-ml-ec", "pt-ml-mm", "pt-ml-mp", "pt-ml-or", "pt-ml-pi", "pt-ml-rm", "pt-ml-sa", "pt-ml-ss", "pt-ml-te"]}', '', 160),
 ('4082c303-b4c0-4094-bfe8-c1bfa89d44cd', 'visit_stations', '{"stations": ["pt-ml-ap", "pt-ml-af", "pt-ml-ar", "pt-ml-bc", "pt-ml-bv", "pt-ml-ca", "pt-ml-ch", "pt-ml-ec", "pt-ml-mm", "pt-ml-mp", "pt-ml-od", "pt-ml-ol", "pt-ml-or", "pt-ml-os", "pt-ml-po", "pt-ml-qc", "pt-ml-ra", "pt-ml-rb", "pt-ml-re", "pt-ml-sp", "pt-ml-ss", "pt-ml-te", "pt-ml-tp"]}', '', 260),
-('8a8fe192-7588-48e3-bcd6-3f36a660746a', 'visit_stations', '{"stations": ["pt-ml-av", "pt-ml-cp", "pt-ml-cu", "pt-ml-ec", "pt-ml-in", "pt-ml-la", "pt-ml-mo", "pt-ml-os", "pt-ml-po", "pt-ml-ra", "pt-ml-sp", "pt-ml-te",]}', '', 150),
+('8a8fe192-7588-48e3-bcd6-3f36a660746a', 'visit_stations', '{"stations": ["pt-ml-av", "pt-ml-cp", "pt-ml-cu", "pt-ml-ec", "pt-ml-in", "pt-ml-la", "pt-ml-mo", "pt-ml-os", "pt-ml-po", "pt-ml-ra", "pt-ml-sp", "pt-ml-te"]}', '', 150),
 ('b062afb2-1f8e-483c-8f0d-58498249ad95', 'visit_stations', '{"stations": ["pt-ml-cr", "pt-ml-en", "pt-ml-la", "pt-ml-mo", "pt-ml-os", "pt-ml-ra", "pt-ml-rm"]}', '', 100),
 ('a3f68f5a-b02b-4608-82e8-0bfe82984505', 'visit_stations', '{"stations": ["pt-ml-ah", "pt-ml-am", "pt-ml-as", "pt-ml-av", "pt-ml-bc", "pt-ml-cg", "pt-ml-cm", "pt-ml-cp", "pt-ml-cs", "pt-ml-jz", "pt-ml-la", "pt-ml-lu", "pt-ml-mm", "pt-ml-mp", "pt-ml-or", "pt-ml-pe", "pt-ml-pi", "pt-ml-ra", "pt-ml-re", "pt-ml-ro", "pt-ml-sa", "pt-ml-sp", "pt-ml-sr", "pt-ml-ss", "pt-ml-tp"]}', '', 280),
 ('501c82b6-9512-4d8e-8e54-98ca307bb78d', 'visit_stations', '{"stations": ["pt-ml-ah", "pt-ml-al", "pt-ml-ar", "pt-ml-av", "pt-ml-ax", "pt-ml-bc", "pt-ml-bv", "pt-ml-cg", "pt-ml-cs", "pt-ml-in", "pt-ml-jz", "pt-ml-la", "pt-ml-lu", "pt-ml-mm", "pt-ml-mp", "pt-ml-ol", "pt-ml-os", "pt-ml-pa", "pt-ml-qc", "pt-ml-ra", "pt-ml-re", "pt-ml-ro", "pt-ml-sa", "pt-ml-sp", "pt-ml-sr", "pt-ml-ss", "pt-ml-te", "pt-ml-tp"]}', '', 300),
@@ -90,7 +90,7 @@ INSERT INTO pp_achievement VALUES
 ('36ed5f77-cdc3-4e70-86a7-0fb54c79fd35', 'visit_stations', '{"stations": ["pt-ml-am", "pt-ml-bc", "pt-ml-cg", "pt-ml-mp", "pt-ml-sa", "pt-ml-ss"]}', '', 100);
 
 INSERT INTO pp_achievement_name VALUES
-('2ff66805-c20c-4eb8-868d-01693bdcdfc0', true,  'pt', 'Platforma 9¾', 'Visitar todas as estações com ligação a uma estação ferroviária'),
+('2ff66805-c20c-4eb8-868d-01693bdcdfc0', true,  'pt', 'Plataforma 9¾', 'Visitar todas as estações com ligação a uma estação ferroviária'),
 ('2ff66805-c20c-4eb8-868d-01693bdcdfc0', false, 'en', 'Platform 9¾', 'Visit every station connected with a railway station'),
 ('530dc21a-2bb5-4d25-a7ce-bc1bea265dfe', true,  'pt', 'Do Outro Lado do Rio', 'Visitar todas as estações com ligação a uma estação fluvial'),
 ('530dc21a-2bb5-4d25-a7ce-bc1bea265dfe', false, 'en', 'Across the River', 'Visit every station connected with a ferry terminal'),
