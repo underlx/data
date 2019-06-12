@@ -581,7 +581,7 @@ INSERT INTO station_lobby_schedule VALUES
 ('pt-ml-cm-central',  false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-cm-central',  false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-cm-central',  true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-ca-central',  true, 163, true, '06:30:00', '20 hour 30 minute'),
+('pt-ml-cm-central',  true, 163, true, '06:30:00', '20 hour 30 minute'),
 ('pt-ml-cm-central',  true, 365, true, '06:30:00', '24 hour'),
 ('pt-ml-en-central',  false, 0, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-en-central',  false, 1, true, '06:30:00', '18 hour 30 minute'),
