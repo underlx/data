@@ -2223,7 +2223,7 @@ INSERT INTO poi (id, type, world_coord, web_url) VALUES
 ('d04c5eae-ff69-4444-8267-ef3628baddbe', 'public-service', '(38.711325, -9.136124)', 'http://www.jf-santamariamaior.pt/'),
 ('25c0c659-bd11-4f15-837c-0eb75ef36634', 'public-service', '(38.713413, -9.135707)', 'http://www.jf-santamariamaior.pt/contactos.html'),
 ('f4dec837-1c9a-4425-932d-25e038011756', 'public-service', '(38.720112, -9.141584)', 'http://www.jfsantoantonio.pt/'),
-('99188179-0680-4052-af21-8a018080362d', 'public-service', '(38.718512, -9.152152)', 'http://www.jfsantoantonio.pt/'),
+('99188179-0680-4052-af21-8a018080362d', 'public-service', '(38.721972, -9.151313)', 'http://www.jfsantoantonio.pt/'),
 ('29b56f79-5cba-4828-893f-6e00d66d663d', 'public-service', '(38.7506358, -9.1715773)', 'https://www.portaldocidadao.pt/'),
 ('3bc06f7c-7cee-404b-9902-8444eda4839e', 'public-service', '(38.749582, -9.117837)', 'https://www.portaldocidadao.pt/'),
 ('c5448a06-20dd-48c2-9842-c5492bb9fafd', 'public-service', '(38.712070, -9.135213)', 'https://www.emel.pt/pt/onde-estacionar/parques/parques-em-destaque/mercado-do-chao-do-loureiro/'),
