@@ -2205,7 +2205,7 @@ INSERT INTO poi (id, type, world_coord, web_url) VALUES
 ('1a6d8274-3d9b-43ef-8a56-99467a2dec69', 'public-service', '(38.746427, -9.136480)', 'http://www.jf-alvalade.pt/'),
 ('fc8f8d31-6829-4caf-9442-d5fb6b76516c', 'public-service', '(38.745144, -9.140524)', 'http://www.jf-areeiro.pt/'),
 ('eed8193e-030f-462d-a65e-17494828f876', 'public-service', '(38.740608, -9.1348639)', 'http://www.jf-areeiro.pt/'),
-('c2ed3dba-6bcd-429a-9f49-b44fb9c9f1ff', 'public-service', '(38.721181, -9.135031)', 'http://www.jfarroios.pt/'),
+('c2ed3dba-6bcd-429a-9f49-b44fb9c9f1ff', 'public-service', '(38.720988, -9.134605)', 'http://www.jfarroios.pt/'),
 ('e8b85ece-bca8-42bc-8224-5e4d7e5ee3e9', 'public-service', '(38.721346, -9.132188)', 'http://www.jfarroios.pt/'),
 ('8680c02d-8ce8-4814-a2ac-3fec5b4f43de', 'public-service', '(38.720556, -9.138238)', 'http://www.jfarroios.pt/'),
 ('c261afa9-10a5-48bc-8f6d-d8791039dacc', 'public-service', '(38.7273232, -9.1372772)', 'http://www.jfarroios.pt/'),
