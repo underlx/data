@@ -1038,6 +1038,7 @@ INSERT INTO station_tag (station_id, tag, priority) VALUES
 ('pt-ml-ro', 'm_stepfree', 60),
 ('pt-ml-ro', 'm_lift_platform', 1020),
 ('pt-ml-ro', 'm_lift_surface', 1021),
+('pt-ml-ro', 'c_bike', 70),
 ('pt-ml-ro', 'c_bus', 40),
 ('pt-ml-ro', 'c_parking', 1040),
 ('pt-ml-ro', 'c_taxi', 50),
