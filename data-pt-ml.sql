@@ -646,18 +646,18 @@ INSERT INTO line_has_station VALUES
 ('pt-ml-amarela', 'pt-ml-ra', 1300);
 
 INSERT INTO connection VALUES
-('pt-ml-od', 'pt-ml-sr', 0, 0, 0, 977), ('pt-ml-sr', 'pt-ml-od', 0, 0, 0, 977),
-('pt-ml-sr', 'pt-ml-ax', 0, 0, 0, 1771), ('pt-ml-ax', 'pt-ml-sr', 0, 0, 0, 1771),
-('pt-ml-ax', 'pt-ml-lu', 0, 0, 0, 694), ('pt-ml-lu', 'pt-ml-ax', 0, 0, 0, 694),
-('pt-ml-lu', 'pt-ml-qc', 0, 0, 0, 781), ('pt-ml-qc', 'pt-ml-lu', 0, 0, 0, 781),
-('pt-ml-qc', 'pt-ml-cg', 0, 0, 0, 919), ('pt-ml-cg', 'pt-ml-qc', 0, 0, 0, 919),
-('pt-ml-cg', 'pt-ml-cu', 0, 0, 0, 1510), ('pt-ml-cu', 'pt-ml-cg', 0, 0, 0, 1510),
-('pt-ml-cu', 'pt-ml-ec', 0, 0, 0, 1272), ('pt-ml-ec', 'pt-ml-cu', 0, 0, 0, 1272),
-('pt-ml-ec', 'pt-ml-cp', 0, 0, 0, 685), ('pt-ml-cp', 'pt-ml-ec', 0, 0, 0, 685),
-('pt-ml-cp', 'pt-ml-sa', 0, 0, 0, 687), ('pt-ml-sa', 'pt-ml-cp', 0, 0, 0, 687),
-('pt-ml-sa', 'pt-ml-pi', 0, 0, 0, 521), ('pt-ml-pi', 'pt-ml-sa', 0, 0, 0, 521),
-('pt-ml-pi', 'pt-ml-mp', 0, 0, 0, 692), ('pt-ml-mp', 'pt-ml-pi', 0, 0, 0, 692),
-('pt-ml-mp', 'pt-ml-ra', 0, 0, 0, 676), ('pt-ml-ra', 'pt-ml-mp', 0, 0, 0, 676);
+('pt-ml-od', 'pt-ml-sr', 0, 0, 0, 977, 'ODC7ODO', 'SRC5SRO'), ('pt-ml-sr', 'pt-ml-od', 0, 0, 0, 977, 'SRC8SRO', 'ODC7ODO'),
+('pt-ml-sr', 'pt-ml-ax', 0, 0, 0, 1771, 'SRC5SRO', 'LUC7AXO'), ('pt-ml-ax', 'pt-ml-sr', 0, 0, 0, 1771, 'LUC4AXO', 'SRC8SRO'),
+('pt-ml-ax', 'pt-ml-lu', 0, 0, 0, 694, 'LUC7AXO', 'LUC3LUO'), ('pt-ml-lu', 'pt-ml-ax', 0, 0, 0, 694, 'LUC4LUO', 'LUC4AXO'),
+('pt-ml-lu', 'pt-ml-qc', 0, 0, 0, 781, 'LUC3LUO', 'LUC3QMO'), ('pt-ml-qc', 'pt-ml-lu', 0, 0, 0, 781, 'LUC4QMO', 'LUC4LUO'),
+('pt-ml-qc', 'pt-ml-cg', 0, 0, 0, 919, 'LUC3QMO', 'G2C5O'), ('pt-ml-cg', 'pt-ml-qc', 0, 0, 0, 919, 'G2C8O', 'LUC4QMO'),
+('pt-ml-cg', 'pt-ml-cu', 0, 0, 0, 1510, 'G2C5O', 'CU7O'), ('pt-ml-cu', 'pt-ml-cg', 0, 0, 0, 1510, 'CU8O', 'G2C8O'),
+('pt-ml-cu', 'pt-ml-ec', 0, 0, 0, 1272, 'CU7O', 'EC5O'), ('pt-ml-ec', 'pt-ml-cu', 0, 0, 0, 1272, 'EC4O', 'CU8O'),
+('pt-ml-ec', 'pt-ml-cp', 0, 0, 0, 685, 'EC5O', 'CP5O'), ('pt-ml-cp', 'pt-ml-ec', 0, 0, 0, 685, 'CP4O', 'EC4O'),
+('pt-ml-cp', 'pt-ml-sa', 0, 0, 0, 687, 'CP5O', 'CP3SAO'), ('pt-ml-sa', 'pt-ml-cp', 0, 0, 0, 687, 'CP4SAO', 'CP4O'),
+('pt-ml-sa', 'pt-ml-pi', 0, 0, 0, 521, 'CP3SAO', 'PI5O'), ('pt-ml-pi', 'pt-ml-sa', 0, 0, 0, 521, 'PI4O', 'CP4SAO'),
+('pt-ml-pi', 'pt-ml-mp', 0, 0, 0, 692, 'PI5O', 'M23O'), ('pt-ml-mp', 'pt-ml-pi', 0, 0, 0, 692, 'M28O', 'PI4O'),
+('pt-ml-mp', 'pt-ml-ra', 0, 0, 0, 676, 'M23O', 'RA12O'), ('pt-ml-ra', 'pt-ml-mp', 0, 0, 0, 676, 'RA12O', 'M28O');
 
 INSERT INTO line_has_station VALUES
 ('pt-ml-azul', 'pt-ml-rb', 100),
@@ -680,23 +680,23 @@ INSERT INTO line_has_station VALUES
 ('pt-ml-azul', 'pt-ml-sp', 1800);
 
 INSERT INTO connection VALUES
-('pt-ml-rb', 'pt-ml-as', 0, 0, 0, 959), ('pt-ml-as', 'pt-ml-rb', 0, 0, 0, 959),
-('pt-ml-as', 'pt-ml-af', 0, 0, 0, 1286), ('pt-ml-af', 'pt-ml-as', 0, 0, 0, 1286),
-('pt-ml-af', 'pt-ml-po', 0, 0, 0, 732), ('pt-ml-po', 'pt-ml-af', 0, 0, 0, 732),
-('pt-ml-po', 'pt-ml-ca', 0, 0, 0, 820), ('pt-ml-ca', 'pt-ml-po', 0, 0, 0, 820),
-('pt-ml-ca', 'pt-ml-cm', 0, 0, 0, 781), ('pt-ml-cm', 'pt-ml-ca', 0, 0, 0, 781),
-('pt-ml-cm', 'pt-ml-ah', 0, 0, 0, 914), ('pt-ml-ah', 'pt-ml-cm', 0, 0, 0, 914),
-('pt-ml-ah', 'pt-ml-la', 0, 0, 0, 782), ('pt-ml-la', 'pt-ml-ah', 0, 0, 0, 782),
-('pt-ml-la', 'pt-ml-jz', 0, 0, 0, 859), ('pt-ml-jz', 'pt-ml-la', 0, 0, 0, 859),
-('pt-ml-jz', 'pt-ml-pe', 0, 0, 0, 1007), ('pt-ml-pe', 'pt-ml-jz', 0, 0, 0, 1007),
-('pt-ml-pe', 'pt-ml-ss', 0, 0, 0, 648), ('pt-ml-ss', 'pt-ml-pe', 0, 0, 0, 648),
-('pt-ml-ss', 'pt-ml-pa', 0, 0, 0, 588), ('pt-ml-pa', 'pt-ml-ss', 0, 0, 0, 588),
-('pt-ml-pa', 'pt-ml-mp', 0, 0, 0, 557), ('pt-ml-mp', 'pt-ml-pa', 0, 0, 0, 557),
-('pt-ml-mp', 'pt-ml-av', 0, 0, 0, 531), ('pt-ml-av', 'pt-ml-mp', 0, 0, 0, 531),
-('pt-ml-av', 'pt-ml-re', 0, 0, 0, 569), ('pt-ml-re', 'pt-ml-av', 0, 0, 0, 569),
-('pt-ml-re', 'pt-ml-bc', 0, 0, 0, 666), ('pt-ml-bc', 'pt-ml-re', 0, 0, 0, 666),
-('pt-ml-bc', 'pt-ml-tp', 0, 0, 0, 832), ('pt-ml-tp', 'pt-ml-bc', 0, 0, 0, 832),
-('pt-ml-tp', 'pt-ml-sp', 0, 0, 0, 1193), ('pt-ml-sp', 'pt-ml-tp', 0, 0, 0, 1193);
+('pt-ml-rb', 'pt-ml-as', 0, 0, 0, 959, 'AS7RBO', 'AS3O'), ('pt-ml-as', 'pt-ml-rb', 0, 0, 0, 959, 'AS8O', 'AS7RBO'),
+('pt-ml-as', 'pt-ml-af', 0, 0, 0, 1286, 'AS3O', 'AF5AFO'), ('pt-ml-af', 'pt-ml-as', 0, 0, 0, 1286, 'AF4AFO', 'AS8O'),
+('pt-ml-af', 'pt-ml-po', 0, 0, 0, 732, 'AF5AFO', 'PT7O'), ('pt-ml-po', 'pt-ml-af', 0, 0, 0, 732, 'PT4O', 'AF4AFO'),
+('pt-ml-po', 'pt-ml-ca', 0, 0, 0, 820, 'PT7O', 'PT3CAO'), ('pt-ml-ca', 'pt-ml-po', 0, 0, 0, 820, 'PT4CAO', 'PT4O'),
+('pt-ml-ca', 'pt-ml-cm', 0, 0, 0, 781, 'PT3CAO', 'CM9O'), ('pt-ml-cm', 'pt-ml-ca', 0, 0, 0, 781, 'CM6O', 'PT4CAO'),
+('pt-ml-cm', 'pt-ml-ah', 0, 0, 0, 914, 'CM9O', 'AH3O'), ('pt-ml-ah', 'pt-ml-cm', 0, 0, 0, 914, 'AH4O', 'CM6O'),
+('pt-ml-ah', 'pt-ml-la', 0, 0, 0, 782, 'AH3O', 'LA5O'), ('pt-ml-la', 'pt-ml-ah', 0, 0, 0, 782, 'LA6O', 'AH4O'),
+('pt-ml-la', 'pt-ml-jz', 0, 0, 0, 859, 'LA5O', 'PE3JZO'), ('pt-ml-jz', 'pt-ml-la', 0, 0, 0, 859, 'PE4JZO', 'LA6O'),
+('pt-ml-jz', 'pt-ml-pe', 0, 0, 0, 1007, 'PE3JZO', 'PE3O'), ('pt-ml-pe', 'pt-ml-jz', 0, 0, 0, 1007, 'PE6O', 'PE4JZO'),
+('pt-ml-pe', 'pt-ml-ss', 0, 0, 0, 648, 'PE3O', 'PE5S1O'), ('pt-ml-ss', 'pt-ml-pe', 0, 0, 0, 648, 'PE4S1O', 'PE6O'),
+('pt-ml-ss', 'pt-ml-pa', 0, 0, 0, 588, 'PE5S1O', 'AV3PAO'), ('pt-ml-pa', 'pt-ml-ss', 0, 0, 0, 588, 'AV4PAO', 'PE4S1O'),
+('pt-ml-pa', 'pt-ml-mp', 0, 0, 0, 557, 'AV3PAO', 'AV5M1O'), ('pt-ml-mp', 'pt-ml-pa', 0, 0, 0, 557, 'AV4M1O', 'AV4PAO'),
+('pt-ml-mp', 'pt-ml-av', 0, 0, 0, 531, 'AV5M1O', 'AV5O'), ('pt-ml-av', 'pt-ml-mp', 0, 0, 0, 531, 'AV4O', 'AV4M1O'),
+('pt-ml-av', 'pt-ml-re', 0, 0, 0, 569, 'AV5O', 'AV3REO'), ('pt-ml-re', 'pt-ml-av', 0, 0, 0, 569, 'AV4REO', 'AV4O'),
+('pt-ml-re', 'pt-ml-bc', 0, 0, 0, 666, 'AV3REO', 'B13O'), ('pt-ml-bc', 'pt-ml-re', 0, 0, 0, 666, 'B16O', 'AV4REO'),
+('pt-ml-bc', 'pt-ml-tp', 0, 0, 0, 832, 'B13O', 'TP3O'), ('pt-ml-tp', 'pt-ml-bc', 0, 0, 0, 832, 'TP10O', 'B16O'),
+('pt-ml-tp', 'pt-ml-sp', 0, 0, 0, 1193, 'TP3O', 'SP9O'), ('pt-ml-sp', 'pt-ml-tp', 0, 0, 0, 1193, 'SP9O', 'TP10O');
 
 INSERT INTO line_has_station VALUES
 ('pt-ml-verde', 'pt-ml-te', 100),
@@ -714,18 +714,18 @@ INSERT INTO line_has_station VALUES
 ('pt-ml-verde', 'pt-ml-cs', 1300);
 
 INSERT INTO connection VALUES
-('pt-ml-te', 'pt-ml-cg', 0, 0, 0, 802), ('pt-ml-cg', 'pt-ml-te', 0, 0, 0, 802),
-('pt-ml-cg', 'pt-ml-al', 0, 0, 0, 1775), ('pt-ml-al', 'pt-ml-cg', 0, 0, 0, 1775),
-('pt-ml-al', 'pt-ml-rm', 0, 0, 0, 649), ('pt-ml-rm', 'pt-ml-al', 0, 0, 0, 649),
-('pt-ml-rm', 'pt-ml-ae', 0, 0, 0, 1042), ('pt-ml-ae', 'pt-ml-rm', 0, 0, 0, 1042),
-('pt-ml-ae', 'pt-ml-am', 0, 0, 0, 591), ('pt-ml-am', 'pt-ml-ae', 0, 0, 0, 591),
-('pt-ml-am', 'pt-ml-ar', 0, 0, 0, 512), ('pt-ml-ar', 'pt-ml-am', 0, 0, 0, 512),
-('pt-ml-ar', 'pt-ml-an', 0, 0, 0, 633), ('pt-ml-an', 'pt-ml-ar', 0, 0, 0, 633),
-('pt-ml-an', 'pt-ml-in', 0, 0, 0, 416), ('pt-ml-in', 'pt-ml-an', 0, 0, 0, 416),
-('pt-ml-in', 'pt-ml-mm', 0, 0, 0, 609), ('pt-ml-mm', 'pt-ml-in', 0, 0, 0, 609),
-('pt-ml-mm', 'pt-ml-ro', 0, 0, 0, 475), ('pt-ml-ro', 'pt-ml-mm', 0, 0, 0, 475),
-('pt-ml-ro', 'pt-ml-bc', 0, 0, 0, 518), ('pt-ml-bc', 'pt-ml-ro', 0, 0, 0, 518),
-('pt-ml-bc', 'pt-ml-cs', 0, 0, 0, 877), ('pt-ml-cs', 'pt-ml-bc', 0, 0, 0, 877);
+('pt-ml-te', 'pt-ml-cg', 0, 0, 0, 802, 'TE12O', 'G14O'), ('pt-ml-cg', 'pt-ml-te', 0, 0, 0, 802, 'G17O', 'TE12O'),
+('pt-ml-cg', 'pt-ml-al', 0, 0, 0, 1775, 'G14O', 'AL10ALO'), ('pt-ml-al', 'pt-ml-cg', 0, 0, 0, 1775, 'AL3ALO', 'G17O'),
+('pt-ml-al', 'pt-ml-rm', 0, 0, 0, 649, 'AL10ALO', 'AL4RMO'), ('pt-ml-rm', 'pt-ml-al', 0, 0, 0, 649, 'AL5RMO', 'AL3ALO'),
+('pt-ml-rm', 'pt-ml-ae', 0, 0, 0, 1042, 'AL4RMO', 'AL6AEO'), ('pt-ml-ae', 'pt-ml-rm', 0, 0, 0, 1042, 'AL3AEO', 'AL5RMO'),
+('pt-ml-ae', 'pt-ml-am', 0, 0, 0, 591, 'AL6AEO', 'A18A1O'), ('pt-ml-am', 'pt-ml-ae', 0, 0, 0, 591, 'A13A1O', 'AL3AEO'),
+('pt-ml-am', 'pt-ml-ar', 0, 0, 0, 512, 'A18A1O', 'MM4ARO'), ('pt-ml-ar', 'pt-ml-am', 0, 0, 0, 512, 'MM3ARO', 'A13A1O'),
+('pt-ml-ar', 'pt-ml-an', 0, 0, 0, 633, 'MM4ARO', 'MM4ANO'), ('pt-ml-an', 'pt-ml-ar', 0, 0, 0, 633, 'MM3ANO', 'MM3ARO'),
+('pt-ml-an', 'pt-ml-in', 0, 0, 0, 416, 'MM4ANO', 'MM4INO'), ('pt-ml-in', 'pt-ml-an', 0, 0, 0, 416, 'MM3INO', 'MM3ANO'),
+('pt-ml-in', 'pt-ml-mm', 0, 0, 0, 609, 'MM4INO', 'MM4O'), ('pt-ml-mm', 'pt-ml-in', 0, 0, 0, 609, 'MM3O', 'MM3INO'),
+('pt-ml-mm', 'pt-ml-ro', 0, 0, 0, 475, 'MM4O', 'B24ROO'), ('pt-ml-ro', 'pt-ml-mm', 0, 0, 0, 475, 'MM3ROO', 'MM3O'),
+('pt-ml-ro', 'pt-ml-bc', 0, 0, 0, 518, 'B24ROO', 'B24O'), ('pt-ml-bc', 'pt-ml-ro', 0, 0, 0, 518, 'B25O', 'MM3ROO'),
+('pt-ml-bc', 'pt-ml-cs', 0, 0, 0, 877, 'B24O', 'CS13O'), ('pt-ml-cs', 'pt-ml-bc', 0, 0, 0, 877, 'CS13O', 'B25O');
 
 INSERT INTO line_has_station VALUES
 ('pt-ml-vermelha', 'pt-ml-ss', 100),
@@ -742,17 +742,17 @@ INSERT INTO line_has_station VALUES
 ('pt-ml-vermelha', 'pt-ml-ap', 1200);
 
 INSERT INTO connection VALUES
-('pt-ml-ss', 'pt-ml-sa', 0, 0, 0, 763), ('pt-ml-sa', 'pt-ml-ss', 0, 0, 0, 763),
-('pt-ml-sa', 'pt-ml-am', 0, 0, 0, 1067), ('pt-ml-am', 'pt-ml-sa', 0, 0, 0, 1067),
-('pt-ml-am', 'pt-ml-ol', 0, 0, 0, 909), ('pt-ml-ol', 'pt-ml-am', 0, 0, 0, 909),
-('pt-ml-ol', 'pt-ml-bv', 0, 0, 0, 964), ('pt-ml-bv', 'pt-ml-ol', 0, 0, 0, 964),
-('pt-ml-bv', 'pt-ml-ch', 0, 0, 0, 917), ('pt-ml-ch', 'pt-ml-bv', 0, 0, 0, 917),
-('pt-ml-ch', 'pt-ml-os', 0, 0, 0, 711), ('pt-ml-os', 'pt-ml-ch', 0, 0, 0, 711),
-('pt-ml-os', 'pt-ml-cr', 0, 0, 0, 693), ('pt-ml-cr', 'pt-ml-os', 0, 0, 0, 693),
-('pt-ml-cr', 'pt-ml-or', 0, 0, 0, 823), ('pt-ml-or', 'pt-ml-cr', 0, 0, 0, 823),
-('pt-ml-or', 'pt-ml-mo', 0, 0, 0, 1380), ('pt-ml-mo', 'pt-ml-or', 0, 0, 0, 1380),
-('pt-ml-mo', 'pt-ml-en', 0, 0, 0, 1179), ('pt-ml-en', 'pt-ml-mo', 0, 0, 0, 1179),
-('pt-ml-en', 'pt-ml-ap', 0, 0, 0, 1026), ('pt-ml-ap', 'pt-ml-en', 0, 0, 0, 1026);
+('pt-ml-ss', 'pt-ml-sa', 0, 0, 0, 763, 'S26O', 'S23SA2O'), ('pt-ml-sa', 'pt-ml-ss', 0, 0, 0, 763, 'A24SA2O', 'S26O'),
+('pt-ml-sa', 'pt-ml-am', 0, 0, 0, 1067, 'S23SA2O', 'A29O'), ('pt-ml-am', 'pt-ml-sa', 0, 0, 0, 1067, 'A26O', 'A24SA2O'),
+('pt-ml-am', 'pt-ml-ol', 0, 0, 0, 909, 'A29O', 'A23OLO'), ('pt-ml-ol', 'pt-ml-am', 0, 0, 0, 909, 'CH4OLO', 'A26O'),
+('pt-ml-ol', 'pt-ml-bv', 0, 0, 0, 964, 'A23OLO', 'CH3BVO'), ('pt-ml-bv', 'pt-ml-ol', 0, 0, 0, 964, 'CH6BVO', 'CH4OLO'),
+('pt-ml-bv', 'pt-ml-ch', 0, 0, 0, 917, 'CH3BVO', 'CH3CHO'), ('pt-ml-ch', 'pt-ml-bv', 0, 0, 0, 917, 'CH6CHO', 'CH6BVO'),
+('pt-ml-ch', 'pt-ml-os', 0, 0, 0, 711, 'CH3CHO', 'CH3OSO'), ('pt-ml-os', 'pt-ml-ch', 0, 0, 0, 711, 'CH4OSO', 'CH6CHO'),
+('pt-ml-os', 'pt-ml-cr', 0, 0, 0, 693, 'CH3OSO', 'CH3CRO'), ('pt-ml-cr', 'pt-ml-os', 0, 0, 0, 693, 'MO4CRO', 'CH4OSO'),
+('pt-ml-cr', 'pt-ml-or', 0, 0, 0, 823, 'CH3CRO', 'MO3ORO'), ('pt-ml-or', 'pt-ml-cr', 0, 0, 0, 823, 'MO4ORO', 'MO4CRO'),
+('pt-ml-or', 'pt-ml-mo', 0, 0, 0, 1380, 'MO3ORO', 'MO3MOO'), ('pt-ml-mo', 'pt-ml-or', 0, 0, 0, 1380, 'MO6MOO', 'MO4ORO'),
+('pt-ml-mo', 'pt-ml-en', 0, 0, 0, 1179, 'MO3MOO', 'MO3ENO'), ('pt-ml-en', 'pt-ml-mo', 0, 0, 0, 1179, 'AP4ENO', 'MO6MOO'),
+('pt-ml-en', 'pt-ml-ap', 0, 0, 0, 1026, 'MO3ENO', 'AP8APO '), ('pt-ml-ap', 'pt-ml-en', 0, 0, 0, 1026, 'AP8APO ', 'AP4ENO');
 
 -- Line transfers
 
