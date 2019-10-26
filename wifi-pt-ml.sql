@@ -227,6 +227,7 @@ INSERT INTO wifiap VALUES
 ('26:a4:3c:04:20:a9', 'Saúde Prime by GoWi-Fi'),
 ('24:a4:3c:03:1d:b3', 'Go Wi-Fi Free & Fast'),
 ('26:a4:3c:03:1d:b3', 'Saúde Prime by GoWi-Fi'),
+('26:a4:3c:03:20:a9', 'Go Wi-Fi Free & Fast'),
 ('24:a4:3c:03:20:a9', 'Go Wi-Fi Free & Fast'),
 
 ('2a:a4:3c:03:1f:5e', 'Go Wi-Fi Free & Fast'),
@@ -351,7 +352,7 @@ INSERT INTO wifiap VALUES
 ('24:a4:3c:04:1d:28', 'Go Wi-Fi by Transavia'),
 ('2a:a4:3c:04:1d:28', 'Go Wi-Fi Free & Fast'),
 ('2e:a4:3c:03:1d:28', 'Go Wi-Fi Free & Fast'),
-('2a:a4:3c:03:1d:28', 'Go Wi-Fi by Transavia')
+('2a:a4:3c:03:1d:28', 'Go Wi-Fi by Transavia'),
 ('26:a4:3c:04:1d:28', 'Saúde Prime by GoWi-Fi'),
 ('24:a4:3c:03:1d:28', 'Go Wi-Fi Free & Fast'),
 ('26:a4:3c:03:1d:28', 'Saúde Prime by GoWi-Fi');
