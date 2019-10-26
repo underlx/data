@@ -345,6 +345,8 @@ INSERT INTO wifiap VALUES
 ('1a:e8:29:9e:c3:8d', 'Saúde Prime by GoWi-Fi'),
 ('1a:e8:29:9d:c3:8d', 'Saúde Prime by GoWi-Fi'),
 ('18:e8:29:9d:c3:8d', 'Go Wi-Fi Free & Fast'),
+('2a:e8:29:9e:c3:8d', 'Go Wi-Fi Free & Fast'),
+('2a:e8:29:9d:c3:8d', 'Go Wi-Fi Free & Fast'),
 
 ('24:a4:3c:04:1d:28', 'Go Wi-Fi by Transavia'),
 ('2a:a4:3c:04:1d:28', 'Go Wi-Fi Free & Fast'),
@@ -539,6 +541,8 @@ INSERT INTO station_has_wifiap VALUES
 ('pt-ml-tp', '1a:e8:29:9e:c3:8d', 'pt-ml-azul'),
 ('pt-ml-tp', '1a:e8:29:9d:c3:8d', 'pt-ml-azul'),
 ('pt-ml-tp', '18:e8:29:9d:c3:8d', 'pt-ml-azul'),
+('pt-ml-tp', '2a:e8:29:9e:c3:8d', 'pt-ml-azul'),
+('pt-ml-tp', '2a:e8:29:9d:c3:8d', 'pt-ml-azul'),
 ('pt-ml-sp', '24:a4:3c:04:1d:28', 'pt-ml-azul'),
 ('pt-ml-sp', '2a:a4:3c:04:1d:28', 'pt-ml-azul'),
 ('pt-ml-sp', '2e:a4:3c:03:1d:28', 'pt-ml-azul'),
