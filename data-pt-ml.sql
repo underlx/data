@@ -13,6 +13,8 @@ INSERT INTO network_schedule VALUES
 ('pt-ml',  false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml',  true,  0, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml',  true,  163, true, '06:30:00', '20 hour 30 minute'),
+('pt-ml',  true,  358, true, '06:30:00', '15 hour 30 minute'),
+('pt-ml',  true,  359, true, '08:00:00', '17 hour'),
 ('pt-ml',  true,  365, true, '06:30:00', '24 hour');
 
 INSERT INTO line_name (id, main, lang, name) VALUES
@@ -40,6 +42,8 @@ INSERT INTO line_schedule VALUES
 ('pt-ml-amarela',  false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-amarela',  false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-amarela',  true,  0, true, '06:30:00', '18 hour 30 minute'),
+('pt-ml-amarela',  true,  358, true, '06:30:00', '15 hour 30 minute'),
+('pt-ml-amarela',  true,  359, true, '08:00:00', '17 hour'),
 ('pt-ml-amarela',  true,  365, true, '06:30:00', '24 hour');
 
 INSERT INTO line_schedule VALUES
@@ -52,6 +56,8 @@ INSERT INTO line_schedule VALUES
 ('pt-ml-azul',  false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-azul',  true,  0, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-azul',  true,  163, true, '06:30:00', '20 hour 30 minute'),
+('pt-ml-azul',  true,  358, true, '06:30:00', '15 hour 30 minute'),
+('pt-ml-azul',  true,  359, true, '08:00:00', '17 hour'),
 ('pt-ml-azul',  true,  365, true, '06:30:00', '24 hour');
 
 INSERT INTO line_schedule VALUES
@@ -64,6 +70,8 @@ INSERT INTO line_schedule VALUES
 ('pt-ml-verde',  false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-verde',  true,  0, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-verde',  true,  163, true, '06:30:00', '20 hour 30 minute'),
+('pt-ml-verde',  true,  358, true, '06:30:00', '15 hour 30 minute'),
+('pt-ml-verde',  true,  359, true, '08:00:00', '17 hour'),
 ('pt-ml-verde',  true,  365, true, '06:30:00', '24 hour');
 
 INSERT INTO line_schedule VALUES
@@ -75,6 +83,8 @@ INSERT INTO line_schedule VALUES
 ('pt-ml-vermelha',  false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-vermelha',  false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-vermelha',  true,  0, true, '06:30:00', '18 hour 30 minute'),
+('pt-ml-vermelha',  true,  358, true, '06:30:00', '15 hour 30 minute'),
+('pt-ml-vermelha',  true,  359, true, '08:00:00', '17 hour'),
 ('pt-ml-vermelha',  true,  365, true, '06:30:00', '24 hour');
 
 insert into line_path values ('pt-ml-amarela', 'pt-ml-amarela-main', '[
