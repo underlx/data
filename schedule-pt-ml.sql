@@ -7,20 +7,6 @@ INSERT INTO network_schedule VALUES
 ('pt-ml',  false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml',  false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml',  true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml',  true,  100, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml',  true,  102, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml',  true,  115, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml',  true,  121, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml',  true,  161, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml',  true,  162, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml',  true,  164, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml',  true,  227, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml',  true,  278, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml',  true,  305, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml',  true,  335, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml',  true,  342, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml',  true,  358, true, '06:30:00', '15 hour 30 minute'),
-('pt-ml',  true,  359, true, '08:00:00', '17 hour'),
 ('pt-ml',  true,  365, true, '06:30:00', '21 hour 30 minute');
 
 INSERT INTO line_schedule VALUES
@@ -32,19 +18,6 @@ INSERT INTO line_schedule VALUES
 ('pt-ml-amarela',  false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-amarela',  false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-amarela',  true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-amarela',  true,  100, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-amarela',  true,  102, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-amarela',  true,  115, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-amarela',  true,  121, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-amarela',  true,  161, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-amarela',  true,  162, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-amarela',  true,  164, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-amarela',  true,  227, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-amarela',  true,  278, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-amarela',  true,  305, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-amarela',  true,  335, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-amarela',  true,  342, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-amarela',  true,  358, true, '06:30:00', '15 hour 30 minute'),
 ('pt-ml-amarela',  true,  359, true, '08:00:00', '17 hour');
 
 INSERT INTO line_schedule VALUES
@@ -56,20 +29,6 @@ INSERT INTO line_schedule VALUES
 ('pt-ml-azul',  false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-azul',  false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-azul',  true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-azul',  true,  100, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-azul',  true,  102, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-azul',  true,  115, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-azul',  true,  121, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-azul',  true,  161, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-azul',  true,  162, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-azul',  true,  164, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-azul',  true,  227, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-azul',  true,  278, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-azul',  true,  305, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-azul',  true,  335, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-azul',  true,  342, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-azul',  true,  358, true, '06:30:00', '15 hour 30 minute'),
-('pt-ml-azul',  true,  359, true, '08:00:00', '17 hour'),
 ('pt-ml-azul',  true,  365, true, '06:30:00', '21 hour 30 minute');
 
 INSERT INTO line_schedule VALUES
@@ -81,20 +40,6 @@ INSERT INTO line_schedule VALUES
 ('pt-ml-verde',  false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-verde',  false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-verde',  true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-verde',  true,  100, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-verde',  true,  102, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-verde',  true,  115, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-verde',  true,  121, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-verde',  true,  161, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-verde',  true,  162, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-verde',  true,  164, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-verde',  true,  227, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-verde',  true,  278, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-verde',  true,  305, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-verde',  true,  335, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-verde',  true,  342, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-verde',  true,  358, true, '06:30:00', '15 hour 30 minute'),
-('pt-ml-verde',  true,  359, true, '08:00:00', '17 hour'),
 ('pt-ml-verde',  true,  365, true, '06:30:00', '21 hour 30 minute');
 
 INSERT INTO line_schedule VALUES
@@ -106,19 +51,6 @@ INSERT INTO line_schedule VALUES
 ('pt-ml-vermelha',  false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-vermelha',  false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-vermelha',  true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-vermelha',  true,  100, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-vermelha',  true,  102, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-vermelha',  true,  115, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-vermelha',  true,  121, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-vermelha',  true,  161, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-vermelha',  true,  162, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-vermelha',  true,  164, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-vermelha',  true,  227, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-vermelha',  true,  278, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-vermelha',  true,  305, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-vermelha',  true,  335, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-vermelha',  true,  342, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-vermelha',  true,  358, true, '06:30:00', '15 hour 30 minute'),
 ('pt-ml-vermelha',  true,  359, true, '08:00:00', '17 hour');
 
 INSERT INTO station_lobby_schedule VALUES
@@ -745,7 +677,3 @@ INSERT INTO station_lobby_schedule VALUES
 ('pt-ml-tp-central',  false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-tp-central',  true,  0, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-tp-central',  true, 365, true, '06:30:00', '12 hour 30 minute');
-
-
-
-
