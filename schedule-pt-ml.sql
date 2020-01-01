@@ -6,8 +6,7 @@ INSERT INTO network_schedule VALUES
 ('pt-ml',  false, 4, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml',  false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml',  false, 6, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml',  true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml',  true,  365, true, '06:30:00', '21 hour 30 minute');
+('pt-ml',  true,  0, true, '06:30:00', '18 hour 30 minute');
 
 INSERT INTO line_schedule VALUES
 ('pt-ml-amarela',  false, 0, true, '06:30:00', '18 hour 30 minute'),
@@ -17,8 +16,7 @@ INSERT INTO line_schedule VALUES
 ('pt-ml-amarela',  false, 4, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-amarela',  false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-amarela',  false, 6, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-amarela',  true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-amarela',  true,  359, true, '08:00:00', '17 hour');
+('pt-ml-amarela',  true,  0, true, '06:30:00', '18 hour 30 minute');
 
 INSERT INTO line_schedule VALUES
 ('pt-ml-azul',  false, 0, true, '06:30:00', '18 hour 30 minute'),
@@ -28,8 +26,7 @@ INSERT INTO line_schedule VALUES
 ('pt-ml-azul',  false, 4, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-azul',  false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-azul',  false, 6, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-azul',  true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-azul',  true,  365, true, '06:30:00', '21 hour 30 minute');
+('pt-ml-azul',  true,  0, true, '06:30:00', '18 hour 30 minute');
 
 INSERT INTO line_schedule VALUES
 ('pt-ml-verde',  false, 0, true, '06:30:00', '18 hour 30 minute'),
@@ -39,8 +36,7 @@ INSERT INTO line_schedule VALUES
 ('pt-ml-verde',  false, 4, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-verde',  false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-verde',  false, 6, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-verde',  true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-verde',  true,  365, true, '06:30:00', '21 hour 30 minute');
+('pt-ml-verde',  true,  0, true, '06:30:00', '18 hour 30 minute');
 
 INSERT INTO line_schedule VALUES
 ('pt-ml-vermelha',  false, 0, true, '06:30:00', '18 hour 30 minute'),
@@ -50,8 +46,7 @@ INSERT INTO line_schedule VALUES
 ('pt-ml-vermelha',  false, 4, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-vermelha',  false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-vermelha',  false, 6, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-vermelha',  true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-vermelha',  true,  359, true, '08:00:00', '17 hour');
+('pt-ml-vermelha',  true,  0, true, '06:30:00', '18 hour 30 minute');
 
 INSERT INTO station_lobby_schedule VALUES
 ('pt-ml-ap-central',  false, 0, true, '06:30:00', '18 hour 30 minute'),
@@ -70,7 +65,6 @@ INSERT INTO station_lobby_schedule VALUES
 ('pt-ml-am-norte',    false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-am-norte',    false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-am-norte',    true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-am-norte',    true, 365, true, '06:30:00', '21 hour 30 minute'),
 ('pt-ml-am-central',  false, 0, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-am-central',  false, 1, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-am-central',  false, 2, true, '06:30:00', '18 hour 30 minute'),
@@ -79,7 +73,6 @@ INSERT INTO station_lobby_schedule VALUES
 ('pt-ml-am-central',  false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-am-central',  false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-am-central',  true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-am-central',  true, 365, true, '06:30:00', '21 hour 30 minute'),
 ('pt-ml-af-central',  false, 0, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-af-central',  false, 1, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-af-central',  false, 2, true, '06:30:00', '18 hour 30 minute'),
@@ -120,7 +113,6 @@ INSERT INTO station_lobby_schedule VALUES
 ('pt-ml-as-central',  false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-as-central',  false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-as-central',  true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-as-central',  true, 365, true, '06:30:00', '21 hour 30 minute'),
 ('pt-ml-ax-central',  false, 0, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-ax-central',  false, 1, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-ax-central',  false, 2, true, '06:30:00', '18 hour 30 minute'),
@@ -137,7 +129,6 @@ INSERT INTO station_lobby_schedule VALUES
 ('pt-ml-an-norte',    false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-an-norte',    false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-an-norte',    true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-an-norte',    true, 365, true, '06:30:00', '21 hour 30 minute'),
 ('pt-ml-an-sul',      false, 0, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-an-sul',      false, 1, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-an-sul',      false, 2, true, '06:30:00', '18 hour 30 minute'),
@@ -146,7 +137,6 @@ INSERT INTO station_lobby_schedule VALUES
 ('pt-ml-an-sul',      false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-an-sul',      false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-an-sul',      true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-an-sul',      true, 365, true, '06:30:00', '21 hour 30 minute'),
 ('pt-ml-ae-norte',    false, 0, false, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-ae-norte',    false, 1, false, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-ae-norte',    false, 2, false, '06:30:00', '18 hour 30 minute'),
@@ -163,7 +153,6 @@ INSERT INTO station_lobby_schedule VALUES
 ('pt-ml-ae-sul',      false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-ae-sul',      false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-ae-sul',      true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-ae-sul',      true, 365, true, '06:30:00', '21 hour 30 minute'),
 ('pt-ml-ar-norte',    false, 0, false, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-ar-norte',    false, 1, false, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-ar-norte',    false, 2, false, '06:30:00', '18 hour 30 minute'),
@@ -204,7 +193,6 @@ INSERT INTO station_lobby_schedule VALUES
 ('pt-ml-bc-central',  false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-bc-central',  false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-bc-central',  true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-bc-central',  true, 365, true, '06:30:00', '21 hour 30 minute'),
 ('pt-ml-bv-central',  false, 0, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-bv-central',  false, 1, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-bv-central',  false, 2, true, '06:30:00', '18 hour 30 minute'),
@@ -237,7 +225,6 @@ INSERT INTO station_lobby_schedule VALUES
 ('pt-ml-cs-central',  false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-cs-central',  false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-cs-central',  true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-cs-central',  true, 365, true, '06:30:00', '21 hour 30 minute'),
 ('pt-ml-cg-central',  false, 0, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-cg-central',  false, 1, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-cg-central',  false, 2, true, '06:30:00', '18 hour 30 minute'),
@@ -246,7 +233,6 @@ INSERT INTO station_lobby_schedule VALUES
 ('pt-ml-cg-central',  false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-cg-central',  false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-cg-central',  true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-cg-central',  true, 365, true, '06:30:00', '21 hour 30 minute'),
 ('pt-ml-cp-norte',    false, 0, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-cp-norte',    false, 1, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-cp-norte',    false, 2, true, '06:30:00', '18 hour 30 minute'),
@@ -295,7 +281,6 @@ INSERT INTO station_lobby_schedule VALUES
 ('pt-ml-cm-central',  false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-cm-central',  false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-cm-central',  true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-cm-central',  true, 365, true, '06:30:00', '21 hour 30 minute'),
 ('pt-ml-en-central',  false, 0, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-en-central',  false, 1, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-en-central',  false, 2, true, '06:30:00', '18 hour 30 minute'),
@@ -344,7 +329,6 @@ INSERT INTO station_lobby_schedule VALUES
 ('pt-ml-jz-norte',    false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-jz-norte',    false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-jz-norte',    true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-jz-norte',    true, 365, true, '06:30:00', '21 hour 30 minute'),
 ('pt-ml-jz-sul',      false, 0, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-jz-sul',      false, 1, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-jz-sul',      false, 2, true, '06:30:00', '18 hour 30 minute'),
@@ -353,7 +337,6 @@ INSERT INTO station_lobby_schedule VALUES
 ('pt-ml-jz-sul',      false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-jz-sul',      false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-jz-sul',      true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-jz-sul',      true, 365, true, '06:30:00', '21 hour 30 minute'),
 ('pt-ml-la-central',  false, 0, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-la-central',  false, 1, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-la-central',  false, 2, true, '06:30:00', '18 hour 30 minute'),
@@ -386,7 +369,6 @@ INSERT INTO station_lobby_schedule VALUES
 ('pt-ml-mp-norte',    false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-mp-norte',    false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-mp-norte',    true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-mp-norte',    true, 365, true, '06:30:00', '21 hour 30 minute'),
 ('pt-ml-mp-sul',      false, 0, false, '00:00:00', '0 minute'),
 ('pt-ml-mp-sul',      false, 1, true, '06:30:00', '15 hour'),
 ('pt-ml-mp-sul',      false, 2, true, '06:30:00', '15 hour'),
@@ -483,7 +465,6 @@ INSERT INTO station_lobby_schedule VALUES
 ('pt-ml-po-central',  false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-po-central',  false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-po-central',  true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-po-central',  true, 365, true, '06:30:00', '21 hour 30 minute'),
 ('pt-ml-pe-norte',    false, 0, true, '06:30:00', '15 hour'),
 ('pt-ml-pe-norte',    false, 1, true, '06:30:00', '15 hour'),
 ('pt-ml-pe-norte',    false, 2, true, '06:30:00', '15 hour'),
@@ -532,7 +513,6 @@ INSERT INTO station_lobby_schedule VALUES
 ('pt-ml-rb-central',  false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-rb-central',  false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-rb-central',  true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-rb-central',  true, 365, true, '06:30:00', '21 hour 30 minute'),
 ('pt-ml-re-norte',    false, 0, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-re-norte',    false, 1, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-re-norte',    false, 2, true, '06:30:00', '18 hour 30 minute'),
@@ -541,7 +521,6 @@ INSERT INTO station_lobby_schedule VALUES
 ('pt-ml-re-norte',    false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-re-norte',    false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-re-norte',    true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-re-norte',    true, 365, true, '06:30:00', '21 hour 30 minute'),
 ('pt-ml-re-sul',      false, 0, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-re-sul',      false, 1, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-re-sul',      false, 2, true, '06:30:00', '18 hour 30 minute'),
@@ -550,7 +529,6 @@ INSERT INTO station_lobby_schedule VALUES
 ('pt-ml-re-sul',      false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-re-sul',      false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-re-sul',      true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-re-sul',      true, 365, true, '06:30:00', '21 hour 30 minute'),
 ('pt-ml-rm-norte',    false, 0, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-rm-norte',    false, 1, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-rm-norte',    false, 2, true, '06:30:00', '18 hour 30 minute'),
@@ -575,7 +553,6 @@ INSERT INTO station_lobby_schedule VALUES
 ('pt-ml-ro-poente',   false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-ro-poente',   false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-ro-poente',   true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-ro-poente',   true, 365, true, '06:30:00', '21 hour 30 minute'),
 ('pt-ml-ro-nascente', false, 0, true, '06:30:00', '15 hour'),
 ('pt-ml-ro-nascente', false, 1, true, '06:30:00', '15 hour'),
 ('pt-ml-ro-nascente', false, 2, true, '06:30:00', '15 hour'),
@@ -624,7 +601,6 @@ INSERT INTO station_lobby_schedule VALUES
 ('pt-ml-ss-norte',    false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-ss-norte',    false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-ss-norte',    true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-ss-norte',    true, 365, true, '06:30:00', '21 hour 30 minute'),
 ('pt-ml-ss-sul',      false, 0, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-ss-sul',      false, 1, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-ss-sul',      false, 2, true, '06:30:00', '18 hour 30 minute'),
@@ -633,7 +609,6 @@ INSERT INTO station_lobby_schedule VALUES
 ('pt-ml-ss-sul',      false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-ss-sul',      false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-ss-sul',      true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-ss-sul',      true, 365, true, '06:30:00', '21 hour 30 minute'),
 ('pt-ml-ss-este',     false, 0, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-ss-este',     false, 1, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-ss-este',     false, 2, true, '06:30:00', '18 hour 30 minute'),
@@ -642,7 +617,6 @@ INSERT INTO station_lobby_schedule VALUES
 ('pt-ml-ss-este',     false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-ss-este',     false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-ss-este',     true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-ss-este',     true, 365, true, '06:30:00', '21 hour 30 minute'),
 ('pt-ml-sr-norte',    false, 0, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-sr-norte',    false, 1, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-sr-norte',    false, 2, true, '06:30:00', '18 hour 30 minute'),
@@ -667,7 +641,6 @@ INSERT INTO station_lobby_schedule VALUES
 ('pt-ml-te-central',  false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-te-central',  false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-te-central',  true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-te-central',  true, 365, true, '06:30:00', '21 hour 30 minute'),
 ('pt-ml-tp-central',  false, 0, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-tp-central',  false, 1, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-tp-central',  false, 2, true, '06:30:00', '18 hour 30 minute'),
@@ -675,5 +648,4 @@ INSERT INTO station_lobby_schedule VALUES
 ('pt-ml-tp-central',  false, 4, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-tp-central',  false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-tp-central',  false, 6, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-tp-central',  true,  0, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-tp-central',  true, 365, true, '06:30:00', '11 hour 30 minute');
+('pt-ml-tp-central',  true,  0, true, '06:30:00', '18 hour 30 minute');
