@@ -119,7 +119,7 @@ INSERT INTO station_lobby_exit (lobby_id, world_coord, streets, type) VALUES
 ('pt-ml-ae-norte',   '(38.742927, -9.133679)', '{"Avenida Padre Manuel da Nóbrega"}', 'stairs'),
 ('pt-ml-ae-norte',   '(38.742981, -9.133496)', '{"Avenida Padre Manuel da Nóbrega"}', 'stairs'),
 -- Future lift
---('pt-ml-ae-norte',   '(38.742776, -9.133348)', '{"Praça Francisco Sá Carneiro"}', 'lift'),
+--('pt-ml-ae-norte',   '(38.742776, -9.133348)', '{"Praça Francisco Sá Carneiro", "Avenida Padre Manuel da Nóbrega", "Avenida Almirante Gago Coutinho"}', 'lift'),
 ('pt-ml-ae-sul',     '(38.741908, -9.132996)', '{"Praça Francisco Sá Carneiro", "Avenida Almirante Reis", "Avenida João XXI"}', 'stairs'),
 ('pt-ml-ae-sul',     '(38.741934, -9.133737)', '{"Praça Francisco Sá Carneiro", "Avenida Almirante Reis", "Avenida Afonso Costa"}', 'stairs'),
 ('pt-ml-ar-norte',   '(38.733430, -9.134430)', '{"Praça do Chile", "Avenida Almirante Reis (norte)", "Rua António Pereira Carrilho"}', 'stairs'),
