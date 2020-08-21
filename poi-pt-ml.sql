@@ -54,7 +54,7 @@ INSERT INTO poi_name (id, main, lang, name) VALUES
 INSERT INTO poi (id, type, world_coord, web_url) VALUES
 ('241938da-92b5-40ec-966d-9177cd102ff0', 'business', '(38.721763, -9.150981)', 'http://www.cimpor.com/Default.aspx?lang=pt'),
 ('dab5d053-2a79-4d26-8644-7d3097badf18', 'business', '(38.744862, -9.150797)', 'https://jobs.teleperformance.pt/pt-pt/'),
-('ab02e391-475e-495e-8a51-ad0005e99d07', 'business', '(38.752132, -9.223693)', 'ttps://www.emef.pt/'),
+('ab02e391-475e-495e-8a51-ad0005e99d07', 'business', '(38.752132, -9.223693)', 'https://www.emef.pt/'),
 ('ef1f0ecc-c8ba-4c62-afa5-cce287b04ff9', 'business', '(38.716735, -9.143083)', 'http://www.epal.pt/epal'),
 ('c4d17f49-553b-4b7d-b24b-3d3f96e83dd9', 'business', '(38.766346, -9.105742)', 'http://www.epal.pt/epal'),
 ('30b49034-5a35-4ff1-97bc-8279c47f192d', 'business', '(38.766635, -9.103008)', 'http://www.epal.pt/epal'),
