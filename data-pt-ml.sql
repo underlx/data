@@ -7,17 +7,21 @@ INSERT INTO line_name (id, main, lang, name) VALUES
 ('pt-ml-azul', true, 'pt',  'Azul'),
 ('pt-ml-azul', false, 'en', 'Blue'),
 ('pt-ml-azul', false, 'fr', 'Bleue'),
+('pt-ml-azul', false, 'de', 'Blaue'),
 ('pt-ml-amarela', true, 'pt',  'Amarela'),
 ('pt-ml-amarela', false, 'en', 'Yellow'),
 ('pt-ml-amarela', false, 'fr', 'Jaune'),
 ('pt-ml-amarela', false, 'es', 'Amarilla'),
+('pt-ml-amarela', false, 'de', 'Gelbe'),
 ('pt-ml-verde', true, 'pt',  'Verde'),
 ('pt-ml-verde', false, 'en', 'Green'),
 ('pt-ml-verde', false, 'fr', 'Verte'),
+('pt-ml-verde', false, 'de', 'Grüne'),
 ('pt-ml-vermelha', true, 'pt',  'Vermelha'),
 ('pt-ml-vermelha', false, 'en', 'Red'),
 ('pt-ml-vermelha', false, 'fr', 'Rouge'),
-('pt-ml-vermelha', false, 'es', 'Roja');
+('pt-ml-vermelha', false, 'es', 'Roja'),
+('pt-ml-vermelha', false, 'de', 'Rote');
 
 insert into line_path values ('pt-ml-amarela', 'pt-ml-amarela-main', '[
 (38.719805, -9.155609),
