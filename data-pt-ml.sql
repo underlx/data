@@ -711,9 +711,9 @@ INSERT INTO transfer VALUES
 ('pt-ml-cg', 'pt-ml-verde', 'pt-ml-amarela', 0), ('pt-ml-cg', 'pt-ml-amarela', 'pt-ml-verde', 0);
 
 INSERT INTO station_tag (station_id, tag, priority) VALUES
--- ('pt-ml-ae', 'm_stepfree', 60),
--- ('pt-ml-ae', 'm_lift_platform', 1020),
--- ('pt-ml-ae', 'm_lift_surface', 1021),
+('pt-ml-ae', 'm_stepfree', 60),
+('pt-ml-ae', 'm_lift_platform', 1020),
+('pt-ml-ae', 'm_lift_surface', 1021),
 ('pt-ml-ae', 'c_parking', 1040),
 ('pt-ml-ae', 'c_bus', 40),
 ('pt-ml-ae', 'c_taxi', 50),
