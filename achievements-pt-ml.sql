@@ -11,7 +11,10 @@ INSERT INTO pp_achievement VALUES
 ('30ecf819-d930-4a75-bd7b-bc6dadfa7892', 'reach_level', '{"level": 80}', '', 0),
 ('86258e52-86c4-43f3-92bd-1e9b50f1cc72', 'reach_level', '{"level": 90}', '', 0),
 ('6672ff56-2175-45dd-9b76-ab7119b6f335', 'reach_level', '{"level": 100}', '', 0),
-('3288ce03-f0dc-43e2-bd67-f21844bcea99', 'reach_level', '{"level": 110}', '', 0);
+('3288ce03-f0dc-43e2-bd67-f21844bcea99', 'reach_level', '{"level": 110}', '', 0),
+('6b3342c0-bdd2-46e4-a4c5-9635a7eb2287', 'reach_level', '{"level": 200}', '', 0),
+('107984c1-beac-45af-ac5d-c007f1b48d16', 'reach_level', '{"level": 500}', '', 0),
+('9f9aac0c-827d-4a31-897f-94a8ce6fd720', 'reach_level', '{"level": 1000}', '', 0);
 
 INSERT INTO pp_achievement_name VALUES
 ('548f5527-4b54-4646-a1a0-570328468d24', true,  'pt', 'Sempre a Subir', 'Subir um nível no PosPlay'),
@@ -39,7 +42,13 @@ INSERT INTO pp_achievement_name VALUES
 ('6672ff56-2175-45dd-9b76-ab7119b6f335', true,  'pt', '2059', 'Chegar ao nível 100 no PosPlay'),
 ('6672ff56-2175-45dd-9b76-ab7119b6f335', false, 'en', '2059', 'Reach level 100 on PosPlay'),
 ('3288ce03-f0dc-43e2-bd67-f21844bcea99', true,  'pt', 'Novo Jogo +', 'Chegar ao nível 110 no PosPlay'),
-('3288ce03-f0dc-43e2-bd67-f21844bcea99', false, 'en', 'New Game +', 'Reach level 110 on PosPlay');
+('3288ce03-f0dc-43e2-bd67-f21844bcea99', false, 'en', 'New Game +', 'Reach level 110 on PosPlay'),
+('6b3342c0-bdd2-46e4-a4c5-9635a7eb2287', true,  'pt', 'Segunda Vida', 'Chegar ao nível 200 no PosPlay'),
+('6b3342c0-bdd2-46e4-a4c5-9635a7eb2287', false, 'en', 'Second Life', 'Reach level 200 on PosPlay'),
+('107984c1-beac-45af-ac5d-c007f1b48d16', true,  'pt', 'Quase Lá', 'Chegar ao nível 500 no PosPlay'),
+('107984c1-beac-45af-ac5d-c007f1b48d16', false, 'en', 'Almost There', 'Reach level 500 on PosPlay'),
+('9f9aac0c-827d-4a31-897f-94a8ce6fd720', true,  'pt', 'Trainspotter', 'Chegar ao nível 1000 no PosPlay'),
+('9f9aac0c-827d-4a31-897f-94a8ce6fd720', false, 'en', 'Trainspotter ', 'Reach level 1000 on PosPlay');
 
 INSERT INTO pp_achievement VALUES
 ('2ff66805-c20c-4eb8-868d-01693bdcdfc0', 'visit_stations', '{"stations": ["pt-ml-ae", "pt-ml-cs", "pt-ml-ec", "pt-ml-jz", "pt-ml-or", "pt-ml-rb", "pt-ml-re", "pt-ml-rm", "pt-ml-sp"]}', '', 120),
