@@ -220,7 +220,7 @@ INSERT INTO station_lobby_exit (lobby_id, world_coord, streets, type) VALUES
 ('pt-ml-mp-sul',     '(38.723776, -9.148302)', '{"Avenida da Liberdade", "Rua Alexandre Herculano"}', 'stairs'),
 ('pt-ml-mm-sul',     '(38.716890, -9.136393)', '{"Praça do Martim Moniz", "Rua José António Serrano", "Rua de São Lázaro"}', 'stairs'),
 ('pt-ml-mm-sul',     '(38.716799, -9.135711)', '{"Praça do Martim Moniz"}', 'stairs'),
-('pt-ml-mm-sul',     '(38.717002, -9.135664)', '{"Praça do Martim Moniz", "Rua da Palma", "Rua de São Lázaro", "Rua Fernandes da Fonseca", "Rua dos Cavaleiros"}', 'stairs'),
+('pt-ml-mm-sul',     '(38.716915, -9.135549)', '{"Centro Comercial da Mouraria"}', 'stairs'),
 ('pt-ml-mo-central', '(38.775071, -9.103100)', '{"Rua 1º de Maio (poente)", "Rua Almirante Gago Coutinho"}', 'stairs'),
 ('pt-ml-mo-central', '(38.775093, -9.102813)', '{"Rua 1º de Maio (nascente)"}', 'stairs'),
 ('pt-ml-mo-central', '(38.774682, -9.102958)', '{"Rua João Pinto Ribeiro"}', 'lift'),
