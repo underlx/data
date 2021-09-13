@@ -124,7 +124,7 @@ INSERT INTO station_lobby_exit (lobby_id, world_coord, streets, type) VALUES
 ('pt-ml-ar-norte',   '(38.733430, -9.134430)', '{"Praça do Chile", "Avenida Almirante Reis (norte)", "Rua António Pereira Carrilho"}', 'stairs'),
 ('pt-ml-ar-norte',   '(38.733415, -9.133995)', '{"Praça do Chile", "Avenida Almirante Reis (norte)", "Rua Morais Soares"}', 'stairs'),
 -- Future lift
---('pt-ml-ar-norte',   '(XXXX, XXXX)', '{"XXXX"}', 'lift'),
+--('pt-ml-ar-norte',   '(38.73345372099172, -9.134394513984825)', '{"Praça do Chile", "Avenida Almirante Reis (norte)", "Rua António Pereira Carrilho"}', 'lift'),
 ('pt-ml-ar-sul',     '(38.731940, -9.134468)', '{"Avenida Almirante Reis (sul)"}', 'stairs'),
 ('pt-ml-ar-sul',     '(38.731922, -9.134278)', '{"Avenida Almirante Reis (sul)"}', 'stairs'),
 ('pt-ml-av-norte',   '(38.720119, -9.145765)', '{"Avenida da Liberdade (norte)"}', 'stairs'),
