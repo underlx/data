@@ -185,9 +185,8 @@ INSERT INTO station_lobby_exit (lobby_id, world_coord, streets, type) VALUES
 ('pt-ml-ec-norte',   '(38.747828, -9.148587)', '{"Avenida da República", "Avenida das Forças Armadas"}', 'stairs'),
 ('pt-ml-ec-sul',     '(38.746553, -9.147639)', '{"Avenida da República", "Rua José Carlos dos Santos"}', 'stairs'),
 ('pt-ml-ec-sul',     '(38.746106, -9.147540)', '{"Avenida da República", "Rua José Carlos dos Santos"}', 'stairs'),
---('pt-ml-ec-sul',     '(38.746353, -9.148288)', '{"Avenida da República"}', 'stairs'),
--- Future lift
---('pt-ml-ec-sul',   '(XXXX, XXXX)', '{"Avenida da República"}', 'lift'),
+('pt-ml-ec-sul',     '(38.746353, -9.148288)', '{"Avenida da República"}', 'stairs'),
+('pt-ml-ec-sul',     '(38.7462089629591, -9.1482469449078)', '{"Avenida da República"}', 'lift'),
 ('pt-ml-ec-sul',     '(38.745905, -9.148203)', '{"Avenida da República"}', 'stairs'),
 ('pt-ml-ec-sul',     '(38.745200, -9.148041)', '{"Avenida da República"}', 'stairs'),
 ('pt-ml-ec-sul',     '(38.744913, -9.148102)', '{"Estação Ferroviária de Entrecampos"}', 'escalator'),
