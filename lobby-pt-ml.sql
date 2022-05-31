@@ -167,6 +167,7 @@ INSERT INTO station_lobby_exit (lobby_id, world_coord, streets, type) VALUES
 ('pt-ml-ch-central', '(38.754819, -9.113610)', '{"Avenida Doutor Augusto de Castro (sul)"}', 'lift'),
 ('pt-ml-ch-central', '(38.754426, -9.113741)', '{"Avenida Doutor Augusto de Castro (sul)", "Rua Actriz Palmira Bastos"}', 'stairs'),
 ('pt-ml-cu-central', '(38.751921, -9.158632)', '{"Alameda da Universidade", "Avenida Professor Gama Pinto"}', 'stairs'),
+('pt-ml-cu-central', '(38.751359823335505, -9.15932356328669)', '{"Avenida Professor Gama Pinto"}', 'lift'),
 ('pt-ml-cu-central', '(38.751196, -9.159306)', '{"Avenida Professor Gama Pinto"}', 'stairs'),
 ('pt-ml-cu-central', '(38.750895, -9.159030)', '{"Avenida Professor Gama Pinto", "Avenida Professor Egas Moniz"}', 'stairs'),
 ('pt-ml-cm-central', '(38.753781, -9.189439)', '{"Rua Galileu Galilei"}', 'stairs'),
