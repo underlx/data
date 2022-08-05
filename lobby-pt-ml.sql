@@ -262,7 +262,7 @@ INSERT INTO station_lobby_exit (lobby_id, world_coord, streets, type) VALUES
 ('pt-ml-qc-sul',     '(38.767088, -9.155330)', '{"Rua Tobis Portuguesa", "Rua Luís Pastor de Macedo", "Avenida Maria Helena Vieira da Silva"}', 'stairs'),
 ('pt-ml-ra-central', '(38.720334, -9.154681)', '{"Largo do Rato"}', 'lift'),
 ('pt-ml-ra-central', '(38.720150, -9.155698)', '{"Largo do Rato", "Rua das Amoreiras", "Avenida Álvares Cabral", "Rua de São Bento"}', 'stairs'),
---Substituição de escadas rolantes ('pt-ml-ra-central', '(38.720097, -9.154030)', '{"Largo do Rato", "Rua do Salitre", "Rua Alexandre Herculano", "Rua da Escola Politécnica"}', 'stairs'),
+('pt-ml-ra-central', '(38.720097, -9.154030)', '{"Largo do Rato", "Rua do Salitre", "Rua Alexandre Herculano", "Rua da Escola Politécnica"}', 'stairs'),
 ('pt-ml-rb-central', '(38.752423, -9.224662)', '{"Rua das Indústrias", "Rua Vítor Alves"}', 'stairs'),
 ('pt-ml-rb-central', '(38.752273, -9.224763)', '{"Rua das Indústrias", "Rua Vítor Alves"}', 'stairs'),
 ('pt-ml-rb-central', '(38.751882, -9.224068)', '{"Rua das Indústrias"}', 'lift'),
