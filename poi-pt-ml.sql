@@ -1616,7 +1616,7 @@ INSERT INTO poi (id, type, world_coord, web_url) VALUES
 ('3943a124-e24b-4959-b884-8ccf334c3910', 'organization', '(38.7216, -9.135246)', 'http://www.ail.pt/Home.aspx'),
 ('824cd45e-a7be-4dd9-a2d2-3e8d236f373b', 'organization', '(38.738124, -9.136511)', 'http://www.aniet.pt/pt/contactos/'),
 ('8a22f723-9ee1-4c5d-a979-e541492ba8dd', 'organization', '(38.766682, -9.161590)', 'http://www.apcl.org.pt/'),
-('ad9bf425-8907-404a-95e8-6ed03e0f6c98', 'organization', '(38.720589, -9.155960)', 'http://www.apd.org.pt'),
+('ad9bf425-8907-404a-95e8-6ed03e0f6c98', 'organization', '(38.720589, -9.155960)', 'https://www.apd.org.pt/'),
 ('4bfe1448-857a-41f7-8abf-dfcf0015a733', 'organization', '(38.753638, -9.1148641)', 'http://www.apec.pt/'),
 ('4fe364aa-8e16-427c-b732-f228c9c54007', 'organization', '(38.740409, -9.1253112)', 'http://www.apmveac.pt/v2/'),
 ('9c3e0904-94ce-4f91-8469-8ba5cd760ed0', 'organization', '(38.7549175, -9.1122664)', 'http://www.appt21.org.pt/'),
