@@ -52,7 +52,7 @@ INSERT INTO poi_name (id, main, lang, name) VALUES
 ('f4682c9e-6257-4337-8a08-2f86a8318d6d', true,  'pt', 'Panda Bingo');
 
 INSERT INTO poi (id, type, world_coord, web_url) VALUES
-('241938da-92b5-40ec-966d-9177cd102ff0', 'business', '(38.721763, -9.150981)', 'http://www.cimpor.com/Default.aspx?lang=pt'),
+('241938da-92b5-40ec-966d-9177cd102ff0', 'business', '(38.721763, -9.150981)', 'https://www.cimpor.com/'),
 ('dab5d053-2a79-4d26-8644-7d3097badf18', 'business', '(38.744862, -9.150797)', 'https://jobs.teleperformance.pt/pt-pt/'),
 ('ab02e391-475e-495e-8a51-ad0005e99d07', 'business', '(38.752132, -9.223693)', 'https://www.emef.pt/'),
 ('ef1f0ecc-c8ba-4c62-afa5-cce287b04ff9', 'business', '(38.716735, -9.143083)', 'http://www.epal.pt/epal'),
