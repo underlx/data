@@ -2769,7 +2769,7 @@ INSERT INTO poi (id, type, world_coord, web_url) VALUES
 ('134d8be0-21a9-4c4d-bca7-5cb4701417fd', 'shopping-center', '(38.753241, -9.144798)', 'http://www.centrocomercialalvalade.pt/'),
 ('94d07250-ed0c-452c-bc4c-f20ca5cc4a90', 'shopping-center', '(38.732934, -9.144731)', 'http://www.atriumsaldanha.pt/'),
 ('3c11bccc-f6a8-47e4-9f26-668757e4c9b3', 'shopping-center', '(38.749749, -9.117737)', 'http://www.cm-lisboa.pt/equipamentos/equipamento/info/centro-comercial-bela-vista'),
-('36e8a887-c5f2-4b28-9a57-6eb52251f7db', 'shopping-center', '(38.742566, -9.145443)', 'http://www.campopequeno.com/centrocomercial/'),
+('36e8a887-c5f2-4b28-9a57-6eb52251f7db', 'shopping-center', '(38.742566, -9.145443)', 'https://www.campopequeno.com/centrocomercial/'),
 ('3cf48b0a-8c34-414a-96dc-2762dac98236', 'shopping-center', '(38.754588, -9.188566)', 'https://www.colombo.pt/'),
 ('945ba6ac-8948-43c7-9b39-f7061ddd43a3', 'shopping-center', '(38.733324, -9.145694)', 'https://dolcevitamonumental.pt'),
 ('126e9cc2-5564-4559-a966-980eabca0ba9', 'shopping-center', '(38.733293, -9.153773)', 'http://www.elcorteingles.pt/'),
@@ -2858,7 +2858,7 @@ INSERT INTO poi (id, type, world_coord, web_url) VALUES
 ('9e5d0363-1b7f-434c-a201-1d9a0cf47b82', 'show-room', '(38.716754, -9.140183)', 'http://www.coliseulisboa.com'),
 ('5693fb02-d0ac-4d49-8444-d963e9410698', 'show-room', '(38.770859, -9.093924)', 'http://www.fil.pt/'),
 ('12b2e84c-e466-4cfa-994a-f8a71c32de16', 'show-room', '(38.728869, -9.151474)', 'https://www.visitlisboa.com/pt-pt/sobre-o-turismo-de-lisboa/associados/pavilhao-carlos-lopes'),
-('a0791f1a-066d-4620-be46-8180095cdccc', 'show-room', '(38.742597, -9.145216)', 'http://www.campopequeno.com/');
+('a0791f1a-066d-4620-be46-8180095cdccc', 'show-room', '(38.742597, -9.145216)', 'https://www.campopequeno.com/');
 
 INSERT INTO poi_name (id, main, lang, name) VALUES
 ('4fa27edb-36b4-476b-8d20-811d15afeba2', true,  'pt', 'Altice Arena'),
