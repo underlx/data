@@ -727,7 +727,7 @@ INSERT INTO poi (id, type, world_coord, web_url) VALUES
 ('60e50948-9055-418f-8656-d4adfe31e773', 'government', '(38.719311, -9.153493)', 'http://www.ministeriopublico.pt/'),
 ('b4f150af-3131-4ad9-bd04-72bb2712bc9d', 'government', '(38.720075, -9.147169)', 'https://ec.europa.eu/portugal/about-us/contact_pt'),
 ('2fba3aee-fa6f-458a-8609-529338e02bed', 'government', '(38.739778, -9.146759)', 'http://spms.min-saude.pt/'),
-('65715c8b-ab6f-41ca-81b5-fcf283498acc', 'government', '(38.740014, -9.146751)', 'http://www.tcontas.pt/index.shtm');
+('65715c8b-ab6f-41ca-81b5-fcf283498acc', 'government', '(38.740014, -9.146751)', 'https://www.tcontas.pt/pt-pt/Pages/homepage.aspx');
 
 INSERT INTO poi_name (id, main, lang, name) VALUES
 ('89dfb58d-ef07-4873-be00-a9480e0fc280', true,  'pt', 'Academia Militar - Sede'),
