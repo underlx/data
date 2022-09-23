@@ -688,7 +688,7 @@ INSERT INTO poi (id, type, world_coord, web_url) VALUES
 ('17e5274f-997d-4997-8a90-52c986f854aa', 'government', '(38.750246, -9.171219)', 'https://www.ama.gov.pt/'),
 ('d4f5fc94-9251-4618-b6aa-1574d69b2a85', 'government', '(38.722319, -9.131119)', 'https://www.acm.gov.pt/'),
 ('d8a11814-4005-4fb2-8dc1-71d39fa2d148', 'government', '(38.732260, -9.142074)', 'http://www.act.gov.pt/(pt-PT)/Paginas/default.aspx'),
-('1d25a73c-5984-4fa7-813f-52b78b1c68dd', 'government', '(38.772753, -9.126934)', 'http://www.anac.pt/'),
+('1d25a73c-5984-4fa7-813f-52b78b1c68dd', 'government', '(38.772753, -9.126934)', 'https://www.anac.pt/'),
 ('fe47c911-d950-47e4-b62e-9440113d7614', 'government', '(38.737319, -9.163065)', 'https://www.anacom.pt/'),
 ('267e60b8-6a8e-4210-b369-0fff62e82031', 'government', '(38.758245, -9.148109)', 'http://www.infarmed.pt/'),
 ('5a245bd4-ecbb-49b8-8daf-73bd2b4de6d8', 'government', '(38.722972, -9.153444)', 'http://www.asae.gov.pt/'),
