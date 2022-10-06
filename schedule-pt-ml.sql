@@ -366,7 +366,7 @@ INSERT INTO station_lobby_schedule VALUES
 ('pt-ml-lu-sul',      false, 0, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-lu-sul',      false, 1, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-lu-sul',      false, 2, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-lu-sul',      false, 3, true, '06:30:00', '18 hour 30 minute'),,
+('pt-ml-lu-sul',      false, 3, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-lu-sul',      false, 4, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-lu-sul',      false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-lu-sul',      false, 6, true, '06:30:00', '18 hour 30 minute'),
