@@ -658,4 +658,5 @@ INSERT INTO station_lobby_schedule VALUES
 ('pt-ml-tp-central',  false, 4, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-tp-central',  false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-tp-central',  false, 6, true, '06:30:00', '18 hour 30 minute'),
-('pt-ml-tp-central',  true,  0, true, '06:30:00', '18 hour 30 minute');
+('pt-ml-tp-central',  true,  0, true, '06:30:00', '18 hour 30 minute'),
+('pt-ml-tp-central',  true,  365, true, '06:30:00', '11 hour 30 minute');
