@@ -132,6 +132,7 @@ INSERT INTO station_lobby_schedule VALUES
 ('pt-ml-ax-central',  false, 5, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-ax-central',  false, 6, true, '06:30:00', '18 hour 30 minute'),
 ('pt-ml-ax-central',  true,  0, true, '06:30:00', '18 hour 30 minute'),
+('pt-ml-ax-central',  true,  188, true, '06:30:00', '14 hour 30 minute'),
 ('pt-ml-an-norte',    false, 0, false, '06:30:00', '0 minute'),
 ('pt-ml-an-norte',    false, 1, true, '06:30:00', '15 hour'),
 ('pt-ml-an-norte',    false, 2, true, '06:30:00', '15 hour'),
