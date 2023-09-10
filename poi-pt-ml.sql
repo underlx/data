@@ -1013,7 +1013,7 @@ INSERT INTO poi_name (id, main, lang, name) VALUES
 
 INSERT INTO poi (id, type, world_coord, web_url) VALUES
 ('79a47b44-ed96-4a6f-a60b-d8290319748f', 'hotel', '(38.746005, -9.156137)', 'http://domusnostra.net/wordpress/'),
-('9ee45123-4628-4c78-b767-3caba5a398b3', 'hotel', '(38.746843, -9.166670)', 'http://laranjeiras.org/'),
+('9ee45123-4628-4c78-b767-3caba5a398b3', 'hotel', '(38.746843, -9.166670)', 'https://www.laranjeirasresidencia.org/'),
 ('921c2f82-43ba-4f05-886d-e012221b90f3', 'hotel', '(38.777824, -9.097471)', 'https://na.tecnico.ulisboa.pt/rdp/'),
 ('9bb2dafb-6e6f-4f28-b448-72ed516fa0ac', 'hotel', '(38.745880, -9.156654)', 'http://www2.ucp.pt/site/custom/template/ucptpl_livrhome.asp?sspageid=2362&lang=1'),
 ('4c886c43-9ba7-4316-a7ba-5db9257c1007', 'hotel', '(38.766996, -9.159545)', 'https://www.sas.ulisboa.pt/index.php'),
@@ -3015,7 +3015,7 @@ INSERT INTO poi (id, type, world_coord, web_url) VALUES
 ('f9989395-0503-4173-a8e0-d30afdddc31a', 'theater', '(38.735625, -9.147249)', 'http://medeiafilmes.com/cinemas/ver/cinema/espaco-nimas-lisboa/'),
 ('8ddfb70d-322e-4bdc-9832-d97ea27690a1', 'theater', '(38.777580, -9.121252)', '"http://www.cm-lisboa.pt/equipamentos/equipamento/info/cine-teatro-da-encarnacao'),
 ('acad2fbd-d04e-4aad-89a6-029de0687621', 'theater', '(38.745961, -9.138751)', 'http://www.teatromariamatos.pt/'),
-('89d14344-9079-4a89-bee9-3adf59ac2bf6', 'theater', '(38.718795, -9.146247)', 'https://www.teatromariavitoria.com/'),
+('89d14344-9079-4a89-bee9-3adf59ac2bf6', 'theater', '(38.718795, -9.146247)', 'https://www.teatromariavitoria.pt/'),
 ('5394997e-fdda-41e7-ba61-a9d5ccf630a0', 'theater', '(38.736132, -9.158754)', 'http://www.teatroaberto.com/'),
 ('e4081c2a-e86c-437b-b2e9-d929167ed451', 'theater', '(38.7604967, -9.1927206)', 'http://www.teatroarmandocortez.pt'),
 ('f91187c2-12d1-4ae8-8093-9bd0c842a05e', 'theater', '(38.719837, -9.133975)', 'http://teatrobocage.wixsite.com/bocage'),
